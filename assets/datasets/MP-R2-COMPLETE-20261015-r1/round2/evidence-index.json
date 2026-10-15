@@ -1,0 +1,4262 @@
+{
+  "datasetVersion": "MP-R2-COMPLETE-20261015-r1",
+  "dataFile": "data.json",
+  "analysisFile": "analysis.json",
+  "samples": [
+    {
+      "questionId": "MP-A01",
+      "sampleId": "smp-adffa9b8fc57431a979f8d5dce1eda65",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/0",
+      "answerRoute": "?question=MP-A01&sample=smp-adffa9b8fc57431a979f8d5dce1eda65",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A02",
+      "sampleId": "smp-15b8f72c612540b2bbe606ad3d957dff",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/1",
+      "answerRoute": "?question=MP-A02&sample=smp-15b8f72c612540b2bbe606ad3d957dff",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A03",
+      "sampleId": "smp-17b94ecba6c54f97b5a7e7fa8f4a99cd",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/2",
+      "answerRoute": "?question=MP-A03&sample=smp-17b94ecba6c54f97b5a7e7fa8f4a99cd",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A04",
+      "sampleId": "smp-98d83862722f4fbfb03d4563f482ab26",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/3",
+      "answerRoute": "?question=MP-A04&sample=smp-98d83862722f4fbfb03d4563f482ab26",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A05",
+      "sampleId": "smp-4fe0dbd5045d43768ad5534dfe006a52",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/4",
+      "answerRoute": "?question=MP-A05&sample=smp-4fe0dbd5045d43768ad5534dfe006a52",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A06",
+      "sampleId": "smp-f00db32b3cf24ac6844b95d81e5dfdbf",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/5",
+      "answerRoute": "?question=MP-A06&sample=smp-f00db32b3cf24ac6844b95d81e5dfdbf",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A07",
+      "sampleId": "smp-47a9bfb7dfed41c2ad3df4022664d10d",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/6",
+      "answerRoute": "?question=MP-A07&sample=smp-47a9bfb7dfed41c2ad3df4022664d10d",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A08",
+      "sampleId": "smp-511a46cd939d439bbc44e47eef1ea8f3",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/7",
+      "answerRoute": "?question=MP-A08&sample=smp-511a46cd939d439bbc44e47eef1ea8f3",
+      "citationCount": 42,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A09",
+      "sampleId": "smp-88233ad51e0f4adfbf8b1dd9fdee7c4d",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/8",
+      "answerRoute": "?question=MP-A09&sample=smp-88233ad51e0f4adfbf8b1dd9fdee7c4d",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A10",
+      "sampleId": "smp-18441eb366c04e31883de8521ebb2b46",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/9",
+      "answerRoute": "?question=MP-A10&sample=smp-18441eb366c04e31883de8521ebb2b46",
+      "citationCount": 33,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A11",
+      "sampleId": "smp-c5f8f11eb2f84a7cb1380f326294db27",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/10",
+      "answerRoute": "?question=MP-A11&sample=smp-c5f8f11eb2f84a7cb1380f326294db27",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A12",
+      "sampleId": "smp-2e6932e434d5479590b231b579f74756",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/11",
+      "answerRoute": "?question=MP-A12&sample=smp-2e6932e434d5479590b231b579f74756",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A13",
+      "sampleId": "smp-b7fe78aeda3e47448bcda6f385fb1f46",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/12",
+      "answerRoute": "?question=MP-A13&sample=smp-b7fe78aeda3e47448bcda6f385fb1f46",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B01",
+      "sampleId": "smp-55f4f1cb9b00474eb3f3bfa2ae5517f6",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/13",
+      "answerRoute": "?question=MP-B01&sample=smp-55f4f1cb9b00474eb3f3bfa2ae5517f6",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B02",
+      "sampleId": "smp-8e13fcb349f14100b5f60175133c7f5d",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/14",
+      "answerRoute": "?question=MP-B02&sample=smp-8e13fcb349f14100b5f60175133c7f5d",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B03",
+      "sampleId": "smp-39a9bf266f854890942989c7d2688ef8",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/15",
+      "answerRoute": "?question=MP-B03&sample=smp-39a9bf266f854890942989c7d2688ef8",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B04",
+      "sampleId": "smp-0a2e1864b2714fc8a97b4556d7a7aa11",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/16",
+      "answerRoute": "?question=MP-B04&sample=smp-0a2e1864b2714fc8a97b4556d7a7aa11",
+      "citationCount": 34,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B05",
+      "sampleId": "smp-7a35daf91078488a93b210038588194a",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/17",
+      "answerRoute": "?question=MP-B05&sample=smp-7a35daf91078488a93b210038588194a",
+      "citationCount": 44,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B06",
+      "sampleId": "smp-24d6374092264e0fbbc8a3b81f4b3581",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/18",
+      "answerRoute": "?question=MP-B06&sample=smp-24d6374092264e0fbbc8a3b81f4b3581",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B07",
+      "sampleId": "smp-59fbda59983246d699e0479505cce855",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/19",
+      "answerRoute": "?question=MP-B07&sample=smp-59fbda59983246d699e0479505cce855",
+      "citationCount": 46,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B08",
+      "sampleId": "smp-014c2a511bf847fcb432a5f9ffbe2c55",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/20",
+      "answerRoute": "?question=MP-B08&sample=smp-014c2a511bf847fcb432a5f9ffbe2c55",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C01",
+      "sampleId": "smp-58694dacfd8c4c9fb30f99cfdd81a622",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/21",
+      "answerRoute": "?question=MP-C01&sample=smp-58694dacfd8c4c9fb30f99cfdd81a622",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C02",
+      "sampleId": "smp-c9629a068bb0462cac0356554e5642c9",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/22",
+      "answerRoute": "?question=MP-C02&sample=smp-c9629a068bb0462cac0356554e5642c9",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C03",
+      "sampleId": "smp-ab1311232c2c42d1ac268ed873385722",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/23",
+      "answerRoute": "?question=MP-C03&sample=smp-ab1311232c2c42d1ac268ed873385722",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C04",
+      "sampleId": "smp-fec2f0f03591437ebf17eba349bf701e",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/24",
+      "answerRoute": "?question=MP-C04&sample=smp-fec2f0f03591437ebf17eba349bf701e",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C05",
+      "sampleId": "smp-beb277cb76734b0890ec1fc90643f77b",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/25",
+      "answerRoute": "?question=MP-C05&sample=smp-beb277cb76734b0890ec1fc90643f77b",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C06",
+      "sampleId": "smp-a58ef0e79d67433298e1f61fa885746a",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/26",
+      "answerRoute": "?question=MP-C06&sample=smp-a58ef0e79d67433298e1f61fa885746a",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C07",
+      "sampleId": "smp-ed36e690818041638f1ef0a25fa48645",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/27",
+      "answerRoute": "?question=MP-C07&sample=smp-ed36e690818041638f1ef0a25fa48645",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C08",
+      "sampleId": "smp-57cdded6ddb9437aa352c634bc6aff56",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/28",
+      "answerRoute": "?question=MP-C08&sample=smp-57cdded6ddb9437aa352c634bc6aff56",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C09",
+      "sampleId": "smp-973bf2bc5c284c08be554ed37b7f1154",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/29",
+      "answerRoute": "?question=MP-C09&sample=smp-973bf2bc5c284c08be554ed37b7f1154",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C10",
+      "sampleId": "smp-b3767c2196774bd5ae4e34b9fc64bb8f",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/30",
+      "answerRoute": "?question=MP-C10&sample=smp-b3767c2196774bd5ae4e34b9fc64bb8f",
+      "citationCount": 20,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C11",
+      "sampleId": "smp-57cde1f74bcc4e34ac87c5b47dd31200",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/31",
+      "answerRoute": "?question=MP-C11&sample=smp-57cde1f74bcc4e34ac87c5b47dd31200",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C12",
+      "sampleId": "smp-e1970198924c44c5a2684e66bc8fc4c3",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/32",
+      "answerRoute": "?question=MP-C12&sample=smp-e1970198924c44c5a2684e66bc8fc4c3",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C13",
+      "sampleId": "smp-7588a9236b7e4e2694bec82a6809025c",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/33",
+      "answerRoute": "?question=MP-C13&sample=smp-7588a9236b7e4e2694bec82a6809025c",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C14",
+      "sampleId": "smp-f370fad7cbda4c9986de366f6a6fd075",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/34",
+      "answerRoute": "?question=MP-C14&sample=smp-f370fad7cbda4c9986de366f6a6fd075",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C15",
+      "sampleId": "smp-7021a67d03e54abeb3a39b782f4338f6",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/35",
+      "answerRoute": "?question=MP-C15&sample=smp-7021a67d03e54abeb3a39b782f4338f6",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D01",
+      "sampleId": "smp-f12a14e56f6f410b9aea72462a78c837",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/36",
+      "answerRoute": "?question=MP-D01&sample=smp-f12a14e56f6f410b9aea72462a78c837",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D02",
+      "sampleId": "smp-e08c48ccb55b41f6ac9ad8b83668cd74",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/37",
+      "answerRoute": "?question=MP-D02&sample=smp-e08c48ccb55b41f6ac9ad8b83668cd74",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D03",
+      "sampleId": "smp-25696a45271a4ce1b33294812f4b06ba",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/38",
+      "answerRoute": "?question=MP-D03&sample=smp-25696a45271a4ce1b33294812f4b06ba",
+      "citationCount": 47,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D04",
+      "sampleId": "smp-d5f763f34929448b96ba259391f73d1a",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/39",
+      "answerRoute": "?question=MP-D04&sample=smp-d5f763f34929448b96ba259391f73d1a",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D05",
+      "sampleId": "smp-10cfc8c85bcf46359ccf84852412e19c",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/40",
+      "answerRoute": "?question=MP-D05&sample=smp-10cfc8c85bcf46359ccf84852412e19c",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D06",
+      "sampleId": "smp-1be371517e3f45729c485615068862fa",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/41",
+      "answerRoute": "?question=MP-D06&sample=smp-1be371517e3f45729c485615068862fa",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D07",
+      "sampleId": "smp-99abdb6623484b96b26223b0c40fbefc",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/42",
+      "answerRoute": "?question=MP-D07&sample=smp-99abdb6623484b96b26223b0c40fbefc",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D08",
+      "sampleId": "smp-736c3e3b66b54d3e9c001a2fcb4e9853",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/43",
+      "answerRoute": "?question=MP-D08&sample=smp-736c3e3b66b54d3e9c001a2fcb4e9853",
+      "citationCount": 26,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D09",
+      "sampleId": "smp-e776cf9a28f245a585ee0d3bdd74c706",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/44",
+      "answerRoute": "?question=MP-D09&sample=smp-e776cf9a28f245a585ee0d3bdd74c706",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D10",
+      "sampleId": "smp-7682d196dcf540e086b5b9269683362a",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/45",
+      "answerRoute": "?question=MP-D10&sample=smp-7682d196dcf540e086b5b9269683362a",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D11",
+      "sampleId": "smp-2d36e5cb721646c2971eb898fab767a0",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/46",
+      "answerRoute": "?question=MP-D11&sample=smp-2d36e5cb721646c2971eb898fab767a0",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D12",
+      "sampleId": "smp-4706f81429d747d485987c5e9cf294f3",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/47",
+      "answerRoute": "?question=MP-D12&sample=smp-4706f81429d747d485987c5e9cf294f3",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D13",
+      "sampleId": "smp-8e959ed4d2dd47298456859b43fa054b",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/48",
+      "answerRoute": "?question=MP-D13&sample=smp-8e959ed4d2dd47298456859b43fa054b",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D14",
+      "sampleId": "smp-df3abf5273c44f94821dc4614e4cfcd7",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/49",
+      "answerRoute": "?question=MP-D14&sample=smp-df3abf5273c44f94821dc4614e4cfcd7",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D15",
+      "sampleId": "smp-2348e7434f664906a4eb430a352c9162",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/50",
+      "answerRoute": "?question=MP-D15&sample=smp-2348e7434f664906a4eb430a352c9162",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D16",
+      "sampleId": "smp-f60bfa51f8f54ffcaaa2cef0d3191a44",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/51",
+      "answerRoute": "?question=MP-D16&sample=smp-f60bfa51f8f54ffcaaa2cef0d3191a44",
+      "citationCount": 46,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D17",
+      "sampleId": "smp-0ec52c92c7b445debd72a3edd701708e",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/52",
+      "answerRoute": "?question=MP-D17&sample=smp-0ec52c92c7b445debd72a3edd701708e",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D18",
+      "sampleId": "smp-a4b8ac2ec31b4d79b861600b3b1a0c19",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/53",
+      "answerRoute": "?question=MP-D18&sample=smp-a4b8ac2ec31b4d79b861600b3b1a0c19",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D19",
+      "sampleId": "smp-a4332a9d703245348c3c2841f96005fe",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/54",
+      "answerRoute": "?question=MP-D19&sample=smp-a4332a9d703245348c3c2841f96005fe",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E01",
+      "sampleId": "smp-0fcb89847b654b76bda2e963480daa5b",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/55",
+      "answerRoute": "?question=MP-E01&sample=smp-0fcb89847b654b76bda2e963480daa5b",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E02",
+      "sampleId": "smp-a37e2032bae142b386d022c1df105e9f",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/56",
+      "answerRoute": "?question=MP-E02&sample=smp-a37e2032bae142b386d022c1df105e9f",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E03",
+      "sampleId": "smp-dd8989eb4b9b4f9fb5b8bb7df4a05993",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/57",
+      "answerRoute": "?question=MP-E03&sample=smp-dd8989eb4b9b4f9fb5b8bb7df4a05993",
+      "citationCount": 52,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E04",
+      "sampleId": "smp-9486ceb76ff14835b9ffada58df48a0f",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/58",
+      "answerRoute": "?question=MP-E04&sample=smp-9486ceb76ff14835b9ffada58df48a0f",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E05",
+      "sampleId": "smp-efaf45a871864c958deb8f8914aee30d",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/59",
+      "answerRoute": "?question=MP-E05&sample=smp-efaf45a871864c958deb8f8914aee30d",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E06",
+      "sampleId": "smp-3fcab5c31ccb445bbd4cca8d7e02ab7a",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/60",
+      "answerRoute": "?question=MP-E06&sample=smp-3fcab5c31ccb445bbd4cca8d7e02ab7a",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E07",
+      "sampleId": "smp-35878dce1b5e4025ab2e8887ef2ee113",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/61",
+      "answerRoute": "?question=MP-E07&sample=smp-35878dce1b5e4025ab2e8887ef2ee113",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E08",
+      "sampleId": "smp-6e104eeee9694af3ad711d5b2666880c",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/62",
+      "answerRoute": "?question=MP-E08&sample=smp-6e104eeee9694af3ad711d5b2666880c",
+      "citationCount": 26,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E09",
+      "sampleId": "smp-58e717cde669492283dca9473159eda4",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/63",
+      "answerRoute": "?question=MP-E09&sample=smp-58e717cde669492283dca9473159eda4",
+      "citationCount": 41,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E10",
+      "sampleId": "smp-00281fa17ef74003a73e5570094b939e",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/64",
+      "answerRoute": "?question=MP-E10&sample=smp-00281fa17ef74003a73e5570094b939e",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E11",
+      "sampleId": "smp-a1e4b3356e004e829d7f49906c291fe2",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/65",
+      "answerRoute": "?question=MP-E11&sample=smp-a1e4b3356e004e829d7f49906c291fe2",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E12",
+      "sampleId": "smp-63261b33b55345458e05a12287d77775",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/66",
+      "answerRoute": "?question=MP-E12&sample=smp-63261b33b55345458e05a12287d77775",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F01",
+      "sampleId": "smp-d01b2f722fcd4e72833d88db29180d9c",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/67",
+      "answerRoute": "?question=MP-F01&sample=smp-d01b2f722fcd4e72833d88db29180d9c",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F02",
+      "sampleId": "smp-5bc28862b75246fd8447494f50e746dc",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/68",
+      "answerRoute": "?question=MP-F02&sample=smp-5bc28862b75246fd8447494f50e746dc",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F03",
+      "sampleId": "smp-ed528f96d5074fa0b1c1d54f3e9a0d8d",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/69",
+      "answerRoute": "?question=MP-F03&sample=smp-ed528f96d5074fa0b1c1d54f3e9a0d8d",
+      "citationCount": 48,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G01",
+      "sampleId": "smp-995b6dfe03d24b0b926fb3650aa106ac",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/70",
+      "answerRoute": "?question=MP-G01&sample=smp-995b6dfe03d24b0b926fb3650aa106ac",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G02",
+      "sampleId": "smp-135029aac0724bc18e7ffefe7bdd9755",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/71",
+      "answerRoute": "?question=MP-G02&sample=smp-135029aac0724bc18e7ffefe7bdd9755",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G03",
+      "sampleId": "smp-56bf40057826477da785ab7bc54120b4",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/72",
+      "answerRoute": "?question=MP-G03&sample=smp-56bf40057826477da785ab7bc54120b4",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G04",
+      "sampleId": "smp-feda71db2d4b4dd6baa6bc9d4405ab19",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/73",
+      "answerRoute": "?question=MP-G04&sample=smp-feda71db2d4b4dd6baa6bc9d4405ab19",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G05",
+      "sampleId": "smp-262b497d7b194953a42cdd61560d2282",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/74",
+      "answerRoute": "?question=MP-G05&sample=smp-262b497d7b194953a42cdd61560d2282",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G06",
+      "sampleId": "smp-8bceb42b0c674c3ea45618f5389f9bc4",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/75",
+      "answerRoute": "?question=MP-G06&sample=smp-8bceb42b0c674c3ea45618f5389f9bc4",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G07",
+      "sampleId": "smp-8f54fc586c1848b095abae18abe4ba35",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/76",
+      "answerRoute": "?question=MP-G07&sample=smp-8f54fc586c1848b095abae18abe4ba35",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G08",
+      "sampleId": "smp-c64882c1b69249789eb8ada91cd38c90",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/77",
+      "answerRoute": "?question=MP-G08&sample=smp-c64882c1b69249789eb8ada91cd38c90",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G09",
+      "sampleId": "smp-6d00d7c84b8c4d7190a50043ed36ace3",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/78",
+      "answerRoute": "?question=MP-G09&sample=smp-6d00d7c84b8c4d7190a50043ed36ace3",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G10",
+      "sampleId": "smp-a2ae51231d58437aad8b1a5655cd206d",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/79",
+      "answerRoute": "?question=MP-G10&sample=smp-a2ae51231d58437aad8b1a5655cd206d",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G11",
+      "sampleId": "smp-f5a97369a8804e6e85e50f63da00a38e",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/80",
+      "answerRoute": "?question=MP-G11&sample=smp-f5a97369a8804e6e85e50f63da00a38e",
+      "citationCount": 26,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G12",
+      "sampleId": "smp-e218b4a490524f07b04cd2a52ffd2183",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/81",
+      "answerRoute": "?question=MP-G12&sample=smp-e218b4a490524f07b04cd2a52ffd2183",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G13",
+      "sampleId": "smp-c0cff513c53a4791b6ea78c988e41f76",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/82",
+      "answerRoute": "?question=MP-G13&sample=smp-c0cff513c53a4791b6ea78c988e41f76",
+      "citationCount": 33,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G14",
+      "sampleId": "smp-30b3c0e1078f4093836498aa1f18a7c6",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/83",
+      "answerRoute": "?question=MP-G14&sample=smp-30b3c0e1078f4093836498aa1f18a7c6",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G15",
+      "sampleId": "smp-b2640db93f73454484f6f9f3b2ecdf35",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/84",
+      "answerRoute": "?question=MP-G15&sample=smp-b2640db93f73454484f6f9f3b2ecdf35",
+      "citationCount": 23,
+      "replacement": {
+        "originalSampleId": "smp-160a0bb0252246ac8747532b9a32b633",
+        "originalStatus": "uncertain",
+        "originalRepeat": 1,
+        "replacementAttemptCount": 1
+      }
+    },
+    {
+      "questionId": "MP-G16",
+      "sampleId": "smp-a7ccacb76e544b55bdb9b956e1df656c",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/85",
+      "answerRoute": "?question=MP-G16&sample=smp-a7ccacb76e544b55bdb9b956e1df656c",
+      "citationCount": 20,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G17",
+      "sampleId": "smp-df5a9fb5621a48a6a7707f42d2907cff",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/86",
+      "answerRoute": "?question=MP-G17&sample=smp-df5a9fb5621a48a6a7707f42d2907cff",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H01",
+      "sampleId": "smp-b8ac76a8c5b14899a22ed41ee8c31b68",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/87",
+      "answerRoute": "?question=MP-H01&sample=smp-b8ac76a8c5b14899a22ed41ee8c31b68",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H02",
+      "sampleId": "smp-50bea5a0ddb54c86b72128c3840b5a6a",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/88",
+      "answerRoute": "?question=MP-H02&sample=smp-50bea5a0ddb54c86b72128c3840b5a6a",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H03",
+      "sampleId": "smp-1a1834eb659543608b75c8f8e3142dea",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/89",
+      "answerRoute": "?question=MP-H03&sample=smp-1a1834eb659543608b75c8f8e3142dea",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H04",
+      "sampleId": "smp-dc5e91e2bf1f4174b9dfa1b119edfd3f",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/90",
+      "answerRoute": "?question=MP-H04&sample=smp-dc5e91e2bf1f4174b9dfa1b119edfd3f",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H05",
+      "sampleId": "smp-87fb3d52b1794242a44063b223fc6596",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/91",
+      "answerRoute": "?question=MP-H05&sample=smp-87fb3d52b1794242a44063b223fc6596",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H06",
+      "sampleId": "smp-bac0b1239e074df39b7d1b1c3a567fba",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/92",
+      "answerRoute": "?question=MP-H06&sample=smp-bac0b1239e074df39b7d1b1c3a567fba",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H07",
+      "sampleId": "smp-58d0167202424b1aab815fadba459635",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/93",
+      "answerRoute": "?question=MP-H07&sample=smp-58d0167202424b1aab815fadba459635",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H08",
+      "sampleId": "smp-47ca1d1dea2741bfa76adb587734dbaf",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/94",
+      "answerRoute": "?question=MP-H08&sample=smp-47ca1d1dea2741bfa76adb587734dbaf",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H09",
+      "sampleId": "smp-1fbf0bdb816d432e8161f5c5105893ff",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/95",
+      "answerRoute": "?question=MP-H09&sample=smp-1fbf0bdb816d432e8161f5c5105893ff",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H10",
+      "sampleId": "smp-12086e3ab0b54aba9c716d4d5fd2d217",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/96",
+      "answerRoute": "?question=MP-H10&sample=smp-12086e3ab0b54aba9c716d4d5fd2d217",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H11",
+      "sampleId": "smp-b77e0959fa114d0f9ef9cd10142584b6",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/97",
+      "answerRoute": "?question=MP-H11&sample=smp-b77e0959fa114d0f9ef9cd10142584b6",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H12",
+      "sampleId": "smp-e06da03e6a5748fc96598a0ac82a3c4d",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/98",
+      "answerRoute": "?question=MP-H12&sample=smp-e06da03e6a5748fc96598a0ac82a3c4d",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H13",
+      "sampleId": "smp-d17e2f9d899641498b981dc35697918b",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/99",
+      "answerRoute": "?question=MP-H13&sample=smp-d17e2f9d899641498b981dc35697918b",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H14",
+      "sampleId": "smp-96e1592fee4f4ad0a2d4ec36fa95b672",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/100",
+      "answerRoute": "?question=MP-H14&sample=smp-96e1592fee4f4ad0a2d4ec36fa95b672",
+      "citationCount": 16,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H15",
+      "sampleId": "smp-be78b2e87d5c4dbc9d4b22f1e43ff801",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/101",
+      "answerRoute": "?question=MP-H15&sample=smp-be78b2e87d5c4dbc9d4b22f1e43ff801",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H16",
+      "sampleId": "smp-c64c49da51074ca6ba8f533ed27d15a9",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/102",
+      "answerRoute": "?question=MP-H16&sample=smp-c64c49da51074ca6ba8f533ed27d15a9",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H17",
+      "sampleId": "smp-fdebe76d840e4f8ab1ca55f4329dc20e",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/103",
+      "answerRoute": "?question=MP-H17&sample=smp-fdebe76d840e4f8ab1ca55f4329dc20e",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H18",
+      "sampleId": "smp-febc3dee0ea442d6a76d83a7ebf3ed0f",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/104",
+      "answerRoute": "?question=MP-H18&sample=smp-febc3dee0ea442d6a76d83a7ebf3ed0f",
+      "citationCount": 10,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H19",
+      "sampleId": "smp-600ea461543340b69e44cf166ed9d567",
+      "businessDate": "2026-10-14",
+      "repeat": 1,
+      "pointer": "/samples/105",
+      "answerRoute": "?question=MP-H19&sample=smp-600ea461543340b69e44cf166ed9d567",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A01",
+      "sampleId": "smp-3096977033694ea78ce20cc9260d2a77",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/106",
+      "answerRoute": "?question=MP-A01&sample=smp-3096977033694ea78ce20cc9260d2a77",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A02",
+      "sampleId": "smp-23794b22c14a47e695b74579b3357b11",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/107",
+      "answerRoute": "?question=MP-A02&sample=smp-23794b22c14a47e695b74579b3357b11",
+      "citationCount": 46,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A03",
+      "sampleId": "smp-bd33ba5da85c435babf4ee790da42b0e",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/108",
+      "answerRoute": "?question=MP-A03&sample=smp-bd33ba5da85c435babf4ee790da42b0e",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A04",
+      "sampleId": "smp-3ef555398c004a79a502b53295f73fc8",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/109",
+      "answerRoute": "?question=MP-A04&sample=smp-3ef555398c004a79a502b53295f73fc8",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A05",
+      "sampleId": "smp-a14cfe219dd24a35911b9522435d8c82",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/110",
+      "answerRoute": "?question=MP-A05&sample=smp-a14cfe219dd24a35911b9522435d8c82",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A06",
+      "sampleId": "smp-8abe0b54175e400788e79f4eab31374f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/111",
+      "answerRoute": "?question=MP-A06&sample=smp-8abe0b54175e400788e79f4eab31374f",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A07",
+      "sampleId": "smp-5d96373f715042b2b5c9282372027d9f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/112",
+      "answerRoute": "?question=MP-A07&sample=smp-5d96373f715042b2b5c9282372027d9f",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A08",
+      "sampleId": "smp-96e3fc5311534056adda931fda738781",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/113",
+      "answerRoute": "?question=MP-A08&sample=smp-96e3fc5311534056adda931fda738781",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A09",
+      "sampleId": "smp-5b28f12bfca8494c804a4f046def346c",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/114",
+      "answerRoute": "?question=MP-A09&sample=smp-5b28f12bfca8494c804a4f046def346c",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A10",
+      "sampleId": "smp-7554c14fd46c40cb844372f4fddf1ee8",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/115",
+      "answerRoute": "?question=MP-A10&sample=smp-7554c14fd46c40cb844372f4fddf1ee8",
+      "citationCount": 42,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A11",
+      "sampleId": "smp-b1df4d651d40442b960d559e275c90ed",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/116",
+      "answerRoute": "?question=MP-A11&sample=smp-b1df4d651d40442b960d559e275c90ed",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A12",
+      "sampleId": "smp-9ad98d2979124a838da87dd01d42413f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/117",
+      "answerRoute": "?question=MP-A12&sample=smp-9ad98d2979124a838da87dd01d42413f",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A13",
+      "sampleId": "smp-1a8f2cb12f914db5be3161fb56276a17",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/118",
+      "answerRoute": "?question=MP-A13&sample=smp-1a8f2cb12f914db5be3161fb56276a17",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B01",
+      "sampleId": "smp-5a8acc4b25ad4112805dba18f632071c",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/119",
+      "answerRoute": "?question=MP-B01&sample=smp-5a8acc4b25ad4112805dba18f632071c",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B02",
+      "sampleId": "smp-de4f3ba9d20c44b2a39dfdc495906886",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/120",
+      "answerRoute": "?question=MP-B02&sample=smp-de4f3ba9d20c44b2a39dfdc495906886",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B03",
+      "sampleId": "smp-ada1196be3504c7e9f333547b99cbbb8",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/121",
+      "answerRoute": "?question=MP-B03&sample=smp-ada1196be3504c7e9f333547b99cbbb8",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B04",
+      "sampleId": "smp-d1b61caf61194696a173f83dc2e52ea0",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/122",
+      "answerRoute": "?question=MP-B04&sample=smp-d1b61caf61194696a173f83dc2e52ea0",
+      "citationCount": 34,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B05",
+      "sampleId": "smp-2870a43ce3394e499f833b8e94fa6e7b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/123",
+      "answerRoute": "?question=MP-B05&sample=smp-2870a43ce3394e499f833b8e94fa6e7b",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B06",
+      "sampleId": "smp-15437c58ed6f45ae96d9314e4517986b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/124",
+      "answerRoute": "?question=MP-B06&sample=smp-15437c58ed6f45ae96d9314e4517986b",
+      "citationCount": 47,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B07",
+      "sampleId": "smp-b8ecc467aa234f6cb5a4a4c4b9a81c88",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/125",
+      "answerRoute": "?question=MP-B07&sample=smp-b8ecc467aa234f6cb5a4a4c4b9a81c88",
+      "citationCount": 61,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B08",
+      "sampleId": "smp-57e4253345844a45b13722c3fefd9ab1",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/126",
+      "answerRoute": "?question=MP-B08&sample=smp-57e4253345844a45b13722c3fefd9ab1",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C01",
+      "sampleId": "smp-1a95af1ae0bf49efb0abc4a7d2801b0e",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/127",
+      "answerRoute": "?question=MP-C01&sample=smp-1a95af1ae0bf49efb0abc4a7d2801b0e",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C02",
+      "sampleId": "smp-92087824edfe499096eeb219cc00b8b9",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/128",
+      "answerRoute": "?question=MP-C02&sample=smp-92087824edfe499096eeb219cc00b8b9",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C03",
+      "sampleId": "smp-d1950137d0a448d58c6e71e9e2c6fd5b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/129",
+      "answerRoute": "?question=MP-C03&sample=smp-d1950137d0a448d58c6e71e9e2c6fd5b",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C04",
+      "sampleId": "smp-2062aa0b3ae940b8aba4cb2ce793a049",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/130",
+      "answerRoute": "?question=MP-C04&sample=smp-2062aa0b3ae940b8aba4cb2ce793a049",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C05",
+      "sampleId": "smp-4010096be2c94722a07b0bf171848183",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/131",
+      "answerRoute": "?question=MP-C05&sample=smp-4010096be2c94722a07b0bf171848183",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C06",
+      "sampleId": "smp-5c649f43db0841408300475ed4c656e7",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/132",
+      "answerRoute": "?question=MP-C06&sample=smp-5c649f43db0841408300475ed4c656e7",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C07",
+      "sampleId": "smp-59f7e591f17f40bfb26aad329d99e8c7",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/133",
+      "answerRoute": "?question=MP-C07&sample=smp-59f7e591f17f40bfb26aad329d99e8c7",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C08",
+      "sampleId": "smp-7cdf99d6f60446f0a9ec954d38573626",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/134",
+      "answerRoute": "?question=MP-C08&sample=smp-7cdf99d6f60446f0a9ec954d38573626",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C09",
+      "sampleId": "smp-61fc4e9d25fe49a281b6a141f839ff7e",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/135",
+      "answerRoute": "?question=MP-C09&sample=smp-61fc4e9d25fe49a281b6a141f839ff7e",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C10",
+      "sampleId": "smp-3eed94b7576e45d187f103a4ab12f62f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/136",
+      "answerRoute": "?question=MP-C10&sample=smp-3eed94b7576e45d187f103a4ab12f62f",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C11",
+      "sampleId": "smp-872caf499d0140a1a95d6bdc0c778bbd",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/137",
+      "answerRoute": "?question=MP-C11&sample=smp-872caf499d0140a1a95d6bdc0c778bbd",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C12",
+      "sampleId": "smp-ff5c35f5ef4c4c54a5217a310b886a5f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/138",
+      "answerRoute": "?question=MP-C12&sample=smp-ff5c35f5ef4c4c54a5217a310b886a5f",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C13",
+      "sampleId": "smp-6a703290470c4c8bbae6f2796441bc35",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/139",
+      "answerRoute": "?question=MP-C13&sample=smp-6a703290470c4c8bbae6f2796441bc35",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C14",
+      "sampleId": "smp-2ebc9412bee647cb9683dff0078e404a",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/140",
+      "answerRoute": "?question=MP-C14&sample=smp-2ebc9412bee647cb9683dff0078e404a",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C15",
+      "sampleId": "smp-b47965aa150746569c4020139846ada9",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/141",
+      "answerRoute": "?question=MP-C15&sample=smp-b47965aa150746569c4020139846ada9",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D01",
+      "sampleId": "smp-1694bff7c7d944dda1a7b3afcf0b5ba4",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/142",
+      "answerRoute": "?question=MP-D01&sample=smp-1694bff7c7d944dda1a7b3afcf0b5ba4",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D02",
+      "sampleId": "smp-2fd1a325a0ed4fe589183d73cddd6fb4",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/143",
+      "answerRoute": "?question=MP-D02&sample=smp-2fd1a325a0ed4fe589183d73cddd6fb4",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D03",
+      "sampleId": "smp-fc72975b6a03448592a5f4e899c59d49",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/144",
+      "answerRoute": "?question=MP-D03&sample=smp-fc72975b6a03448592a5f4e899c59d49",
+      "citationCount": 39,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D04",
+      "sampleId": "smp-efc9405364ab482588de5f747a73bdf4",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/145",
+      "answerRoute": "?question=MP-D04&sample=smp-efc9405364ab482588de5f747a73bdf4",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D05",
+      "sampleId": "smp-9f0df80e9d2b48ff90e9904a365b7c30",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/146",
+      "answerRoute": "?question=MP-D05&sample=smp-9f0df80e9d2b48ff90e9904a365b7c30",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D06",
+      "sampleId": "smp-d2bc66d3d833495cadc3d639ad8dd5fc",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/147",
+      "answerRoute": "?question=MP-D06&sample=smp-d2bc66d3d833495cadc3d639ad8dd5fc",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D07",
+      "sampleId": "smp-36cc8c88fbae4f26a15b1de3f23ce068",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/148",
+      "answerRoute": "?question=MP-D07&sample=smp-36cc8c88fbae4f26a15b1de3f23ce068",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D08",
+      "sampleId": "smp-859becd410f8460085db027eebf1d856",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/149",
+      "answerRoute": "?question=MP-D08&sample=smp-859becd410f8460085db027eebf1d856",
+      "citationCount": 26,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D09",
+      "sampleId": "smp-f5599835512649c4a54da9b5903a2911",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/150",
+      "answerRoute": "?question=MP-D09&sample=smp-f5599835512649c4a54da9b5903a2911",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D10",
+      "sampleId": "smp-937e9d96e54b473eb887adc1761f7ad6",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/151",
+      "answerRoute": "?question=MP-D10&sample=smp-937e9d96e54b473eb887adc1761f7ad6",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D11",
+      "sampleId": "smp-f0bda992615e4940a770dc2a910cf16b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/152",
+      "answerRoute": "?question=MP-D11&sample=smp-f0bda992615e4940a770dc2a910cf16b",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D12",
+      "sampleId": "smp-2e3a5ad85ca74b6bbfebf2209cd905f4",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/153",
+      "answerRoute": "?question=MP-D12&sample=smp-2e3a5ad85ca74b6bbfebf2209cd905f4",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D13",
+      "sampleId": "smp-5543a91e3da54c9585f22550216ddcde",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/154",
+      "answerRoute": "?question=MP-D13&sample=smp-5543a91e3da54c9585f22550216ddcde",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D14",
+      "sampleId": "smp-d1b088bc8f714409896561e384cd045a",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/155",
+      "answerRoute": "?question=MP-D14&sample=smp-d1b088bc8f714409896561e384cd045a",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D15",
+      "sampleId": "smp-6228117b29d249d7965076a9021d4191",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/156",
+      "answerRoute": "?question=MP-D15&sample=smp-6228117b29d249d7965076a9021d4191",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D16",
+      "sampleId": "smp-09e34766a2b74bacaab09ec18a12d314",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/157",
+      "answerRoute": "?question=MP-D16&sample=smp-09e34766a2b74bacaab09ec18a12d314",
+      "citationCount": 41,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D17",
+      "sampleId": "smp-69241f37e9474645a021092b708be0ee",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/158",
+      "answerRoute": "?question=MP-D17&sample=smp-69241f37e9474645a021092b708be0ee",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D18",
+      "sampleId": "smp-b1bcc75124d247e3a9ceab8db99dd028",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/159",
+      "answerRoute": "?question=MP-D18&sample=smp-b1bcc75124d247e3a9ceab8db99dd028",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D19",
+      "sampleId": "smp-3c7c62cf83164b99947bfb8c63318841",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/160",
+      "answerRoute": "?question=MP-D19&sample=smp-3c7c62cf83164b99947bfb8c63318841",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E01",
+      "sampleId": "smp-6a70574b191a46e19e1cd9e4316e21fb",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/161",
+      "answerRoute": "?question=MP-E01&sample=smp-6a70574b191a46e19e1cd9e4316e21fb",
+      "citationCount": 26,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E02",
+      "sampleId": "smp-731cb0191ab84fcc906009a5328ed7bf",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/162",
+      "answerRoute": "?question=MP-E02&sample=smp-731cb0191ab84fcc906009a5328ed7bf",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E03",
+      "sampleId": "smp-86b133e1c1bb41b68c5f727770faec05",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/163",
+      "answerRoute": "?question=MP-E03&sample=smp-86b133e1c1bb41b68c5f727770faec05",
+      "citationCount": 49,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E04",
+      "sampleId": "smp-e0e120401d8c4b81a89bf02b57647f3e",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/164",
+      "answerRoute": "?question=MP-E04&sample=smp-e0e120401d8c4b81a89bf02b57647f3e",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E05",
+      "sampleId": "smp-1b94eb146acd49c1b0b434f8668ee8b9",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/165",
+      "answerRoute": "?question=MP-E05&sample=smp-1b94eb146acd49c1b0b434f8668ee8b9",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E06",
+      "sampleId": "smp-db83290dbcbc4f43ada6a3f64724cef0",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/166",
+      "answerRoute": "?question=MP-E06&sample=smp-db83290dbcbc4f43ada6a3f64724cef0",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E07",
+      "sampleId": "smp-1bcf2e5f431c41819e46adea6d90941a",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/167",
+      "answerRoute": "?question=MP-E07&sample=smp-1bcf2e5f431c41819e46adea6d90941a",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E08",
+      "sampleId": "smp-6e8499ba1edc4fafa48d2488ce0b0cbb",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/168",
+      "answerRoute": "?question=MP-E08&sample=smp-6e8499ba1edc4fafa48d2488ce0b0cbb",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E09",
+      "sampleId": "smp-01be5e1fefff4bceb2aede9f846b750a",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/169",
+      "answerRoute": "?question=MP-E09&sample=smp-01be5e1fefff4bceb2aede9f846b750a",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E10",
+      "sampleId": "smp-86df846b98a746bf9fd33e435eec7f51",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/170",
+      "answerRoute": "?question=MP-E10&sample=smp-86df846b98a746bf9fd33e435eec7f51",
+      "citationCount": 24,
+      "replacement": {
+        "originalSampleId": "smp-8573461ca9bd4ea7b9134060128fa320",
+        "originalStatus": "uncertain",
+        "originalRepeat": 2,
+        "replacementAttemptCount": 1
+      }
+    },
+    {
+      "questionId": "MP-E11",
+      "sampleId": "smp-d1eb5f083e404319b4c1c69089031e6c",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/171",
+      "answerRoute": "?question=MP-E11&sample=smp-d1eb5f083e404319b4c1c69089031e6c",
+      "citationCount": 19,
+      "replacement": {
+        "originalSampleId": "smp-0de1da250ea049b19434957fdda87049",
+        "originalStatus": "uncertain",
+        "originalRepeat": 2,
+        "replacementAttemptCount": 1
+      }
+    },
+    {
+      "questionId": "MP-E12",
+      "sampleId": "smp-344c18bc16e54c92afba074c363f8f81",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/172",
+      "answerRoute": "?question=MP-E12&sample=smp-344c18bc16e54c92afba074c363f8f81",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F01",
+      "sampleId": "smp-3ec56ae6e8d246fab9bcb69ee012a92a",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/173",
+      "answerRoute": "?question=MP-F01&sample=smp-3ec56ae6e8d246fab9bcb69ee012a92a",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F02",
+      "sampleId": "smp-6a2781a0067b401d8a53b5c49b686f75",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/174",
+      "answerRoute": "?question=MP-F02&sample=smp-6a2781a0067b401d8a53b5c49b686f75",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F03",
+      "sampleId": "smp-9736cba974834335be953a4de066f215",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/175",
+      "answerRoute": "?question=MP-F03&sample=smp-9736cba974834335be953a4de066f215",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G01",
+      "sampleId": "smp-44a20229fe13460b82dae113b228edca",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/176",
+      "answerRoute": "?question=MP-G01&sample=smp-44a20229fe13460b82dae113b228edca",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G02",
+      "sampleId": "smp-12bcd231b2c24f098e3cb899229902ce",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/177",
+      "answerRoute": "?question=MP-G02&sample=smp-12bcd231b2c24f098e3cb899229902ce",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G03",
+      "sampleId": "smp-e2ee91f74f9b40fc8c8a32e13b069427",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/178",
+      "answerRoute": "?question=MP-G03&sample=smp-e2ee91f74f9b40fc8c8a32e13b069427",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G04",
+      "sampleId": "smp-5c38cc0dce154152840e7a34ebd42005",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/179",
+      "answerRoute": "?question=MP-G04&sample=smp-5c38cc0dce154152840e7a34ebd42005",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G05",
+      "sampleId": "smp-f2e37290b6c043a29a81fe383eccb267",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/180",
+      "answerRoute": "?question=MP-G05&sample=smp-f2e37290b6c043a29a81fe383eccb267",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G06",
+      "sampleId": "smp-d62dcdfdb81c454699bdef0448780901",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/181",
+      "answerRoute": "?question=MP-G06&sample=smp-d62dcdfdb81c454699bdef0448780901",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G07",
+      "sampleId": "smp-46dba0c26baa451b91a9f07f45301de3",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/182",
+      "answerRoute": "?question=MP-G07&sample=smp-46dba0c26baa451b91a9f07f45301de3",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G08",
+      "sampleId": "smp-5baba8a5f438417c964c491bd5ce605d",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/183",
+      "answerRoute": "?question=MP-G08&sample=smp-5baba8a5f438417c964c491bd5ce605d",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G09",
+      "sampleId": "smp-a31e88db49014a03ba1faac8501ea45b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/184",
+      "answerRoute": "?question=MP-G09&sample=smp-a31e88db49014a03ba1faac8501ea45b",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G10",
+      "sampleId": "smp-0f3b7f26bf974deb9c04cc6ea244dc8b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/185",
+      "answerRoute": "?question=MP-G10&sample=smp-0f3b7f26bf974deb9c04cc6ea244dc8b",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G11",
+      "sampleId": "smp-e6ba4eaa3aa84b938a0d7ce8e4e43556",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/186",
+      "answerRoute": "?question=MP-G11&sample=smp-e6ba4eaa3aa84b938a0d7ce8e4e43556",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G12",
+      "sampleId": "smp-36a6e477f94242f8960c98ac5ff518dd",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/187",
+      "answerRoute": "?question=MP-G12&sample=smp-36a6e477f94242f8960c98ac5ff518dd",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G13",
+      "sampleId": "smp-6c63c95ec6c541cf9c39c51903f276bf",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/188",
+      "answerRoute": "?question=MP-G13&sample=smp-6c63c95ec6c541cf9c39c51903f276bf",
+      "citationCount": 20,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G14",
+      "sampleId": "smp-0ea97ef08b1644769ee1bccb57058627",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/189",
+      "answerRoute": "?question=MP-G14&sample=smp-0ea97ef08b1644769ee1bccb57058627",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G15",
+      "sampleId": "smp-46742d017037445ba036545dc56a7e9b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/190",
+      "answerRoute": "?question=MP-G15&sample=smp-46742d017037445ba036545dc56a7e9b",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G16",
+      "sampleId": "smp-aa77bcfe295942dd8536d0c816c66efb",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/191",
+      "answerRoute": "?question=MP-G16&sample=smp-aa77bcfe295942dd8536d0c816c66efb",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G17",
+      "sampleId": "smp-0f009f26244942378a8fbd9131e98590",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/192",
+      "answerRoute": "?question=MP-G17&sample=smp-0f009f26244942378a8fbd9131e98590",
+      "citationCount": 15,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H01",
+      "sampleId": "smp-9858461317ad4befb0125c260ca8ed77",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/193",
+      "answerRoute": "?question=MP-H01&sample=smp-9858461317ad4befb0125c260ca8ed77",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H02",
+      "sampleId": "smp-8580613774664dad950356fbdf23f78f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/194",
+      "answerRoute": "?question=MP-H02&sample=smp-8580613774664dad950356fbdf23f78f",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H03",
+      "sampleId": "smp-e17c8bea48ca4003ad4548ec3b67bde9",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/195",
+      "answerRoute": "?question=MP-H03&sample=smp-e17c8bea48ca4003ad4548ec3b67bde9",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H04",
+      "sampleId": "smp-8c74900323484a1bb083ee055c679d1b",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/196",
+      "answerRoute": "?question=MP-H04&sample=smp-8c74900323484a1bb083ee055c679d1b",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H05",
+      "sampleId": "smp-4e8ad8f80ed243aab7f11bdbcd75b7e3",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/197",
+      "answerRoute": "?question=MP-H05&sample=smp-4e8ad8f80ed243aab7f11bdbcd75b7e3",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H06",
+      "sampleId": "smp-8189d504f0ca40d29a71932e30d8d2ab",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/198",
+      "answerRoute": "?question=MP-H06&sample=smp-8189d504f0ca40d29a71932e30d8d2ab",
+      "citationCount": 9,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H07",
+      "sampleId": "smp-519d086d29504794b8418668d8f8092f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/199",
+      "answerRoute": "?question=MP-H07&sample=smp-519d086d29504794b8418668d8f8092f",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H08",
+      "sampleId": "smp-e8e6dd855f2247718c46edaed1f7521f",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/200",
+      "answerRoute": "?question=MP-H08&sample=smp-e8e6dd855f2247718c46edaed1f7521f",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H09",
+      "sampleId": "smp-8e7711a7a1654199a129839f0bdcd9f6",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/201",
+      "answerRoute": "?question=MP-H09&sample=smp-8e7711a7a1654199a129839f0bdcd9f6",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H10",
+      "sampleId": "smp-d8ac3b37fdff411f8f7d6682f24960e2",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/202",
+      "answerRoute": "?question=MP-H10&sample=smp-d8ac3b37fdff411f8f7d6682f24960e2",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H11",
+      "sampleId": "smp-1fe1543c3ff54f8bb1a16dacf2346dbb",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/203",
+      "answerRoute": "?question=MP-H11&sample=smp-1fe1543c3ff54f8bb1a16dacf2346dbb",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H12",
+      "sampleId": "smp-899a1f69159744d191ed2e5c8965ff5e",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/204",
+      "answerRoute": "?question=MP-H12&sample=smp-899a1f69159744d191ed2e5c8965ff5e",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H13",
+      "sampleId": "smp-365272650b0645fd80f355239ddaf99a",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/205",
+      "answerRoute": "?question=MP-H13&sample=smp-365272650b0645fd80f355239ddaf99a",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H14",
+      "sampleId": "smp-ac4264fc214a408aab3e42dc2eafeede",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/206",
+      "answerRoute": "?question=MP-H14&sample=smp-ac4264fc214a408aab3e42dc2eafeede",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H15",
+      "sampleId": "smp-9cc64913e6284ea19c49435c280b2eed",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/207",
+      "answerRoute": "?question=MP-H15&sample=smp-9cc64913e6284ea19c49435c280b2eed",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H16",
+      "sampleId": "smp-aa149686718644b99ad84ec7fb716889",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/208",
+      "answerRoute": "?question=MP-H16&sample=smp-aa149686718644b99ad84ec7fb716889",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H17",
+      "sampleId": "smp-a32c732d0d4049e393c5655c0c1d62fc",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/209",
+      "answerRoute": "?question=MP-H17&sample=smp-a32c732d0d4049e393c5655c0c1d62fc",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H18",
+      "sampleId": "smp-58b1d32b879949a4b182bf9f96bc6379",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/210",
+      "answerRoute": "?question=MP-H18&sample=smp-58b1d32b879949a4b182bf9f96bc6379",
+      "citationCount": 9,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H19",
+      "sampleId": "smp-63fb844509b64dcb90060afa11bf2a4a",
+      "businessDate": "2026-10-14",
+      "repeat": 2,
+      "pointer": "/samples/211",
+      "answerRoute": "?question=MP-H19&sample=smp-63fb844509b64dcb90060afa11bf2a4a",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A01",
+      "sampleId": "smp-039577442c8e48ea84f67ac93b297469",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/212",
+      "answerRoute": "?question=MP-A01&sample=smp-039577442c8e48ea84f67ac93b297469",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A02",
+      "sampleId": "smp-5d5ed604c4254ea7a765e7a4345dfe1e",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/213",
+      "answerRoute": "?question=MP-A02&sample=smp-5d5ed604c4254ea7a765e7a4345dfe1e",
+      "citationCount": 47,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A03",
+      "sampleId": "smp-7a765148882349f6aeee7798de434137",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/214",
+      "answerRoute": "?question=MP-A03&sample=smp-7a765148882349f6aeee7798de434137",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A04",
+      "sampleId": "smp-c2ad4fad5d1e4f58a7ad6eb583c03600",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/215",
+      "answerRoute": "?question=MP-A04&sample=smp-c2ad4fad5d1e4f58a7ad6eb583c03600",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A05",
+      "sampleId": "smp-b1ff65b2a424470cb0520d95a33b11d5",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/216",
+      "answerRoute": "?question=MP-A05&sample=smp-b1ff65b2a424470cb0520d95a33b11d5",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A06",
+      "sampleId": "smp-13837dedcd024bb991ebf1ee0984d8d5",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/217",
+      "answerRoute": "?question=MP-A06&sample=smp-13837dedcd024bb991ebf1ee0984d8d5",
+      "citationCount": 41,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A07",
+      "sampleId": "smp-b342b476f7fb482a8c742dda13453464",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/218",
+      "answerRoute": "?question=MP-A07&sample=smp-b342b476f7fb482a8c742dda13453464",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A08",
+      "sampleId": "smp-ac1418873174432c9553eb50b436afd7",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/219",
+      "answerRoute": "?question=MP-A08&sample=smp-ac1418873174432c9553eb50b436afd7",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A09",
+      "sampleId": "smp-1eb4de1bf8f74b9ca1fbcdcd7824301f",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/220",
+      "answerRoute": "?question=MP-A09&sample=smp-1eb4de1bf8f74b9ca1fbcdcd7824301f",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A10",
+      "sampleId": "smp-43876c02fd06448692b16806159f7a5f",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/221",
+      "answerRoute": "?question=MP-A10&sample=smp-43876c02fd06448692b16806159f7a5f",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A11",
+      "sampleId": "smp-9eacc3cdc1c248db9d9c3be97d8efec7",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/222",
+      "answerRoute": "?question=MP-A11&sample=smp-9eacc3cdc1c248db9d9c3be97d8efec7",
+      "citationCount": 45,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A12",
+      "sampleId": "smp-9c8fb0be02f541eeb7079cc1f863c91f",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/223",
+      "answerRoute": "?question=MP-A12&sample=smp-9c8fb0be02f541eeb7079cc1f863c91f",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A13",
+      "sampleId": "smp-ce42e78b2c82432d9a320af03004192a",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/224",
+      "answerRoute": "?question=MP-A13&sample=smp-ce42e78b2c82432d9a320af03004192a",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B01",
+      "sampleId": "smp-ed6800a18efa4fff9fabaa18e4cf2927",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/225",
+      "answerRoute": "?question=MP-B01&sample=smp-ed6800a18efa4fff9fabaa18e4cf2927",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B02",
+      "sampleId": "smp-a7dd4d58991746109c6e0da03767c991",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/226",
+      "answerRoute": "?question=MP-B02&sample=smp-a7dd4d58991746109c6e0da03767c991",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B03",
+      "sampleId": "smp-504330e4467e4eaaa104f33d65d31a90",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/227",
+      "answerRoute": "?question=MP-B03&sample=smp-504330e4467e4eaaa104f33d65d31a90",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B04",
+      "sampleId": "smp-280ec25add5f4ccd9d2740e0b6bc72a7",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/228",
+      "answerRoute": "?question=MP-B04&sample=smp-280ec25add5f4ccd9d2740e0b6bc72a7",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B05",
+      "sampleId": "smp-864c1b4d14f94d019ff345273e9afe5f",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/229",
+      "answerRoute": "?question=MP-B05&sample=smp-864c1b4d14f94d019ff345273e9afe5f",
+      "citationCount": 47,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B06",
+      "sampleId": "smp-e57ccb4e2e094c7495a581a48d48cc0d",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/230",
+      "answerRoute": "?question=MP-B06&sample=smp-e57ccb4e2e094c7495a581a48d48cc0d",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B07",
+      "sampleId": "smp-b79ea2dece81459eab4310698c9b5a06",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/231",
+      "answerRoute": "?question=MP-B07&sample=smp-b79ea2dece81459eab4310698c9b5a06",
+      "citationCount": 46,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B08",
+      "sampleId": "smp-ed6ce49fddb84453971fb03aa0f44553",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/232",
+      "answerRoute": "?question=MP-B08&sample=smp-ed6ce49fddb84453971fb03aa0f44553",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C01",
+      "sampleId": "smp-820764db54134e538968c9c58dc5b370",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/233",
+      "answerRoute": "?question=MP-C01&sample=smp-820764db54134e538968c9c58dc5b370",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C02",
+      "sampleId": "smp-671482b3380c4da3a05c76775fb167b9",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/234",
+      "answerRoute": "?question=MP-C02&sample=smp-671482b3380c4da3a05c76775fb167b9",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C03",
+      "sampleId": "smp-b6d843a8a1c041fe8b21414376e56c34",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/235",
+      "answerRoute": "?question=MP-C03&sample=smp-b6d843a8a1c041fe8b21414376e56c34",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C04",
+      "sampleId": "smp-261b522b539f45839919cb92e9e9ddbb",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/236",
+      "answerRoute": "?question=MP-C04&sample=smp-261b522b539f45839919cb92e9e9ddbb",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C05",
+      "sampleId": "smp-624dba391cb84bd586d72af2eaed0140",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/237",
+      "answerRoute": "?question=MP-C05&sample=smp-624dba391cb84bd586d72af2eaed0140",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C06",
+      "sampleId": "smp-5df4b9ca464d427b9548847e7793d32a",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/238",
+      "answerRoute": "?question=MP-C06&sample=smp-5df4b9ca464d427b9548847e7793d32a",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C07",
+      "sampleId": "smp-bb143ac03b044c6192a37b3e7e6fb6ee",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/239",
+      "answerRoute": "?question=MP-C07&sample=smp-bb143ac03b044c6192a37b3e7e6fb6ee",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C08",
+      "sampleId": "smp-c0af0a3a5ade4d9c9653fd382e1ee066",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/240",
+      "answerRoute": "?question=MP-C08&sample=smp-c0af0a3a5ade4d9c9653fd382e1ee066",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C09",
+      "sampleId": "smp-0c41396cf50a41ec919ef5858772f607",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/241",
+      "answerRoute": "?question=MP-C09&sample=smp-0c41396cf50a41ec919ef5858772f607",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C10",
+      "sampleId": "smp-1c42b87d857b40838b4aa211ef55b3a4",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/242",
+      "answerRoute": "?question=MP-C10&sample=smp-1c42b87d857b40838b4aa211ef55b3a4",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C11",
+      "sampleId": "smp-23e974edf8e84a419caacd496c283183",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/243",
+      "answerRoute": "?question=MP-C11&sample=smp-23e974edf8e84a419caacd496c283183",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C12",
+      "sampleId": "smp-93ff23ad41fb4410aaec07f5985284c5",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/244",
+      "answerRoute": "?question=MP-C12&sample=smp-93ff23ad41fb4410aaec07f5985284c5",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C13",
+      "sampleId": "smp-f5b3cf4e0eab48679e79b254213fad45",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/245",
+      "answerRoute": "?question=MP-C13&sample=smp-f5b3cf4e0eab48679e79b254213fad45",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C14",
+      "sampleId": "smp-f9362fdde5bc4859bee43c5858be791a",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/246",
+      "answerRoute": "?question=MP-C14&sample=smp-f9362fdde5bc4859bee43c5858be791a",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C15",
+      "sampleId": "smp-0bc70ea64430464eb9a06ded5314cb54",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/247",
+      "answerRoute": "?question=MP-C15&sample=smp-0bc70ea64430464eb9a06ded5314cb54",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D01",
+      "sampleId": "smp-9a23c75ad6234419ac2b5d651b8aeae4",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/248",
+      "answerRoute": "?question=MP-D01&sample=smp-9a23c75ad6234419ac2b5d651b8aeae4",
+      "citationCount": 45,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D02",
+      "sampleId": "smp-b1785eb10c604b30bb6080db49fbee6e",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/249",
+      "answerRoute": "?question=MP-D02&sample=smp-b1785eb10c604b30bb6080db49fbee6e",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D03",
+      "sampleId": "smp-e197b664a3cf42b7b75d7e2e66764ae9",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/250",
+      "answerRoute": "?question=MP-D03&sample=smp-e197b664a3cf42b7b75d7e2e66764ae9",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D04",
+      "sampleId": "smp-f0c68925659b4c51983b90c188cb5c42",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/251",
+      "answerRoute": "?question=MP-D04&sample=smp-f0c68925659b4c51983b90c188cb5c42",
+      "citationCount": 0,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D05",
+      "sampleId": "smp-8fc9ce5f03c2423bbd46c4cfddd0535f",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/252",
+      "answerRoute": "?question=MP-D05&sample=smp-8fc9ce5f03c2423bbd46c4cfddd0535f",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D06",
+      "sampleId": "smp-3224c79f1b0747ad910459aa6db86e4b",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/253",
+      "answerRoute": "?question=MP-D06&sample=smp-3224c79f1b0747ad910459aa6db86e4b",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D07",
+      "sampleId": "smp-b7090909adfb44089d892218a08d79e8",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/254",
+      "answerRoute": "?question=MP-D07&sample=smp-b7090909adfb44089d892218a08d79e8",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D08",
+      "sampleId": "smp-cbd5174e42194be0aa07d7ba401e9f1a",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/255",
+      "answerRoute": "?question=MP-D08&sample=smp-cbd5174e42194be0aa07d7ba401e9f1a",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D09",
+      "sampleId": "smp-ab2803b6d1f44d8b8679b848bec2a663",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/256",
+      "answerRoute": "?question=MP-D09&sample=smp-ab2803b6d1f44d8b8679b848bec2a663",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D10",
+      "sampleId": "smp-7d634e3b86bb470384f8232652a31104",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/257",
+      "answerRoute": "?question=MP-D10&sample=smp-7d634e3b86bb470384f8232652a31104",
+      "citationCount": 33,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D11",
+      "sampleId": "smp-53106a9a538c4ac3826f688e55440099",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/258",
+      "answerRoute": "?question=MP-D11&sample=smp-53106a9a538c4ac3826f688e55440099",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D12",
+      "sampleId": "smp-031be77de36b4dbda06a9a3cf912c762",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/259",
+      "answerRoute": "?question=MP-D12&sample=smp-031be77de36b4dbda06a9a3cf912c762",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D13",
+      "sampleId": "smp-52d3dc6aa4e94f1eb7cfcacba080be35",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/260",
+      "answerRoute": "?question=MP-D13&sample=smp-52d3dc6aa4e94f1eb7cfcacba080be35",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D14",
+      "sampleId": "smp-a29d763fa7284b278648080538b38261",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/261",
+      "answerRoute": "?question=MP-D14&sample=smp-a29d763fa7284b278648080538b38261",
+      "citationCount": 47,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D15",
+      "sampleId": "smp-76a916c4fc6348c2a32288e4ccb00bde",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/262",
+      "answerRoute": "?question=MP-D15&sample=smp-76a916c4fc6348c2a32288e4ccb00bde",
+      "citationCount": 46,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D16",
+      "sampleId": "smp-0888ded01a7e4e3cab0d7f1e6641cbca",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/263",
+      "answerRoute": "?question=MP-D16&sample=smp-0888ded01a7e4e3cab0d7f1e6641cbca",
+      "citationCount": 41,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D17",
+      "sampleId": "smp-38c7ae2d44cd4c28913311eec60c5700",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/264",
+      "answerRoute": "?question=MP-D17&sample=smp-38c7ae2d44cd4c28913311eec60c5700",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D18",
+      "sampleId": "smp-933254ed2cc6496493789808607f4563",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/265",
+      "answerRoute": "?question=MP-D18&sample=smp-933254ed2cc6496493789808607f4563",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D19",
+      "sampleId": "smp-0cc5ef11a5844cf281fb6a62e949467f",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/266",
+      "answerRoute": "?question=MP-D19&sample=smp-0cc5ef11a5844cf281fb6a62e949467f",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E01",
+      "sampleId": "smp-655c61290e7a4dd882810fa20e4987da",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/267",
+      "answerRoute": "?question=MP-E01&sample=smp-655c61290e7a4dd882810fa20e4987da",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E02",
+      "sampleId": "smp-a026e52168d4436aa87ad4e77af91183",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/268",
+      "answerRoute": "?question=MP-E02&sample=smp-a026e52168d4436aa87ad4e77af91183",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E03",
+      "sampleId": "smp-795b23b6925e47d8bbeda55082048c9a",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/269",
+      "answerRoute": "?question=MP-E03&sample=smp-795b23b6925e47d8bbeda55082048c9a",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E04",
+      "sampleId": "smp-a4dae052fad646ac94b56982511a16a0",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/270",
+      "answerRoute": "?question=MP-E04&sample=smp-a4dae052fad646ac94b56982511a16a0",
+      "citationCount": 54,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E05",
+      "sampleId": "smp-9eb35d4572444bcf88c8150fa9e200bc",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/271",
+      "answerRoute": "?question=MP-E05&sample=smp-9eb35d4572444bcf88c8150fa9e200bc",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E06",
+      "sampleId": "smp-746b4753b4bd4e23b4253d54699ecfa4",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/272",
+      "answerRoute": "?question=MP-E06&sample=smp-746b4753b4bd4e23b4253d54699ecfa4",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E07",
+      "sampleId": "smp-85415f2108ad469c967e4cf99147e193",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/273",
+      "answerRoute": "?question=MP-E07&sample=smp-85415f2108ad469c967e4cf99147e193",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E08",
+      "sampleId": "smp-273f8de23d00480bacddc57109df16b8",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/274",
+      "answerRoute": "?question=MP-E08&sample=smp-273f8de23d00480bacddc57109df16b8",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E09",
+      "sampleId": "smp-0a4e54e5d875425992f579bab066eb93",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/275",
+      "answerRoute": "?question=MP-E09&sample=smp-0a4e54e5d875425992f579bab066eb93",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E10",
+      "sampleId": "smp-9b31beb819db425cb47af701c6152044",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/276",
+      "answerRoute": "?question=MP-E10&sample=smp-9b31beb819db425cb47af701c6152044",
+      "citationCount": 34,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E11",
+      "sampleId": "smp-540a88361cdb404ba95d15153cb753b1",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/277",
+      "answerRoute": "?question=MP-E11&sample=smp-540a88361cdb404ba95d15153cb753b1",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E12",
+      "sampleId": "smp-9ff7028be48240d58cf0eaf0fc7a5b42",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/278",
+      "answerRoute": "?question=MP-E12&sample=smp-9ff7028be48240d58cf0eaf0fc7a5b42",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F01",
+      "sampleId": "smp-7e964abc7b134c9eb406b61e27a73427",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/279",
+      "answerRoute": "?question=MP-F01&sample=smp-7e964abc7b134c9eb406b61e27a73427",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F02",
+      "sampleId": "smp-c564de521c85415ab161aa5cb1f542f7",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/280",
+      "answerRoute": "?question=MP-F02&sample=smp-c564de521c85415ab161aa5cb1f542f7",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F03",
+      "sampleId": "smp-7a1b8e2a774f42e28f3a615c63737774",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/281",
+      "answerRoute": "?question=MP-F03&sample=smp-7a1b8e2a774f42e28f3a615c63737774",
+      "citationCount": 44,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G01",
+      "sampleId": "smp-0913611397294711a7705a31f327a8b2",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/282",
+      "answerRoute": "?question=MP-G01&sample=smp-0913611397294711a7705a31f327a8b2",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G02",
+      "sampleId": "smp-f54e2ebde07f4c79ad53a4b3bdcb5991",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/283",
+      "answerRoute": "?question=MP-G02&sample=smp-f54e2ebde07f4c79ad53a4b3bdcb5991",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G03",
+      "sampleId": "smp-78e89d864668444a9f497cfe43a10413",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/284",
+      "answerRoute": "?question=MP-G03&sample=smp-78e89d864668444a9f497cfe43a10413",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G04",
+      "sampleId": "smp-df7d31f3a24e4df78a6117564ea6288d",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/285",
+      "answerRoute": "?question=MP-G04&sample=smp-df7d31f3a24e4df78a6117564ea6288d",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G05",
+      "sampleId": "smp-a28fba376f1d41149ec2a8a010b617b1",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/286",
+      "answerRoute": "?question=MP-G05&sample=smp-a28fba376f1d41149ec2a8a010b617b1",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G06",
+      "sampleId": "smp-b06fad8464df49a3a94ca965be863b25",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/287",
+      "answerRoute": "?question=MP-G06&sample=smp-b06fad8464df49a3a94ca965be863b25",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G07",
+      "sampleId": "smp-aa6d74553bc14084ab76c4f31e04ae11",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/288",
+      "answerRoute": "?question=MP-G07&sample=smp-aa6d74553bc14084ab76c4f31e04ae11",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G08",
+      "sampleId": "smp-2799122d0e7643cd9fb44ec5590b4c62",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/289",
+      "answerRoute": "?question=MP-G08&sample=smp-2799122d0e7643cd9fb44ec5590b4c62",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G09",
+      "sampleId": "smp-ed2f9bcb90a340bdaa365f78aa5fcbb6",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/290",
+      "answerRoute": "?question=MP-G09&sample=smp-ed2f9bcb90a340bdaa365f78aa5fcbb6",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G10",
+      "sampleId": "smp-d1e589c847944fa6af0076f9673e350f",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/291",
+      "answerRoute": "?question=MP-G10&sample=smp-d1e589c847944fa6af0076f9673e350f",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G11",
+      "sampleId": "smp-cbf11baff1514d4bb3994a25ccd770a7",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/292",
+      "answerRoute": "?question=MP-G11&sample=smp-cbf11baff1514d4bb3994a25ccd770a7",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G12",
+      "sampleId": "smp-718e9082be2f4df2bdf1825b6db4a565",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/293",
+      "answerRoute": "?question=MP-G12&sample=smp-718e9082be2f4df2bdf1825b6db4a565",
+      "citationCount": 33,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G13",
+      "sampleId": "smp-06d6369fe3f84bd89ad3fa572b2d29b4",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/294",
+      "answerRoute": "?question=MP-G13&sample=smp-06d6369fe3f84bd89ad3fa572b2d29b4",
+      "citationCount": 31,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G14",
+      "sampleId": "smp-53bae3ca9ab5483ebbc53b85cf2b38f5",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/295",
+      "answerRoute": "?question=MP-G14&sample=smp-53bae3ca9ab5483ebbc53b85cf2b38f5",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G15",
+      "sampleId": "smp-7ceb05eb56fa46a9a8ca77d2df774b87",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/296",
+      "answerRoute": "?question=MP-G15&sample=smp-7ceb05eb56fa46a9a8ca77d2df774b87",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G16",
+      "sampleId": "smp-df6a1a10a11f4c00a9a23eb1bf0d70c6",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/297",
+      "answerRoute": "?question=MP-G16&sample=smp-df6a1a10a11f4c00a9a23eb1bf0d70c6",
+      "citationCount": 34,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G17",
+      "sampleId": "smp-a966a1a4daf940be85819ae5d66bcf96",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/298",
+      "answerRoute": "?question=MP-G17&sample=smp-a966a1a4daf940be85819ae5d66bcf96",
+      "citationCount": 13,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H01",
+      "sampleId": "smp-bb19a577322b4a1994656ff25f12dc0b",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/299",
+      "answerRoute": "?question=MP-H01&sample=smp-bb19a577322b4a1994656ff25f12dc0b",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H02",
+      "sampleId": "smp-68eb50ec450143af84cbff9c2e1171c0",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/300",
+      "answerRoute": "?question=MP-H02&sample=smp-68eb50ec450143af84cbff9c2e1171c0",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H03",
+      "sampleId": "smp-4a80e644d32e4349a779c460f2cecda0",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/301",
+      "answerRoute": "?question=MP-H03&sample=smp-4a80e644d32e4349a779c460f2cecda0",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H04",
+      "sampleId": "smp-5f6c97e093e5493b9740d67e65d89a1c",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/302",
+      "answerRoute": "?question=MP-H04&sample=smp-5f6c97e093e5493b9740d67e65d89a1c",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H05",
+      "sampleId": "smp-cdf7d2afe57646179c280382ecd83e30",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/303",
+      "answerRoute": "?question=MP-H05&sample=smp-cdf7d2afe57646179c280382ecd83e30",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H06",
+      "sampleId": "smp-99fbdafba25545a7bc86865f95cc44b4",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/304",
+      "answerRoute": "?question=MP-H06&sample=smp-99fbdafba25545a7bc86865f95cc44b4",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H07",
+      "sampleId": "smp-764936c92f564866a60de6c881a6a6f9",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/305",
+      "answerRoute": "?question=MP-H07&sample=smp-764936c92f564866a60de6c881a6a6f9",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H08",
+      "sampleId": "smp-dfc10a0605644c4ba8a381aa7eb76c94",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/306",
+      "answerRoute": "?question=MP-H08&sample=smp-dfc10a0605644c4ba8a381aa7eb76c94",
+      "citationCount": 20,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H09",
+      "sampleId": "smp-2518e0ca3e1543c09abc47c135a40176",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/307",
+      "answerRoute": "?question=MP-H09&sample=smp-2518e0ca3e1543c09abc47c135a40176",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H10",
+      "sampleId": "smp-2b3935584e774d5e82cf03c73aad02a3",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/308",
+      "answerRoute": "?question=MP-H10&sample=smp-2b3935584e774d5e82cf03c73aad02a3",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H11",
+      "sampleId": "smp-45120c7074db4ced81a22e4a8e2b36c0",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/309",
+      "answerRoute": "?question=MP-H11&sample=smp-45120c7074db4ced81a22e4a8e2b36c0",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H12",
+      "sampleId": "smp-a55a510ce6cd4b94b22f566e2712e812",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/310",
+      "answerRoute": "?question=MP-H12&sample=smp-a55a510ce6cd4b94b22f566e2712e812",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H13",
+      "sampleId": "smp-5a69a2a01482402fa5f9218c36b6a761",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/311",
+      "answerRoute": "?question=MP-H13&sample=smp-5a69a2a01482402fa5f9218c36b6a761",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H14",
+      "sampleId": "smp-3346ed08f8364f938fb3a69963cfe5cd",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/312",
+      "answerRoute": "?question=MP-H14&sample=smp-3346ed08f8364f938fb3a69963cfe5cd",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H15",
+      "sampleId": "smp-7fc73edf09b641be905e54854186a7ac",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/313",
+      "answerRoute": "?question=MP-H15&sample=smp-7fc73edf09b641be905e54854186a7ac",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H16",
+      "sampleId": "smp-df28df9ff4e74651b147fab6b94b8f9b",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/314",
+      "answerRoute": "?question=MP-H16&sample=smp-df28df9ff4e74651b147fab6b94b8f9b",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H17",
+      "sampleId": "smp-59ec96962a6147c982d820c9e1927254",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/315",
+      "answerRoute": "?question=MP-H17&sample=smp-59ec96962a6147c982d820c9e1927254",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H18",
+      "sampleId": "smp-f28cbc814ef64da9a43d962c7001e764",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/316",
+      "answerRoute": "?question=MP-H18&sample=smp-f28cbc814ef64da9a43d962c7001e764",
+      "citationCount": 10,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H19",
+      "sampleId": "smp-eda64e84c2e2426993e3733ee4f9bf36",
+      "businessDate": "2026-10-15",
+      "repeat": 1,
+      "pointer": "/samples/317",
+      "answerRoute": "?question=MP-H19&sample=smp-eda64e84c2e2426993e3733ee4f9bf36",
+      "citationCount": 10,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A01",
+      "sampleId": "smp-293db5caae4a417c8ffcbc0fa73486bb",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/318",
+      "answerRoute": "?question=MP-A01&sample=smp-293db5caae4a417c8ffcbc0fa73486bb",
+      "citationCount": 34,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A02",
+      "sampleId": "smp-d09927f5ea9a4a8e86e68c3bcb6f3782",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/319",
+      "answerRoute": "?question=MP-A02&sample=smp-d09927f5ea9a4a8e86e68c3bcb6f3782",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A03",
+      "sampleId": "smp-8eaa82a019fb4a64b1d83884d7fcefdb",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/320",
+      "answerRoute": "?question=MP-A03&sample=smp-8eaa82a019fb4a64b1d83884d7fcefdb",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A04",
+      "sampleId": "smp-e2aca5faa784457997ce7c74cad685b3",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/321",
+      "answerRoute": "?question=MP-A04&sample=smp-e2aca5faa784457997ce7c74cad685b3",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A05",
+      "sampleId": "smp-514479f19fe14cc298e58b734fb6f8c1",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/322",
+      "answerRoute": "?question=MP-A05&sample=smp-514479f19fe14cc298e58b734fb6f8c1",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A06",
+      "sampleId": "smp-d01338c4604b47eb9d2a80ae60e49a65",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/323",
+      "answerRoute": "?question=MP-A06&sample=smp-d01338c4604b47eb9d2a80ae60e49a65",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A07",
+      "sampleId": "smp-9cf8a2a6ce1146ad9eee8c06a0fa0097",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/324",
+      "answerRoute": "?question=MP-A07&sample=smp-9cf8a2a6ce1146ad9eee8c06a0fa0097",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A08",
+      "sampleId": "smp-ef35b05d71484eed8337f9d589d5803f",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/325",
+      "answerRoute": "?question=MP-A08&sample=smp-ef35b05d71484eed8337f9d589d5803f",
+      "citationCount": 42,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A09",
+      "sampleId": "smp-7e4fb11e80454c8386f1829dd201d37f",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/326",
+      "answerRoute": "?question=MP-A09&sample=smp-7e4fb11e80454c8386f1829dd201d37f",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A10",
+      "sampleId": "smp-6828810de3f0462fbc2954093b741a20",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/327",
+      "answerRoute": "?question=MP-A10&sample=smp-6828810de3f0462fbc2954093b741a20",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A11",
+      "sampleId": "smp-1d9da9564f8b4d70afa8ca6f5b901997",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/328",
+      "answerRoute": "?question=MP-A11&sample=smp-1d9da9564f8b4d70afa8ca6f5b901997",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A12",
+      "sampleId": "smp-eb59c7e23d0e49b4be1f5f342e616c1b",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/329",
+      "answerRoute": "?question=MP-A12&sample=smp-eb59c7e23d0e49b4be1f5f342e616c1b",
+      "citationCount": 42,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-A13",
+      "sampleId": "smp-ddc112c35ce3457bb7042e81a14b2f09",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/330",
+      "answerRoute": "?question=MP-A13&sample=smp-ddc112c35ce3457bb7042e81a14b2f09",
+      "citationCount": 18,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B01",
+      "sampleId": "smp-86140efd97d74cfbae513233f6a956f9",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/331",
+      "answerRoute": "?question=MP-B01&sample=smp-86140efd97d74cfbae513233f6a956f9",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B02",
+      "sampleId": "smp-ce2f91fdccc344838bf1fc00407bf98b",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/332",
+      "answerRoute": "?question=MP-B02&sample=smp-ce2f91fdccc344838bf1fc00407bf98b",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B03",
+      "sampleId": "smp-f53751e878a640c9a7c782c60b926137",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/333",
+      "answerRoute": "?question=MP-B03&sample=smp-f53751e878a640c9a7c782c60b926137",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B04",
+      "sampleId": "smp-bd21cede1012423bbbbfb3999e00e7b9",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/334",
+      "answerRoute": "?question=MP-B04&sample=smp-bd21cede1012423bbbbfb3999e00e7b9",
+      "citationCount": 47,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B05",
+      "sampleId": "smp-7855895f78f64901a55171890052d1b9",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/335",
+      "answerRoute": "?question=MP-B05&sample=smp-7855895f78f64901a55171890052d1b9",
+      "citationCount": 45,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B06",
+      "sampleId": "smp-a1ae017566414a96b633bb5b40103272",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/336",
+      "answerRoute": "?question=MP-B06&sample=smp-a1ae017566414a96b633bb5b40103272",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B07",
+      "sampleId": "smp-59e22a141539425787c16f760ea94522",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/337",
+      "answerRoute": "?question=MP-B07&sample=smp-59e22a141539425787c16f760ea94522",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-B08",
+      "sampleId": "smp-579119ee4d304611a046e79d8477f8fd",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/338",
+      "answerRoute": "?question=MP-B08&sample=smp-579119ee4d304611a046e79d8477f8fd",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C01",
+      "sampleId": "smp-1b35d178178a46a689908ed580f68e1f",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/339",
+      "answerRoute": "?question=MP-C01&sample=smp-1b35d178178a46a689908ed580f68e1f",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C02",
+      "sampleId": "smp-c0f5940255b64018bc5eb6997cd7972c",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/340",
+      "answerRoute": "?question=MP-C02&sample=smp-c0f5940255b64018bc5eb6997cd7972c",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C03",
+      "sampleId": "smp-f8cb30d59dad4e4d8b20e99fa2e33b53",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/341",
+      "answerRoute": "?question=MP-C03&sample=smp-f8cb30d59dad4e4d8b20e99fa2e33b53",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C04",
+      "sampleId": "smp-d7436ce7ab60472db98c88b9271e4d5a",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/342",
+      "answerRoute": "?question=MP-C04&sample=smp-d7436ce7ab60472db98c88b9271e4d5a",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C05",
+      "sampleId": "smp-2d9df94272914734b6dde476472d4728",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/343",
+      "answerRoute": "?question=MP-C05&sample=smp-2d9df94272914734b6dde476472d4728",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C06",
+      "sampleId": "smp-903255913b8f468e87d5425273bd3c02",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/344",
+      "answerRoute": "?question=MP-C06&sample=smp-903255913b8f468e87d5425273bd3c02",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C07",
+      "sampleId": "smp-e35b8c7d25b3497696e4ddc6515b3204",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/345",
+      "answerRoute": "?question=MP-C07&sample=smp-e35b8c7d25b3497696e4ddc6515b3204",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C08",
+      "sampleId": "smp-7e7f835de3bb44168b030f848172f557",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/346",
+      "answerRoute": "?question=MP-C08&sample=smp-7e7f835de3bb44168b030f848172f557",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C09",
+      "sampleId": "smp-a9556aba2a6747e8ab26b6931106988b",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/347",
+      "answerRoute": "?question=MP-C09&sample=smp-a9556aba2a6747e8ab26b6931106988b",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C10",
+      "sampleId": "smp-6dba63b70bd14608bd8f5710dfd6c1bb",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/348",
+      "answerRoute": "?question=MP-C10&sample=smp-6dba63b70bd14608bd8f5710dfd6c1bb",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C11",
+      "sampleId": "smp-90ddd2e499544bcc86fbe0c3dda0be80",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/349",
+      "answerRoute": "?question=MP-C11&sample=smp-90ddd2e499544bcc86fbe0c3dda0be80",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C12",
+      "sampleId": "smp-926d0966f7804831af8b5bf2dd8f59ec",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/350",
+      "answerRoute": "?question=MP-C12&sample=smp-926d0966f7804831af8b5bf2dd8f59ec",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C13",
+      "sampleId": "smp-ebc8febf150443828f30a228781844fd",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/351",
+      "answerRoute": "?question=MP-C13&sample=smp-ebc8febf150443828f30a228781844fd",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C14",
+      "sampleId": "smp-6a1a9d756fb24054adc91ff2781cd703",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/352",
+      "answerRoute": "?question=MP-C14&sample=smp-6a1a9d756fb24054adc91ff2781cd703",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-C15",
+      "sampleId": "smp-37c4ea44af294038a736e7c22b14e648",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/353",
+      "answerRoute": "?question=MP-C15&sample=smp-37c4ea44af294038a736e7c22b14e648",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D01",
+      "sampleId": "smp-8d3698f7822d4d0baab8bc1de0dba4b6",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/354",
+      "answerRoute": "?question=MP-D01&sample=smp-8d3698f7822d4d0baab8bc1de0dba4b6",
+      "citationCount": 38,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D02",
+      "sampleId": "smp-c23eb5c565654a1bbc865679a8793798",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/355",
+      "answerRoute": "?question=MP-D02&sample=smp-c23eb5c565654a1bbc865679a8793798",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D03",
+      "sampleId": "smp-883fc07cc8a2410189b309ab64ffcad5",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/356",
+      "answerRoute": "?question=MP-D03&sample=smp-883fc07cc8a2410189b309ab64ffcad5",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D04",
+      "sampleId": "smp-060e6ee0c1834ab9b600a3e8216a9eea",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/357",
+      "answerRoute": "?question=MP-D04&sample=smp-060e6ee0c1834ab9b600a3e8216a9eea",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D05",
+      "sampleId": "smp-b3acb2c039cb4f6bb8bc79dc4d7c596e",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/358",
+      "answerRoute": "?question=MP-D05&sample=smp-b3acb2c039cb4f6bb8bc79dc4d7c596e",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D06",
+      "sampleId": "smp-b52af4becef5417593c4c18f7b67724d",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/359",
+      "answerRoute": "?question=MP-D06&sample=smp-b52af4becef5417593c4c18f7b67724d",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D07",
+      "sampleId": "smp-332e8338872545f0bc1712d4c2e27425",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/360",
+      "answerRoute": "?question=MP-D07&sample=smp-332e8338872545f0bc1712d4c2e27425",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D08",
+      "sampleId": "smp-82accb7b5a76464d94063924478095a8",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/361",
+      "answerRoute": "?question=MP-D08&sample=smp-82accb7b5a76464d94063924478095a8",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D09",
+      "sampleId": "smp-be367252385b40518f916f780955e45e",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/362",
+      "answerRoute": "?question=MP-D09&sample=smp-be367252385b40518f916f780955e45e",
+      "citationCount": 42,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D10",
+      "sampleId": "smp-fc84079d7c3d4ac9b7a5fa26e7e79fe4",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/363",
+      "answerRoute": "?question=MP-D10&sample=smp-fc84079d7c3d4ac9b7a5fa26e7e79fe4",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D11",
+      "sampleId": "smp-a854171acc264e119857e56bb3830408",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/364",
+      "answerRoute": "?question=MP-D11&sample=smp-a854171acc264e119857e56bb3830408",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D12",
+      "sampleId": "smp-ecadac32e6204f47b8f6b69c3340b965",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/365",
+      "answerRoute": "?question=MP-D12&sample=smp-ecadac32e6204f47b8f6b69c3340b965",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D13",
+      "sampleId": "smp-dad608dd7c9f431092a441363245254e",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/366",
+      "answerRoute": "?question=MP-D13&sample=smp-dad608dd7c9f431092a441363245254e",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D14",
+      "sampleId": "smp-d132eac32e6a4dafa447e0db658e4d17",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/367",
+      "answerRoute": "?question=MP-D14&sample=smp-d132eac32e6a4dafa447e0db658e4d17",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D15",
+      "sampleId": "smp-4f9aa7effe48481098be96d7d077726f",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/368",
+      "answerRoute": "?question=MP-D15&sample=smp-4f9aa7effe48481098be96d7d077726f",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D16",
+      "sampleId": "smp-a06380bcc632424aa220486d8ddd1f44",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/369",
+      "answerRoute": "?question=MP-D16&sample=smp-a06380bcc632424aa220486d8ddd1f44",
+      "citationCount": 44,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D17",
+      "sampleId": "smp-72fe523cb97346f9be9421cd6f4e9bd7",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/370",
+      "answerRoute": "?question=MP-D17&sample=smp-72fe523cb97346f9be9421cd6f4e9bd7",
+      "citationCount": 41,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D18",
+      "sampleId": "smp-facbf81a0f6d4501a27244b27d6a7bb2",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/371",
+      "answerRoute": "?question=MP-D18&sample=smp-facbf81a0f6d4501a27244b27d6a7bb2",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-D19",
+      "sampleId": "smp-e25175f8e113499abe75518079368d94",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/372",
+      "answerRoute": "?question=MP-D19&sample=smp-e25175f8e113499abe75518079368d94",
+      "citationCount": 21,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E01",
+      "sampleId": "smp-e6fe3b0ebfe74be6a0df34c026259ad6",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/373",
+      "answerRoute": "?question=MP-E01&sample=smp-e6fe3b0ebfe74be6a0df34c026259ad6",
+      "citationCount": 25,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E02",
+      "sampleId": "smp-c6f821bb287c46128f62cba99848e967",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/374",
+      "answerRoute": "?question=MP-E02&sample=smp-c6f821bb287c46128f62cba99848e967",
+      "citationCount": 42,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E03",
+      "sampleId": "smp-9120425589724107b4043df6eefc600d",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/375",
+      "answerRoute": "?question=MP-E03&sample=smp-9120425589724107b4043df6eefc600d",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E04",
+      "sampleId": "smp-1395723b3ccc44e98bdbe87043898cfa",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/376",
+      "answerRoute": "?question=MP-E04&sample=smp-1395723b3ccc44e98bdbe87043898cfa",
+      "citationCount": 42,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E05",
+      "sampleId": "smp-787331396b6d4fffaa316dac7e6901fb",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/377",
+      "answerRoute": "?question=MP-E05&sample=smp-787331396b6d4fffaa316dac7e6901fb",
+      "citationCount": 41,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E06",
+      "sampleId": "smp-9216c6338ab8491dad4aaa7286c3e981",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/378",
+      "answerRoute": "?question=MP-E06&sample=smp-9216c6338ab8491dad4aaa7286c3e981",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E07",
+      "sampleId": "smp-1be948f20db3400c9db2179cb3580671",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/379",
+      "answerRoute": "?question=MP-E07&sample=smp-1be948f20db3400c9db2179cb3580671",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E08",
+      "sampleId": "smp-a0a0eb7e01f0434e854c846eba95bc79",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/380",
+      "answerRoute": "?question=MP-E08&sample=smp-a0a0eb7e01f0434e854c846eba95bc79",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E09",
+      "sampleId": "smp-6242c21c73dc4ce98d916f4dff9ed092",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/381",
+      "answerRoute": "?question=MP-E09&sample=smp-6242c21c73dc4ce98d916f4dff9ed092",
+      "citationCount": 40,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E10",
+      "sampleId": "smp-4bd3641d88a54680b7c7ea958d706c39",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/382",
+      "answerRoute": "?question=MP-E10&sample=smp-4bd3641d88a54680b7c7ea958d706c39",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E11",
+      "sampleId": "smp-85181013bb3948a88e1a4869ca145646",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/383",
+      "answerRoute": "?question=MP-E11&sample=smp-85181013bb3948a88e1a4869ca145646",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-E12",
+      "sampleId": "smp-25232ce4042a48c3a200e165eeee8323",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/384",
+      "answerRoute": "?question=MP-E12&sample=smp-25232ce4042a48c3a200e165eeee8323",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F01",
+      "sampleId": "smp-709bdd51e1154466bea5acaac567605f",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/385",
+      "answerRoute": "?question=MP-F01&sample=smp-709bdd51e1154466bea5acaac567605f",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F02",
+      "sampleId": "smp-b76b3de7d2a6437d9db1058b54616519",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/386",
+      "answerRoute": "?question=MP-F02&sample=smp-b76b3de7d2a6437d9db1058b54616519",
+      "citationCount": 29,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-F03",
+      "sampleId": "smp-459036924a3948e5872b18281411c6ee",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/387",
+      "answerRoute": "?question=MP-F03&sample=smp-459036924a3948e5872b18281411c6ee",
+      "citationCount": 51,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G01",
+      "sampleId": "smp-c5450609a48d49e9a63cb9e125586ff7",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/388",
+      "answerRoute": "?question=MP-G01&sample=smp-c5450609a48d49e9a63cb9e125586ff7",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G02",
+      "sampleId": "smp-5c366308defb4259a955bc6700411b39",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/389",
+      "answerRoute": "?question=MP-G02&sample=smp-5c366308defb4259a955bc6700411b39",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G03",
+      "sampleId": "smp-71cc0c60fa194b238a9396ad23170578",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/390",
+      "answerRoute": "?question=MP-G03&sample=smp-71cc0c60fa194b238a9396ad23170578",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G04",
+      "sampleId": "smp-0f8b9ec40ab240818c2ee9b45503ca26",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/391",
+      "answerRoute": "?question=MP-G04&sample=smp-0f8b9ec40ab240818c2ee9b45503ca26",
+      "citationCount": 30,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G05",
+      "sampleId": "smp-bf32d256627d49a797eea9268fdca42d",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/392",
+      "answerRoute": "?question=MP-G05&sample=smp-bf32d256627d49a797eea9268fdca42d",
+      "citationCount": 28,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G06",
+      "sampleId": "smp-8c4161488a9840628cbfa38b8f5d1bc5",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/393",
+      "answerRoute": "?question=MP-G06&sample=smp-8c4161488a9840628cbfa38b8f5d1bc5",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G07",
+      "sampleId": "smp-b19aa5d7b9e749719202f03f661b4066",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/394",
+      "answerRoute": "?question=MP-G07&sample=smp-b19aa5d7b9e749719202f03f661b4066",
+      "citationCount": 27,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G08",
+      "sampleId": "smp-b0c0f2904d02438c85c469810a69d0cb",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/395",
+      "answerRoute": "?question=MP-G08&sample=smp-b0c0f2904d02438c85c469810a69d0cb",
+      "citationCount": 36,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G09",
+      "sampleId": "smp-c868b0008a334d16b0e46605b8a88530",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/396",
+      "answerRoute": "?question=MP-G09&sample=smp-c868b0008a334d16b0e46605b8a88530",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G10",
+      "sampleId": "smp-8de7e27f5a1d4701816e675b32600a74",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/397",
+      "answerRoute": "?question=MP-G10&sample=smp-8de7e27f5a1d4701816e675b32600a74",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G11",
+      "sampleId": "smp-6320b92b63fe4ee5b1e85552d93803ac",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/398",
+      "answerRoute": "?question=MP-G11&sample=smp-6320b92b63fe4ee5b1e85552d93803ac",
+      "citationCount": 31,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G12",
+      "sampleId": "smp-777c217d0da147a68ee8a8b4a2c4d701",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/399",
+      "answerRoute": "?question=MP-G12&sample=smp-777c217d0da147a68ee8a8b4a2c4d701",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G13",
+      "sampleId": "smp-a4e403579f6d4e3e8f7bea7bb60d2d0d",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/400",
+      "answerRoute": "?question=MP-G13&sample=smp-a4e403579f6d4e3e8f7bea7bb60d2d0d",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G14",
+      "sampleId": "smp-af4cadbed6da4b63813d0c09993500de",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/401",
+      "answerRoute": "?question=MP-G14&sample=smp-af4cadbed6da4b63813d0c09993500de",
+      "citationCount": 35,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G15",
+      "sampleId": "smp-a9cc7966592545d9bc490baa3f8bd21c",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/402",
+      "answerRoute": "?question=MP-G15&sample=smp-a9cc7966592545d9bc490baa3f8bd21c",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G16",
+      "sampleId": "smp-84a8d8de853446879c7245ac1dd1a63c",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/403",
+      "answerRoute": "?question=MP-G16&sample=smp-84a8d8de853446879c7245ac1dd1a63c",
+      "citationCount": 23,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-G17",
+      "sampleId": "smp-1ec32194bfe5431fafc0652143b1f36a",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/404",
+      "answerRoute": "?question=MP-G17&sample=smp-1ec32194bfe5431fafc0652143b1f36a",
+      "citationCount": 15,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H01",
+      "sampleId": "smp-5f7575dcddf84ed2937e0ff670678e85",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/405",
+      "answerRoute": "?question=MP-H01&sample=smp-5f7575dcddf84ed2937e0ff670678e85",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H02",
+      "sampleId": "smp-e38bfca93f1b4da48ab8334735cdfb0e",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/406",
+      "answerRoute": "?question=MP-H02&sample=smp-e38bfca93f1b4da48ab8334735cdfb0e",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H03",
+      "sampleId": "smp-ee6d02373d00424ab1366879981c9e71",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/407",
+      "answerRoute": "?question=MP-H03&sample=smp-ee6d02373d00424ab1366879981c9e71",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H04",
+      "sampleId": "smp-dce3edcfa87341d59a72241500912fe5",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/408",
+      "answerRoute": "?question=MP-H04&sample=smp-dce3edcfa87341d59a72241500912fe5",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H05",
+      "sampleId": "smp-f59aa62fd9604d33b127f420832ab7ea",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/409",
+      "answerRoute": "?question=MP-H05&sample=smp-f59aa62fd9604d33b127f420832ab7ea",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H06",
+      "sampleId": "smp-fb2338da25c4430baafcb9212808bf7c",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/410",
+      "answerRoute": "?question=MP-H06&sample=smp-fb2338da25c4430baafcb9212808bf7c",
+      "citationCount": 9,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H07",
+      "sampleId": "smp-ded69ae4b276482694a88fcbbef9bbc5",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/411",
+      "answerRoute": "?question=MP-H07&sample=smp-ded69ae4b276482694a88fcbbef9bbc5",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H08",
+      "sampleId": "smp-608b6229ac6f4eabb9b1ae9334470d11",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/412",
+      "answerRoute": "?question=MP-H08&sample=smp-608b6229ac6f4eabb9b1ae9334470d11",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H09",
+      "sampleId": "smp-b432c9db0554412ead55d537db560f24",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/413",
+      "answerRoute": "?question=MP-H09&sample=smp-b432c9db0554412ead55d537db560f24",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H10",
+      "sampleId": "smp-95c7876eb8a44e9b925160ededb9383f",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/414",
+      "answerRoute": "?question=MP-H10&sample=smp-95c7876eb8a44e9b925160ededb9383f",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H11",
+      "sampleId": "smp-03aa3c08559a44909e851b34f7e0a1f4",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/415",
+      "answerRoute": "?question=MP-H11&sample=smp-03aa3c08559a44909e851b34f7e0a1f4",
+      "citationCount": 24,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H12",
+      "sampleId": "smp-3f9196f4733b4dafb46eebcf22e434a8",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/416",
+      "answerRoute": "?question=MP-H12&sample=smp-3f9196f4733b4dafb46eebcf22e434a8",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H13",
+      "sampleId": "smp-f22a4b4020884fe08db23c1220f4397d",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/417",
+      "answerRoute": "?question=MP-H13&sample=smp-f22a4b4020884fe08db23c1220f4397d",
+      "citationCount": 11,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H14",
+      "sampleId": "smp-8c5ff38fff0e4a1a984612e03841be93",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/418",
+      "answerRoute": "?question=MP-H14&sample=smp-8c5ff38fff0e4a1a984612e03841be93",
+      "citationCount": 17,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H15",
+      "sampleId": "smp-95d8cf79e5ff45bfb570e0dee72d910e",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/419",
+      "answerRoute": "?question=MP-H15&sample=smp-95d8cf79e5ff45bfb570e0dee72d910e",
+      "citationCount": 12,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H16",
+      "sampleId": "smp-c2182e64515b4837b7078a8d20b698be",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/420",
+      "answerRoute": "?question=MP-H16&sample=smp-c2182e64515b4837b7078a8d20b698be",
+      "citationCount": 22,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H17",
+      "sampleId": "smp-a4004f8c76c14c66a3f0c351db5e5451",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/421",
+      "answerRoute": "?question=MP-H17&sample=smp-a4004f8c76c14c66a3f0c351db5e5451",
+      "citationCount": 33,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H18",
+      "sampleId": "smp-e801801cf6a54dbd8a05f2a601c72e23",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/422",
+      "answerRoute": "?question=MP-H18&sample=smp-e801801cf6a54dbd8a05f2a601c72e23",
+      "citationCount": 10,
+      "replacement": null
+    },
+    {
+      "questionId": "MP-H19",
+      "sampleId": "smp-3c30ce31f89e42f8afb437c6917ed19c",
+      "businessDate": "2026-10-15",
+      "repeat": 2,
+      "pointer": "/samples/423",
+      "answerRoute": "?question=MP-H19&sample=smp-3c30ce31f89e42f8afb437c6917ed19c",
+      "citationCount": 11,
+      "replacement": null
+    }
+  ]
+}

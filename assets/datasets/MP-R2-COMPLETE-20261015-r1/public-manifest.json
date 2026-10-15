@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "MP-R2-COMPLETE-20261015-r1",
+  "completeRound2": true,
+  "authorizationScope": "User requested optimization and deployment of complete second round to existing Maka dashboard on 2026-10-15.",
+  "files": [
+    {
+      "path": "round1/data.json",
+      "role": "full_answer_and_citation_evidence",
+      "bytes": 7950321,
+      "sha256": "137de098e4d311f1259ef689e9f62211f70a4cf0e4f0381f60218c1db00ef0d4"
+    },
+    {
+      "path": "round1/analysis.json",
+      "role": "comparable_descriptive_statistics",
+      "bytes": 1513387,
+      "sha256": "358feb18b79eed8bd2cf33df949533f1f378fcf0fa66b4b561e854fbd68d755a"
+    },
+    {
+      "path": "round1/evidence-index.json",
+      "role": "question_answer_citation_deep_link_index",
+      "bytes": 137798,
+      "sha256": "a665c24e97aff46c190a679eac92e0cad85a0725f1f4fc9ba03b156cabdaf2a0"
+    },
+    {
+      "path": "round2/data.json",
+      "role": "full_answer_and_citation_evidence",
+      "bytes": 8937207,
+      "sha256": "3031f6ff3b05fb6027bd5f9bf242b037ba7b128568dd517c9e5ea6d82ef81535"
+    },
+    {
+      "path": "round2/analysis.json",
+      "role": "comparable_descriptive_statistics",
+      "bytes": 1185938,
+      "sha256": "b542ba5bb765a9a55389557ef7d1873c79211459713f2039ebe3ec0642088935"
+    },
+    {
+      "path": "round2/evidence-index.json",
+      "role": "question_answer_citation_deep_link_index",
+      "bytes": 139202,
+      "sha256": "1590b8131885ef4417c43d89ee50b55b42b01ec42d599cfbe32dc0afcb7f99ac"
+    },
+    {
+      "path": "questions.json",
+      "role": "frozen_question_pool",
+      "bytes": 19471,
+      "sha256": "b75c8f3bd8fd9d1ac6746622d8d4b639df8b752b644104c9c7d0d533b646643a"
+    },
+    {
+      "path": "display-mapping.json",
+      "role": "reader_facing_labels",
+      "bytes": 519411,
+      "sha256": "48b18313004680c7c0a3af69d6c1e2b2cf49fbd0f331b6fde9cd1e0d15be846e"
+    },
+    {
+      "path": "round2/daily-analysis.json",
+      "role": "within_round_daily_comparison",
+      "bytes": 1800233,
+      "sha256": "052d7e7b457678f2803a94200a6ed7b942be860bd511d6a0817bd931c5133b1a"
+    },
+    {
+      "path": "round2/snapshot.json",
+      "role": "collection_scope_and_lineage",
+      "bytes": 1714,
+      "sha256": "5d2c0c342982c1180a889fcb3be4792e7f1e0b119b49320bd0d3a3cc391d7f95"
+    },
+    {
+      "path": "comparison.json",
+      "role": "paired_question_comparison",
+      "bytes": 27945,
+      "sha256": "be2582c6a71e044755d59f309e62516fe47b86bd418d0661245f01d2c1003ad6"
+    },
+    {
+      "path": "website-summary.json",
+      "role": "verified_homepage_findings",
+      "bytes": 1713,
+      "sha256": "497c6141a26f4a0e726f844a156af2f3a58ebf28009547ba8e9fdfc6b8cf660e"
+    },
+    {
+      "path": "玛卡星球两轮综合分析.md",
+      "role": "analysis_modules_02_03_07",
+      "bytes": 11257,
+      "sha256": "032de7d1d1ce81c779d6ae01edb56346dea1476c08e7483a3916ef9b1a0e433a"
+    },
+    {
+      "path": "evidence-catalog.json",
+      "role": "public_download_catalog",
+      "bytes": 3046,
+      "sha256": "b0c9a35b7c1a0eaa8189329e3d13086cdeccdbe09bdff2f43915d9c4f91fb336"
+    }
+  ],
+  "contentFingerprint": "84ccfcf4dbcb9c7adcdc020bdac0a18bbb4a0639e8798ca2aae6a91fc52c921d"
+}

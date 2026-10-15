@@ -1,0 +1,66 @@
+{
+  "datasetVersion": "MP-R2-D1-PUBLIC-PREP-20261014-r2",
+  "downloads": [
+    {
+      "path": "round1/data.json",
+      "role": "full_answer_and_citation_evidence",
+      "bytes": 7950404,
+      "sha256": "ba437bbf8024028d39fc2b2b6a32bef897b6ba188ec02089bf51a32c84870125"
+    },
+    {
+      "path": "round1/analysis.json",
+      "role": "descriptive_statistics_and_unknowns",
+      "bytes": 1366420,
+      "sha256": "3d346f4e7bd0f86adb3a45929da85bde5c7e0feaf8d011204bc588f7671b0398"
+    },
+    {
+      "path": "round1/evidence-index.json",
+      "role": "question_answer_citation_deep_link_index",
+      "bytes": 133140,
+      "sha256": "9f275722f0080ea0a91026e68192864fab7a3ba2cff40ef2c1d38ade0bd2daf0"
+    },
+    {
+      "path": "round2/d1/data.json",
+      "role": "full_answer_and_citation_evidence",
+      "bytes": 4372396,
+      "sha256": "aec8087be73bd7960a751407ebedd9d6c6a7eb56296dd446ee212cba87f71615"
+    },
+    {
+      "path": "round2/d1/analysis.json",
+      "role": "descriptive_statistics_and_unknowns",
+      "bytes": 665448,
+      "sha256": "13108ae600882584dd56fbfda8315372ceeb8ee5fcba9398b7c1f4cbe444d129"
+    },
+    {
+      "path": "round2/d1/evidence-index.json",
+      "role": "question_answer_citation_deep_link_index",
+      "bytes": 67554,
+      "sha256": "bc1a1d24ff9012f96e56df34ba38baffb9e5d059e00872f243e33d77b6c6feb9"
+    },
+    {
+      "path": "questions.json",
+      "role": "frozen_question_pool",
+      "bytes": 19530,
+      "sha256": "1a8e198ad7d49663f5278d2d26b5fbaec34d46b6ccdc60e3e892181c58860352"
+    },
+    {
+      "path": "round2/d1/snapshot.json",
+      "role": "public_d1_lineage_and_scope",
+      "bytes": 1432,
+      "sha256": "732fa1808024e20f1b191f869e40ea0ef799df9af2d101fe78e047e365407fb7"
+    }
+  ],
+  "existingPublicEntrypoints": [
+    "https://willyield.github.io/makaplanet-geo-dashboard/",
+    "https://willyield.github.io/makaplanet-geo-dashboard/sampling/",
+    "https://willyield.github.io/makaplanet-geo-dashboard/citation/"
+  ],
+  "requiredUi": [
+    "Preserve existing baseline views and baseline data/analysis downloads.",
+    "Expose D1 full-answer and citation downloads with the evidence index; support question/sample deep links.",
+    "Keep A-F, G and H separate; label D1 preliminary and pending semantic metrics honestly."
+  ],
+  "localOnly": [
+    "Raw supplier streams, requests, credentials, approvals, billing records and workflow logs are not public artifacts."
+  ]
+}

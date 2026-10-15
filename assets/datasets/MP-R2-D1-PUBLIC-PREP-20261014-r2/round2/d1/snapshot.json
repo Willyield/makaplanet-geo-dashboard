@@ -1,0 +1,31 @@
+{
+  "datasetVersion": "MP-R2-D1-PUBLIC-PREP-20261014-r2",
+  "businessDate": "2026-10-14",
+  "stage": "D1_FROZEN_PREPARATION",
+  "round2Complete": false,
+  "logicalCompleted": 212,
+  "d1Expected": 212,
+  "round2Expected": 424,
+  "originalAttempts": 212,
+  "replacementAttempts": 3,
+  "totalAttempts": 215,
+  "originalSuccesses": 209,
+  "replacementSuccesses": 3,
+  "retainedOriginalUncertainties": 3,
+  "inFlight": 0,
+  "nextDayStatus": "WAITING_FOR_USER_START_COMMAND",
+  "platform": "API/ai_search",
+  "model": "doubao-seed-2-1-pro-260915",
+  "sourcePackageSha256": "9c8e042111a8d8836c3102237efe6b09fa5592ae254c5757832f6d34453325fe",
+  "sourceFrozenAt": "2026-10-14T06:52:45.205417+00:00",
+  "thresholdStatus": "DATA_INSUFFICIENT_FOR_FOUR_OBSERVATIONS",
+  "renderedProductCards": "NOT_OBSERVABLE",
+  "limitations": [
+    "D1 only: 212 of 424 planned second-round slots; D2 has not started.",
+    "Two observations per question; four-observation thresholds remain DATA_INSUFFICIENT.",
+    "Round 1 is AIDSO FAST_WEB; round 2 D1 is API/ai_search. Differences do not establish GEO causation.",
+    "All three original uncertain attempts remain unchanged and are covered by three independent successful replacements.",
+    "No verified current semantic ranking, strict-advantage or factual-accuracy pipeline. Unknown values must not become zero.",
+    "Douyin account details and rendered product cards are not newly collected."
+  ]
+}

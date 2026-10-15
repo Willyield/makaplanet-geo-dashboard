@@ -1,0 +1,1079 @@
+{
+  "datasetVersion": "MP-R2-COMPLETE-20261015-r1",
+  "roundOrder": [
+    1,
+    2
+  ],
+  "comparisonMode": "DESCRIPTIVE_CROSS_PLATFORM",
+  "sameQuestions": 106,
+  "observationsPerQuestionInEachRound": 4,
+  "questionComparison": [
+    {
+      "questionId": "MP-A10",
+      "question": "抖音上有哪些AI毛绒玩具品牌比较火？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 4
+    },
+    {
+      "questionId": "MP-E02",
+      "question": "角色性格差异明显的AI玩具有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 4
+    },
+    {
+      "questionId": "MP-E03",
+      "question": "女性向AI陪伴潮玩有哪些品牌？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 4
+    },
+    {
+      "questionId": "MP-A06",
+      "question": "AI玩具品牌里哪些更偏成人情绪陪伴？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 3,
+      "october14": 2,
+      "october15": 1,
+      "deltaAnswers": 3
+    },
+    {
+      "questionId": "MP-D06",
+      "question": "有角色人格养成的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 3,
+      "october14": 2,
+      "october15": 1,
+      "deltaAnswers": 3
+    },
+    {
+      "questionId": "MP-D07",
+      "question": "有多角色可选择的AI潮玩有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 3,
+      "october14": 2,
+      "october15": 1,
+      "deltaAnswers": 3
+    },
+    {
+      "questionId": "MP-C05",
+      "question": "适合当电子闺蜜的AI玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 2,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 2
+    },
+    {
+      "questionId": "MP-D09",
+      "question": "有电子闺蜜感的AI陪伴玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 2,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 2
+    },
+    {
+      "questionId": "MP-B06",
+      "question": "类似Sowii小蘑菇秃秃的AI潮玩有哪些？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 1,
+      "october14": 0,
+      "october15": 1,
+      "deltaAnswers": 1
+    },
+    {
+      "questionId": "MP-C01",
+      "question": "适合年轻上班族的AI陪伴玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 1,
+      "october14": 0,
+      "october15": 1,
+      "deltaAnswers": 1
+    },
+    {
+      "questionId": "MP-C04",
+      "question": "适合心情不好时聊天的AI玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 1,
+      "secondRound": 2,
+      "october14": 2,
+      "october15": 0,
+      "deltaAnswers": 1
+    },
+    {
+      "questionId": "MP-C10",
+      "question": "想送礼但不想太儿童化，哪些AI玩具更合适？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 1,
+      "october14": 1,
+      "october15": 0,
+      "deltaAnswers": 1
+    },
+    {
+      "questionId": "MP-D17",
+      "question": "有语音唤醒的AI毛绒玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 1,
+      "secondRound": 2,
+      "october14": 1,
+      "october15": 1,
+      "deltaAnswers": 1
+    },
+    {
+      "questionId": "MP-E07",
+      "question": "AI机芯赋能传统玩偶的品牌有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 1,
+      "october14": 1,
+      "october15": 0,
+      "deltaAnswers": 1
+    },
+    {
+      "questionId": "MP-E08",
+      "question": "可穿戴或包挂式AI潮玩有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 1,
+      "october14": 0,
+      "october15": 1,
+      "deltaAnswers": 1
+    },
+    {
+      "questionId": "MP-A01",
+      "question": "2026年值得关注的AI毛绒玩具品牌有哪些？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A02",
+      "question": "国内AI陪伴玩具新锐品牌有哪些？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A03",
+      "question": "AI情感陪伴潮玩里有哪些代表产品？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A04",
+      "question": "国内AI电子宠物有哪些热门产品？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A05",
+      "question": "AI玩偶创业品牌有哪些值得关注？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A07",
+      "question": "AI玩具品牌里哪些更偏儿童亲子陪伴？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A08",
+      "question": "AI玩具品牌里哪些更偏IP潮玩收藏？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A09",
+      "question": "AI陪伴产品里哪些是毛绒形态？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A11",
+      "question": "小红书上有哪些AI陪伴玩具被种草比较多？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A12",
+      "question": "有原创IP世界观的AI潮玩品牌有哪些？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-A13",
+      "question": "有授权IP合作的AI玩具品牌有哪些？",
+      "groupId": "A",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-B01",
+      "question": "类似芙崽的AI毛绒玩具有哪些？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-B02",
+      "question": "类似Walulu的AI仿生宠物有哪些？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-B03",
+      "question": "类似可豆陪陪的儿童AI毛绒玩具有哪些？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-B04",
+      "question": "类似Haivivi BubblePal和CocoMate的AI玩具有哪些？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-B05",
+      "question": "类似萌UU的掌心AI陪伴机器人有哪些？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-B07",
+      "question": "类似雷鸟Amby的随身AI陪伴挂件有哪些？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-B08",
+      "question": "国产AI潮玩和海外AI宠物各有哪些代表？",
+      "groupId": "B",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C02",
+      "question": "适合大学生宿舍的AI陪伴玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C03",
+      "question": "适合睡前陪伴的AI玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C06",
+      "question": "适合孩子睡前陪伴的AI玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C07",
+      "question": "适合亲子共玩的AI陪伴玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C08",
+      "question": "适合不想让孩子刷屏幕的AI玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C09",
+      "question": "适合家庭陪伴的AI机器人或AI玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C11",
+      "question": "想要低价尝鲜AI潮玩，有哪些选择？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C12",
+      "question": "想要长期养成感，哪些AI玩具更合适？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C14",
+      "question": "想要有陪聊又有实体陪伴的产品有哪些？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C15",
+      "question": "想给孩子买非屏幕陪伴设备，有哪些AI玩具？",
+      "groupId": "C",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D01",
+      "question": "有长期记忆的AI毛绒玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D02",
+      "question": "会主动关心用户的AI陪伴玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D03",
+      "question": "支持语音打断的AI陪伴产品有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D04",
+      "question": "能连续自然对话的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D08",
+      "question": "有电子宠物养成感的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D10",
+      "question": "能记录心情或生活日记的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 2,
+      "secondRound": 2,
+      "october14": 2,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D11",
+      "question": "能拍照记录生活的AI陪伴产品有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D13",
+      "question": "有NFC卡牌或NFC互动玩法的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D14",
+      "question": "支持换装或配件玩法的AI毛绒玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D15",
+      "question": "有触摸反馈或震动反馈的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D16",
+      "question": "有表情屏幕的AI陪伴玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D18",
+      "question": "能出门使用的AI陪伴玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-D19",
+      "question": "支持4G或移动联网的AI陪伴产品有哪些？",
+      "groupId": "D",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E01",
+      "question": "奥特曼、奶龙这类授权IP的AI玩具有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E04",
+      "question": "二次元风格AI陪伴硬件有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E05",
+      "question": "盲盒玩法和AI结合的潮玩有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E06",
+      "question": "毛绒公仔和AI硬件结合的产品有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E09",
+      "question": "猫咪形态的AI陪伴玩具有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E10",
+      "question": "兔子形态的AI毛绒玩具有哪些？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E11",
+      "question": "桌面宠物机器人有哪些值得关注？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-E12",
+      "question": "AI玩具里哪些产品更有生命感？",
+      "groupId": "E",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-F01",
+      "question": "500元以内值得关注的AI陪伴玩具有哪些？",
+      "groupId": "F",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-F02",
+      "question": "1000元以内更有陪伴感的AI玩具有哪些？",
+      "groupId": "F",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-F03",
+      "question": "千元以上高端AI陪伴机器人有哪些代表？",
+      "groupId": "F",
+      "firstRound": 0,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G01",
+      "question": "玛卡星球和芙崽 AI 毛绒玩具哪个性价比更高？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G02",
+      "question": "玛卡星球和 Haivivi BubblePal 哪个故事资源更多？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G03",
+      "question": "玛卡星球与萌 UU 哪个更适合低龄宝宝使用？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G04",
+      "question": "玛卡星球和芙崽 AI 毛绒玩具的硬件做工差距大吗？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G05",
+      "question": "Walulu 和玛卡星球该怎么选？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G06",
+      "question": "Haivivi BubblePal 跟玛卡星球哪个续航表现更好？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G07",
+      "question": "玛卡星球对比芙崽 AI 毛绒玩具，适合多大年龄段？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G08",
+      "question": "Walulu 与玛卡星球，孩子更喜欢哪一款？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G09",
+      "question": "玛卡星球和可豆陪伴哪个自定义互动功能更强？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G10",
+      "question": "Walulu、玛卡星球二选一怎么决策？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G11",
+      "question": "玛卡星球与可豆陪伴哪个更看重隐私安全？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G12",
+      "question": "玛卡星球和芙崽哪个更适合儿童教育？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G13",
+      "question": "玛卡星球和 Walulu 选哪个更适合做儿童睡前陪伴？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G14",
+      "question": "玛卡星球和芙崽 AI 毛绒玩具售后方面有什么区别？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G15",
+      "question": "Haivivi BubblePal 对比玛卡星球，可玩性谁更强？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G16",
+      "question": "萌 UU 和玛卡星球，哪款更适合作为生日礼物？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-G17",
+      "question": "玛卡星球和芙崽 AI 毛绒玩具哪个ip更萌？",
+      "groupId": "G",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H01",
+      "question": "玛卡星球是什么品牌，它的产品定位是什么？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H02",
+      "question": "玛卡星球的 IP 角色叫什么名字？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H03",
+      "question": "玛卡星球一共有多少款玛卡精灵，分别叫什么？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H04",
+      "question": "玛卡星球支持语音唤醒吗，有几种唤醒方式？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H05",
+      "question": "玛卡星球真的拥有长期记忆功能吗，可以记住哪些内容？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H06",
+      "question": "玛卡星球的四个精灵分别是什么星座，各自性格特点是什么？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H07",
+      "question": "玛卡星球可以更换衣服吗，支持崽衣 DIY 吗？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H08",
+      "question": "玛卡星球有哪些传感器，硬件都包含什么配置？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H09",
+      "question": "玛卡星球的童话模式和青年模式有什么区别？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H10",
+      "question": "玛卡星球的 AI 可以 OTA 升级吗，升级会带来哪些变化？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H11",
+      "question": "玛卡星球可以拍照生成日记吗，这个功能怎么使用？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H12",
+      "question": "玛卡星球的 “电子闺蜜” 是什么意思？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H13",
+      "question": "玛卡星球的世界观背景故事是什么？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H14",
+      "question": "玛卡星球摇晃、拍打玩偶会有互动反馈吗？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H15",
+      "question": "玛卡星球对话需要会员订阅吗，对话是无限免费的吗？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H16",
+      "question": "玛卡星球的毫米波雷达传感器有什么作用？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H17",
+      "question": "玛卡星球适合什么人群使用，适合送给什么人当礼物？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H18",
+      "question": "玛卡精灵会主动发起关心和聊天吗？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-H19",
+      "question": "玛卡星球 App 都具备哪些管理与记录功能？",
+      "groupId": "H",
+      "firstRound": 4,
+      "secondRound": 4,
+      "october14": 2,
+      "october15": 2,
+      "deltaAnswers": 0
+    },
+    {
+      "questionId": "MP-C13",
+      "question": "想要可爱但不幼稚的AI毛绒玩具有哪些？",
+      "groupId": "C",
+      "firstRound": 1,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": -1
+    },
+    {
+      "questionId": "MP-D05",
+      "question": "能根据相处变得更懂用户的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 1,
+      "secondRound": 0,
+      "october14": 0,
+      "october15": 0,
+      "deltaAnswers": -1
+    },
+    {
+      "questionId": "MP-D12",
+      "question": "有App联动和成长记录的AI玩具有哪些？",
+      "groupId": "D",
+      "firstRound": 2,
+      "secondRound": 1,
+      "october14": 1,
+      "october15": 0,
+      "deltaAnswers": -1
+    }
+  ],
+  "limitations": [
+    "两轮同106题、每题4份有效回答；第一轮爱搜FAST_WEB，第二轮自建API/ai_search，差异仅作描述性比较，不能认定为GEO优化效果。",
+    "第二轮427次尝试得到424份有效回答；3条原未决保留，由3条已批准成功补采覆盖。",
+    "第二轮423/424份回答含有效引用网址；无网址来源卡不计为有效引用、无效网址或商品卡。",
+    "正文提及只按冻结别名字面匹配；首推、前三、平均排名、严格优势及事实准确性尚未验证，保持未知。",
+    "API不可观测商品卡呈现；未新增抖音登录、详情或账号身份核验。非玛卡域名包含归属未核实的竞品官网，不能全称第三方。"
+  ]
+}
