@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "MP-COMPETITOR-METRICS-20261015-r1",
+  "rawDatasetVersion": "MP-R2-COMPLETE-20261015-r1",
+  "analysisVersion": "MAKA-COMPETITOR-MULTIMETRIC-V1",
+  "files": [
+    {
+      "path": "competitor-metrics.json",
+      "bytes": 295368,
+      "sha256": "30fc6691b71cadf10a4781a7f246e3b786b5bae68195b235ab70c8a262d8052e"
+    },
+    {
+      "path": "competitor-metric-evidence.json",
+      "bytes": 909239,
+      "sha256": "31f8c10d300195664eec64f5da277274ba17278bf0ddab0b36453a01305bed4e"
+    },
+    {
+      "path": "玛卡星球两轮综合分析-竞品多指标版.md",
+      "bytes": 43125,
+      "sha256": "09f6e09f9f8852693d217d27cdcfc966f4a79178fe682048c83df786514254de"
+    },
+    {
+      "path": "九品牌两轮指标对比.csv",
+      "bytes": 6718,
+      "sha256": "b338a77599fcbf1cd6007761672b8046ade82a8bc7f1f7b6bf10c3a762a6bd35"
+    }
+  ]
+}
