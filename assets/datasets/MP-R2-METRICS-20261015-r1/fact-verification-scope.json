@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "verificationDate": "2026-10-15",
+  "timing": "POST_COLLECTION_PUBLIC_SITE_OBSERVATION",
+  "officialUrl": "https://www.makaplanet.com/",
+  "verifiedFacts": [{ "topic": "homepage_character_labels", "values": ["GeeTo", "BOBY", "JUKA", "PIPI"], "evidenceType": "rendered_homepage_labels_and_visual" }],
+  "notVerified": ["full_answer_factual_accuracy", "all_feature_claims", "prices", "subscriptions", "hardware_specifications", "historical_time_consistency", "Chinese_role_aliases_and_personality_claims"],
+  "fullAccuracyRate": null,
+  "limitation": "The current role list is not a comprehensive fact standard and does not establish historical answer accuracy. Earlier HTML shell captures are not rendered factual evidence."
+}

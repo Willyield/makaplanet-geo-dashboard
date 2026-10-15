@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "MP-R2-METRICS-20261015-r1",
+  "analysisVersion": "MAKA-EXPLICIT-LIST-AND-ADVANTAGE-V1",
+  "files": [
+    {
+      "path": "round1-semantic-evidence.json",
+      "bytes": 246998,
+      "sha256": "6ced72ccd2589ec053b561ea24b03a5bba06b31cb5f438412a4435582d51d590"
+    },
+    {
+      "path": "round2-semantic-evidence.json",
+      "bytes": 256328,
+      "sha256": "e52ceb1c8e818c48eb0e7da992f464dbbaa73c36b78c9637ff595b2c9e8d1486"
+    },
+    {
+      "path": "指标补充分析.md",
+      "bytes": 4696,
+      "sha256": "c6ec8ab7be21fe25d9b6c40ce09d04b009b60163383971b0f0a9c65c9bf6f892"
+    },
+    {
+      "path": "fact-verification-scope.json",
+      "bytes": 752,
+      "sha256": "430d6a71a4fd1cfebd58b0881cb4bed99237e1c8e2aed1cfa71c95d54dbb0aa8"
+    }
+  ]
+}
