@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "MP-BRAND-EVIDENCE-20261016-r1",
+  "analysisVersion": "MAKA-BRAND-EXPLANATION-PRODUCT-V3-20261016",
+  "sourceDatasetVersion": "MP-R2-COMPLETE-20261015-r1",
+  "files": [
+    {
+      "path": "brand-evidence.json",
+      "bytes": 343289,
+      "sha256": "56e9a18e09daee659a0482c456b372cc06bc8433a3ac8d70f4f56ea520cdd199"
+    },
+    {
+      "path": "brand-metrics.json",
+      "bytes": 49064,
+      "sha256": "869c49e4c31872e973c2224e2aa46183798243a58df515d7aebab1fcd46eae87"
+    },
+    {
+      "path": "brand-rubric.json",
+      "bytes": 15279,
+      "sha256": "3755eae7456f2ce9f6eefa8b498a932201665d6f470bb915b84b1a62f64d48e8"
+    },
+    {
+      "path": "品牌指标两轮对比.csv",
+      "bytes": 629,
+      "sha256": "35ac86a04455200aeb8a5e99e0a29271f2770c1f314d5e0c10d04860efa56a27"
+    },
+    {
+      "path": "品牌解释与资料核验报告.md",
+      "bytes": 8894,
+      "sha256": "5d86086750acd29bc44f42089a2fa63d4e7824b3d20a76951ac252ad688fbdc5"
+    },
+    {
+      "path": "品牌认知逐题明细.csv",
+      "bytes": 4431,
+      "sha256": "69a3994a55ed1775115bf6414550f4d1a34a67ad810373570185fb797cd35621"
+    },
+    {
+      "path": "玛卡星球GEO采样综合分析报告-资料核验V8.md",
+      "bytes": 24211,
+      "sha256": "c29db7c3cbcdaa1212768cff0c23e5ee2c5a1ce0a5cf83f6a22309acb33c5f15"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "assets/datasets/MP-COMPETITOR-METRICS-20261015-r1/competitor-metrics.json",
+      "sha256": "30fc6691b71cadf10a4781a7f246e3b786b5bae68195b235ab70c8a262d8052e"
+    },
+    {
+      "path": "assets/datasets/MP-COMPETITOR-METRICS-20261015-r1/competitor-metric-evidence.json",
+      "sha256": "31f8c10d300195664eec64f5da277274ba17278bf0ddab0b36453a01305bed4e"
+    },
+    {
+      "path": "assets/datasets/MP-R2-COMPLETE-20261015-r1/round1/analysis.json",
+      "bytes": 1513387,
+      "sha256": "358feb18b79eed8bd2cf33df949533f1f378fcf0fa66b4b561e854fbd68d755a"
+    },
+    {
+      "path": "assets/datasets/MP-R2-COMPLETE-20261015-r1/round1/data.json",
+      "bytes": 7950321,
+      "sha256": "137de098e4d311f1259ef689e9f62211f70a4cf0e4f0381f60218c1db00ef0d4"
+    },
+    {
+      "path": "assets/datasets/MP-R2-COMPLETE-20261015-r1/round2/analysis.json",
+      "bytes": 1185938,
+      "sha256": "b542ba5bb765a9a55389557ef7d1873c79211459713f2039ebe3ec0642088935"
+    },
+    {
+      "path": "assets/datasets/MP-R2-COMPLETE-20261015-r1/round2/daily-analysis.json",
+      "bytes": 1800233,
+      "sha256": "052d7e7b457678f2803a94200a6ed7b942be860bd511d6a0817bd931c5133b1a"
+    },
+    {
+      "path": "assets/datasets/MP-R2-COMPLETE-20261015-r1/round2/data.json",
+      "bytes": 8937207,
+      "sha256": "3031f6ff3b05fb6027bd5f9bf242b037ba7b128568dd517c9e5ea6d82ef81535"
+    }
+  ],
+  "publicationScope": "Only derived metric definitions, short public product-fact quotes, per-answer evidence, CSV and reports. Workbook, PDF, local source paths, authorization and billing are not public files.",
+  "revision": 2,
+  "correction": "Gyroscope coverage excludes acceleration-only or generic motion use; original answers unchanged."
+}

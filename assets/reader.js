@@ -196,7 +196,7 @@ async function homePage(){
     const div=document.createElement('div'),heading=document.createElement('h2');heading.textContent='核验结论';div.append(heading);
     const list=document.createElement('ul');for(const finding of summary.findings){const item=document.createElement('li');item.textContent=finding;list.append(item);}div.append(list);
     const note=document.createElement('p');note.textContent='以上结论为两轮总数据；分组指标见对应仪表盘。';div.append(note);
-    const links=document.createElement('div');links.className='compare-actions';for(const [file,name] of [[summary.report,'综合分析报告'],['comparison.json','同题对比证据'],['evidence-catalog.json','数据与证据目录']]){const a=document.createElement('a');a.className='button';a.href=new URL(file,dataset);a.textContent=name;a.setAttribute('download','');links.append(a);}section.append(div,links);document.querySelector('.compare-entry').after(section);
+    const links=document.createElement('div');links.className='compare-actions';for(const [file,name] of [[new URL('assets/datasets/MP-BRAND-EVIDENCE-20261016-r1/玛卡星球GEO采样综合分析报告-资料核验V8.md',root).href,'新版综合分析报告'],[summary.report,'历史综合分析报告'],['comparison.json','同题对比证据'],['evidence-catalog.json','数据与证据目录']]){const a=document.createElement('a');a.className='button';a.href=new URL(file,dataset);a.textContent=name;a.setAttribute('download','');links.append(a);}section.append(div,links);document.querySelector('.compare-entry').after(section);
     window.__MAKAPLANET_DASHBOARD_READY__=true;
   }catch{const p=document.createElement('p');p.role='alert';p.textContent='数据分类与结论暂时未能加载，请刷新页面。';document.querySelector('main').prepend(p);}
 }

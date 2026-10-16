@@ -96,7 +96,7 @@ function scopeHeader(){
 const questionName=id=>questions.find(q=>q.questionId===id)?.questionText||'未找到对应问题';
 function setupTablePagination({prev,next,pageLabel,render}){for(const [id,delta]of[[prev,-1],[next,1]])$(id)?.addEventListener('click',()=>{page+=delta;render();});return(total,size)=>{const pages=Math.max(1,Math.ceil(total/size));page=Math.max(1,Math.min(page,pages));text(pageLabel,`第 ${page} / ${pages} 页`);$(prev).disabled=page===1;$(next).disabled=page===pages;return[(page-1)*size,page*size];};}
 function downloads(){
-  const entries=[['questions.json','完整问题题池'],[roundPath(round)+'data.json',label(round)+'原回答与全部引用源'],[roundPath(round)+'analysis.json',label(round)+'同口径分析'],[roundPath(round)+'evidence-index.json',label(round)+'证据索引'],...(!historical?[['玛卡星球两轮综合分析.md','两轮综合分析报告'],['comparison.json','同题两轮对比'],['round2/daily-analysis.json','第二轮两日期分析'],['website-summary.json','核验结论与口径说明']]:[])];
+  const entries=[['questions.json','完整问题题池'],[roundPath(round)+'data.json',label(round)+'原回答与全部引用源'],[roundPath(round)+'analysis.json',label(round)+'同口径分析'],[roundPath(round)+'evidence-index.json',label(round)+'证据索引'],...(!historical?[[new URL('assets/datasets/MP-BRAND-EVIDENCE-20261016-r1/玛卡星球GEO采样综合分析报告-资料核验V8.md',root).href,'新版综合分析报告'],['玛卡星球两轮综合分析.md','历史综合分析报告'],['comparison.json','同题两轮对比'],['round2/daily-analysis.json','第二轮两日期分析'],['website-summary.json','核验结论与口径说明']]:[])];
   const history=[['sampling/data.json','第一轮历史数据原文件'],['sampling/analysis.json','第一轮历史分析原文件'],['citation/data.json','第一轮历史引用原文件'],['citation/analysis.json','第一轮历史引用分析'],['citation/dashboard-summary.json','第一轮历史引用汇总'],['citation/douyin-analysis.json','第一轮历史抖音分析'],['citation/douyin-enrichment.json','第一轮历史抖音证据']];
   add('download-list',(group==='all'?'':`<button type="button" class="download-item" id="group-export">下载${esc(groupLabel(group))}数据与完整引用源</button>`)+entries.map(([file,name])=>`<a class="download-item" href="${new URL(file,dataset)}" download><span>${esc(name)}${group==='all'?'':'（全轮次）'}</span></a>`).join('')+history.map(([file,name])=>`<a class="download-item" href="${new URL(file,root)}" download>${esc(name)}${group==='all'?'':'（全轮次）'}</a>`).join(''));
   $('group-export')?.addEventListener('click',async()=>{
@@ -126,13 +126,13 @@ function semanticComparison(a,b){
   return pairs.map(([name,x,y])=>row([name,rateText(x),rateText(y),x.denominator&&y.denominator?delta(x,y):'不计算',name.includes('列表')?'仅通用品类问题；列示顺序不等于明确偏好':'显式主语及优势词命中，每份回答至多一次'])).join('')
     +row(['平均列示位置',avg(left),avg(right),'不作因果解释',left.ranking.eligibleAnswers?'仅已入列回答，分别'+left.ranking.averageRank.denominator+' / '+right.ranking.averageRank.denominator+'份':'品牌对比、品牌认知不计算推荐排名'])
     +row(['有效首推率','不适用','不适用','不计算','未登记可排除官方工具'])
-    +row(['品牌事实正确性','核验标准不完整','核验标准不完整','不计算','不发布整体准确率；角色名单不能代表所有事实'])
+    +row(['整答事实核验覆盖（H组）','0/76份','0/76份','0份','非准确率；品牌解释及资料核心要点见下方资料核验'])
     +row(['商品卡曝光','无法观测','无法观测','不计算','原采样记录没有渲染商品卡证据']);
 }
 function renderSemantic(m){
   const r=m.ranking;
   text('feiguaMetricsTitle','列表位置、优势表达与事实边界');
-  const originalNote=$('actionList')?.querySelector('p');if(originalNote)originalNote.textContent='列表位置与严格优势词规已按两轮同版补充核验；完整品牌事实准确率仍缺充分标准。社媒账号归属、作品全集与引用率尚未核验。';
+  const originalNote=$('actionList')?.querySelector('p');if(originalNote)originalNote.textContent='列表位置与严格优势词规已按两轮同版补充核验；品牌解释及V3核心要点已另列，整答事实准确率仍不可计算。社媒账号归属、作品全集与引用率尚未核验。';
   const brandNote=$('brandTable')?.closest('section')?.querySelector('.section-note');if(brandNote)brandNote.textContent='品牌提及按正文字面别名统计；列表位置及表达命中单列，不混作同一指标。';
   const mini=(name,value,detail)=>`<article class="exec-card info metric-evidence-card"><div class="exec-title">${esc(name)}</div><div class="exec-main">${esc(value)}</div><div class="exec-sub">${esc(detail)}</div></article>`;
   add('feiguaGrid',[
@@ -141,7 +141,7 @@ function renderSemantic(m){
     mini('平均列示位置',r.averageRank.value==null?(r.eligibleAnswers?'未入列':'不适用'):String(r.averageRank.value.toFixed(2)),r.averageRank.denominator+'份入列回答；未提及不填末位'),
     mini('严格优势词规命中率',pct(m.strictAdvantage),fraction(m.strictAdvantage)+'份回答；每份至多一次')
   ].join(''));
-  const notes=document.createElement('div');notes.className='metric-status-notes';notes.innerHTML=`<p>列表顺序不等于明确购买偏好。排名核验 ${r.assessedAnswers} / ${r.eligibleAnswers} 份适用回答${r.unknownAnswers?'；仍有'+r.unknownAnswers+'份待核验':''}。</p><p><strong>有效首推率：</strong>不适用，当前题池未登记需排除的官方工具。<strong>商品卡曝光：</strong>原采样记录无法观测。</p><p><strong>品牌事实正确性：</strong>核验标准不完整，暂不发布整体准确率。官网可确认 GeeTo、BOBY、JUKA、PIPI 四个角色，但功能、费用与参数等主张仍缺完整时点依据。</p>`;
+  const notes=document.createElement('div');notes.className='metric-status-notes';notes.innerHTML=`<p>列表顺序不等于明确购买偏好。排名核验 ${r.assessedAnswers} / ${r.eligibleAnswers} 份适用回答${r.unknownAnswers?'；仍有'+r.unknownAnswers+'份待核验':''}。</p><p><strong>有效首推率：</strong>不适用，当前题池未登记需排除的官方工具。<strong>商品卡曝光：</strong>原采样记录无法观测。</p><p><strong>品牌资料核验：</strong>按产品V3核验的品牌解释、核心要点及冲突见下方“品牌解释与资料核验”。整答完整事实核验覆盖为每轮0/76份，不等于零准确率。</p>`;
   $('feiguaGrid').after(notes);
   const section=document.createElement('details');section.className='semantic-evidence';section.id='semantic-evidence';
   section.innerHTML=`<summary>指标口径与逐条证据</summary><p>${esc(r.limitation)}</p><p>${esc(m.strictAdvantage.limitation)}</p><p>本页为两轮统一重算的补充口径，历史分析与原回答保留。<a href="${new URL('assets/datasets/MP-R2-METRICS-20261015-r1/指标补充分析.md',root)}">查看补充分析</a> · <a href="${new URL('assets/datasets/MP-R2-METRICS-20261015-r1/round'+round+'-semantic-evidence.json',root)}" download>下载本轮逐条指标证据</a></p><div class="semantic-toolbar"><label>指标 <select id="semantic-filter"><option value="ranked">全部入列回答</option><option value="first">列表首位</option><option value="top3">列表前三</option><option value="advantage">严格优势表达</option></select></label><span id="semantic-count"></span><button id="semantic-prev" type="button" aria-label="上一页" title="上一页">&larr;</button><span id="semantic-page"></span><button id="semantic-next" type="button" aria-label="下一页" title="下一页">&rarr;</button></div><div class="table-wrap"><table><thead><tr><th>问题 / 采集日期</th><th>判定</th><th>回答原文依据</th><th>原回答与引用</th></tr></thead><tbody id="semantic-rows"></tbody></table></div>`;
@@ -246,7 +246,7 @@ async function homePage(){
     const div=document.createElement('div'),heading=document.createElement('h2');heading.textContent='核验结论';div.append(heading);
     const list=document.createElement('ul');for(const finding of summary.findings){const item=document.createElement('li');item.textContent=finding;list.append(item);}div.append(list);
     const note=document.createElement('p');note.textContent='以上结论为两轮总数据；分组指标见对应仪表盘。';div.append(note);
-    const links=document.createElement('div');links.className='compare-actions';for(const [file,name] of [[summary.report,'综合分析报告'],['comparison.json','同题对比证据'],['evidence-catalog.json','数据与证据目录']]){const a=document.createElement('a');a.className='button';a.href=new URL(file,dataset);a.textContent=name;a.setAttribute('download','');links.append(a);}section.append(div,links);document.querySelector('.compare-entry').after(section);
+    const links=document.createElement('div');links.className='compare-actions';for(const [file,name] of [[new URL('assets/datasets/MP-BRAND-EVIDENCE-20261016-r1/玛卡星球GEO采样综合分析报告-资料核验V8.md',root).href,'新版综合分析报告'],[summary.report,'历史综合分析报告'],['comparison.json','同题对比证据'],['evidence-catalog.json','数据与证据目录']]){const a=document.createElement('a');a.className='button';a.href=new URL(file,dataset);a.textContent=name;a.setAttribute('download','');links.append(a);}section.append(div,links);document.querySelector('.compare-entry').after(section);
     window.__MAKAPLANET_DASHBOARD_READY__=true;
   }catch{const p=document.createElement('p');p.role='alert';p.textContent='数据分类与结论暂时未能加载，请刷新页面。';document.querySelector('main').prepend(p);}
 }

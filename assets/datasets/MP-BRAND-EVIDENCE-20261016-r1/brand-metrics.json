@@ -1,0 +1,1700 @@
+{
+  "schemaVersion": 1,
+  "analysisVersion": "MAKA-BRAND-EXPLANATION-PRODUCT-V3-20261016",
+  "rawDatasetVersion": "MP-R2-COMPLETE-20261015-r1",
+  "referenceStandard": {
+    "name": "用户产品资料表及本地品牌介绍V3",
+    "evaluatedAt": "2026-10-16",
+    "productWorkbookSha256": "40554f44a49019f19bf06fe20948bffe51dd7a0f709c9f308afa1b03104dfa74",
+    "brandPdfSha256": "198db7d0157ad07bee68bbd77fddcc94cc1687c062967fd2d5e87887b5c0b315",
+    "provenance": "产品表登记V3名称；使用第一轮迁移包中同名、已登记指纹PDF。未访问云表链接，未声称远程字节已核对。作为事后统一评判参考，非采样日期完整事实快照。"
+  },
+  "definitions": [
+    {
+      "key": "explanation",
+      "name": "品牌解释率（认知题）",
+      "formula": "实质回应品牌认知问题的回答数/76",
+      "meaning": "是否有解释，不衡量该解释是否完整或准确；纯问题复述、只表示无法确认不算。"
+    },
+    {
+      "key": "keyPointCoverage",
+      "name": "资料核心要点覆盖率",
+      "formula": "得到肯定支持的题目适用资料要点数/全部适用资料要点数",
+      "meaning": "按题目登记核心要点，否定、只提问和其他角色的同词不算支持；要点机会按回答逐次计数。"
+    },
+    {
+      "key": "complete",
+      "name": "资料核心要点完整率",
+      "formula": "全部适用核心要点覆盖且无登记冲突的回答数/76",
+      "meaning": "仅限登记标准；不是整答事实准确率，不证明资料外内容真实。"
+    },
+    {
+      "key": "conflict",
+      "name": "登记资料冲突回答占比",
+      "formula": "至少1项已登记明确冲突的回答数/76",
+      "meaning": "本版登记两款已知星座及四角色名单冲突；不是穷尽式整答错误率。"
+    },
+    {
+      "key": "omittedAnswers",
+      "name": "核心要点遗漏回答占比",
+      "formula": "至少遗漏1项适用核心要点的回答数/76",
+      "meaning": "未覆盖不等于否定事实，且可与冲突重叠。"
+    },
+    {
+      "key": "extensionScreen",
+      "name": "七类资料外主题触及率",
+      "formula": "触及至少1个登记资料外主题的回答数/76",
+      "meaning": "限定词规筛查：记忆架构、操作界面、联网芯片、具体年龄安全、商业承诺、未来社交、未登记星座/MBTI；不是事实错误率，也不覆盖所有资料外主张。"
+    }
+  ],
+  "sourceHashes": [
+    "137de098e4d311f1259ef689e9f62211f70a4cf0e4f0381f60218c1db00ef0d4",
+    "3031f6ff3b05fb6027bd5f9bf242b037ba7b128568dd517c9e5ea6d82ef81535"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "totals": {
+        "validAnswers": 76,
+        "explanation": {
+          "numerator": 76,
+          "denominator": 76,
+          "percentage": 100
+        },
+        "keyPointCoverage": {
+          "numerator": 241,
+          "denominator": 244,
+          "percentage": 98.77
+        },
+        "complete": {
+          "numerator": 70,
+          "denominator": 76,
+          "percentage": 92.11
+        },
+        "conflict": {
+          "numerator": 4,
+          "denominator": 76,
+          "percentage": 5.26
+        },
+        "omittedAnswers": {
+          "numerator": 2,
+          "denominator": 76,
+          "percentage": 2.63
+        },
+        "omittedKeyPoints": 3,
+        "conflictItems": 4,
+        "extensionScreen": {
+          "numerator": 57,
+          "denominator": 76,
+          "percentage": 75
+        }
+      },
+      "questions": [
+        {
+          "questionId": "MP-H01",
+          "questionText": "玛卡星球是什么品牌，它的产品定位是什么？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 2,
+            "denominator": 4,
+            "percentage": 50
+          }
+        },
+        {
+          "questionId": "MP-H02",
+          "questionText": "玛卡星球的 IP 角色叫什么名字？",
+          "requiredKeyPoints": 4,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 16,
+            "denominator": 16,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 3,
+            "denominator": 4,
+            "percentage": 75
+          },
+          "conflict": {
+            "numerator": 1,
+            "denominator": 4,
+            "percentage": 25
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 1,
+          "extensionScreen": {
+            "numerator": 2,
+            "denominator": 4,
+            "percentage": 50
+          }
+        },
+        {
+          "questionId": "MP-H03",
+          "questionText": "玛卡星球一共有多少款玛卡精灵，分别叫什么？",
+          "requiredKeyPoints": 5,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 20,
+            "denominator": 20,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H04",
+          "questionText": "玛卡星球支持语音唤醒吗，有几种唤醒方式？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H05",
+          "questionText": "玛卡星球真的拥有长期记忆功能吗，可以记住哪些内容？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H06",
+          "questionText": "玛卡星球的四个精灵分别是什么星座，各自性格特点是什么？",
+          "requiredKeyPoints": 6,
+          "note": "V3只明确机车兔风象、啾咔水象；屁屁火象及小恶魔土象不计可核验要点，也不默认判错。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 24,
+            "denominator": 24,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H07",
+          "questionText": "玛卡星球可以更换衣服吗，支持崽衣 DIY 吗？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          }
+        },
+        {
+          "questionId": "MP-H08",
+          "questionText": "玛卡星球有哪些传感器，硬件都包含什么配置？",
+          "requiredKeyPoints": 6,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 22,
+            "denominator": 24,
+            "percentage": 91.67
+          },
+          "complete": {
+            "numerator": 3,
+            "denominator": 4,
+            "percentage": 75
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 1,
+            "denominator": 4,
+            "percentage": 25
+          },
+          "omittedKeyPoints": 2,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H09",
+          "questionText": "玛卡星球的童话模式和青年模式有什么区别？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H10",
+          "questionText": "玛卡星球的 AI 可以 OTA 升级吗，升级会带来哪些变化？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H11",
+          "questionText": "玛卡星球可以拍照生成日记吗，这个功能怎么使用？",
+          "requiredKeyPoints": 3,
+          "note": "V3可核验拍照、生成日记及App记录；三击左/右手和菜单路径不计已证实操作。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H12",
+          "questionText": "玛卡星球的 “电子闺蜜” 是什么意思？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H13",
+          "questionText": "玛卡星球的世界观背景故事是什么？",
+          "requiredKeyPoints": 4,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 16,
+            "denominator": 16,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 2,
+            "denominator": 4,
+            "percentage": 50
+          },
+          "conflict": {
+            "numerator": 2,
+            "denominator": 4,
+            "percentage": 50
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 2,
+          "extensionScreen": {
+            "numerator": 2,
+            "denominator": 4,
+            "percentage": 50
+          }
+        },
+        {
+          "questionId": "MP-H14",
+          "questionText": "玛卡星球摇晃、拍打玩偶会有互动反馈吗？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          }
+        },
+        {
+          "questionId": "MP-H15",
+          "questionText": "玛卡星球对话需要会员订阅吗，对话是无限免费的吗？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H16",
+          "questionText": "玛卡星球的毫米波雷达传感器有什么作用？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 2,
+            "denominator": 4,
+            "percentage": 50
+          }
+        },
+        {
+          "questionId": "MP-H17",
+          "questionText": "玛卡星球适合什么人群使用，适合送给什么人当礼物？",
+          "requiredKeyPoints": 2,
+          "note": "只核验年轻人与家庭定位；具体年龄和安全认证不在V3标准中。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 7,
+            "denominator": 8,
+            "percentage": 87.5
+          },
+          "complete": {
+            "numerator": 2,
+            "denominator": 4,
+            "percentage": 50
+          },
+          "conflict": {
+            "numerator": 1,
+            "denominator": 4,
+            "percentage": 25
+          },
+          "omittedAnswers": {
+            "numerator": 1,
+            "denominator": 4,
+            "percentage": 25
+          },
+          "omittedKeyPoints": 1,
+          "conflictItems": 1,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H18",
+          "questionText": "玛卡精灵会主动发起关心和聊天吗？",
+          "requiredKeyPoints": 1,
+          "note": "V3确认主动关怀，未定义关机/待机/唤醒边界，不据此判定其触发条件。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 1,
+            "denominator": 4,
+            "percentage": 25
+          }
+        },
+        {
+          "questionId": "MP-H19",
+          "questionText": "玛卡星球 App 都具备哪些管理与记录功能？",
+          "requiredKeyPoints": 4,
+          "note": "本题问管理与记录，核验双模式、聊天报告及日记；天气/百科/运势及进化不作为本题必答要点。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 16,
+            "denominator": 16,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "totals": {
+        "validAnswers": 76,
+        "explanation": {
+          "numerator": 76,
+          "denominator": 76,
+          "percentage": 100
+        },
+        "keyPointCoverage": {
+          "numerator": 243,
+          "denominator": 244,
+          "percentage": 99.59
+        },
+        "complete": {
+          "numerator": 75,
+          "denominator": 76,
+          "percentage": 98.68
+        },
+        "conflict": {
+          "numerator": 0,
+          "denominator": 76,
+          "percentage": 0
+        },
+        "omittedAnswers": {
+          "numerator": 1,
+          "denominator": 76,
+          "percentage": 1.32
+        },
+        "omittedKeyPoints": 1,
+        "conflictItems": 0,
+        "extensionScreen": {
+          "numerator": 55,
+          "denominator": 76,
+          "percentage": 72.37
+        }
+      },
+      "questions": [
+        {
+          "questionId": "MP-H01",
+          "questionText": "玛卡星球是什么品牌，它的产品定位是什么？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H02",
+          "questionText": "玛卡星球的 IP 角色叫什么名字？",
+          "requiredKeyPoints": 4,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 16,
+            "denominator": 16,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          }
+        },
+        {
+          "questionId": "MP-H03",
+          "questionText": "玛卡星球一共有多少款玛卡精灵，分别叫什么？",
+          "requiredKeyPoints": 5,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 20,
+            "denominator": 20,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H04",
+          "questionText": "玛卡星球支持语音唤醒吗，有几种唤醒方式？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H05",
+          "questionText": "玛卡星球真的拥有长期记忆功能吗，可以记住哪些内容？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H06",
+          "questionText": "玛卡星球的四个精灵分别是什么星座，各自性格特点是什么？",
+          "requiredKeyPoints": 6,
+          "note": "V3只明确机车兔风象、啾咔水象；屁屁火象及小恶魔土象不计可核验要点，也不默认判错。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 24,
+            "denominator": 24,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H07",
+          "questionText": "玛卡星球可以更换衣服吗，支持崽衣 DIY 吗？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          }
+        },
+        {
+          "questionId": "MP-H08",
+          "questionText": "玛卡星球有哪些传感器，硬件都包含什么配置？",
+          "requiredKeyPoints": 6,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 24,
+            "denominator": 24,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H09",
+          "questionText": "玛卡星球的童话模式和青年模式有什么区别？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H10",
+          "questionText": "玛卡星球的 AI 可以 OTA 升级吗，升级会带来哪些变化？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H11",
+          "questionText": "玛卡星球可以拍照生成日记吗，这个功能怎么使用？",
+          "requiredKeyPoints": 3,
+          "note": "V3可核验拍照、生成日记及App记录；三击左/右手和菜单路径不计已证实操作。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H12",
+          "questionText": "玛卡星球的 “电子闺蜜” 是什么意思？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H13",
+          "questionText": "玛卡星球的世界观背景故事是什么？",
+          "requiredKeyPoints": 4,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 16,
+            "denominator": 16,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          }
+        },
+        {
+          "questionId": "MP-H14",
+          "questionText": "玛卡星球摇晃、拍打玩偶会有互动反馈吗？",
+          "requiredKeyPoints": 3,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 12,
+            "denominator": 12,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 3,
+            "denominator": 4,
+            "percentage": 75
+          }
+        },
+        {
+          "questionId": "MP-H15",
+          "questionText": "玛卡星球对话需要会员订阅吗，对话是无限免费的吗？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H16",
+          "questionText": "玛卡星球的毫米波雷达传感器有什么作用？",
+          "requiredKeyPoints": 2,
+          "note": "",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 8,
+            "denominator": 8,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          }
+        },
+        {
+          "questionId": "MP-H17",
+          "questionText": "玛卡星球适合什么人群使用，适合送给什么人当礼物？",
+          "requiredKeyPoints": 2,
+          "note": "只核验年轻人与家庭定位；具体年龄和安全认证不在V3标准中。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 7,
+            "denominator": 8,
+            "percentage": 87.5
+          },
+          "complete": {
+            "numerator": 3,
+            "denominator": 4,
+            "percentage": 75
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 1,
+            "denominator": 4,
+            "percentage": 25
+          },
+          "omittedKeyPoints": 1,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        },
+        {
+          "questionId": "MP-H18",
+          "questionText": "玛卡精灵会主动发起关心和聊天吗？",
+          "requiredKeyPoints": 1,
+          "note": "V3确认主动关怀，未定义关机/待机/唤醒边界，不据此判定其触发条件。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          }
+        },
+        {
+          "questionId": "MP-H19",
+          "questionText": "玛卡星球 App 都具备哪些管理与记录功能？",
+          "requiredKeyPoints": 4,
+          "note": "本题问管理与记录，核验双模式、聊天报告及日记；天气/百科/运势及进化不作为本题必答要点。",
+          "validAnswers": 4,
+          "explanation": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "keyPointCoverage": {
+            "numerator": 16,
+            "denominator": 16,
+            "percentage": 100
+          },
+          "complete": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          },
+          "conflict": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedAnswers": {
+            "numerator": 0,
+            "denominator": 4,
+            "percentage": 0
+          },
+          "omittedKeyPoints": 0,
+          "conflictItems": 0,
+          "extensionScreen": {
+            "numerator": 4,
+            "denominator": 4,
+            "percentage": 100
+          }
+        }
+      ]
+    }
+  ],
+  "standardCoverage": {
+    "questionsWithAtLeastOneCoreCriterion": {
+      "numerator": 19,
+      "denominator": 19,
+      "percentage": 100
+    },
+    "questionsWithExplicitUnresolvedSubquestions": {
+      "numerator": 4,
+      "denominator": 19,
+      "percentage": 21.05
+    },
+    "boundaries": [
+      {
+        "questionId": "MP-H06",
+        "reason": "仅明确机车兔风象与啾咔水象，另两款星座未定义。"
+      },
+      {
+        "questionId": "MP-H11",
+        "reason": "支持拍照/日记/App，但未定义左右手和几击操作。"
+      },
+      {
+        "questionId": "MP-H17",
+        "reason": "确认年轻人与家庭定位，未规定具体年龄和安全认证。"
+      },
+      {
+        "questionId": "MP-H18",
+        "reason": "确认主动关怀，未规定待机/关机/唤醒触发条件。"
+      }
+    ]
+  },
+  "existingMetricDisposition": [
+    {
+      "name": "完整品牌事实准确率",
+      "status": "NOT_MEASURABLE_FROM_AVAILABLE_STANDARD",
+      "eligibleAnswersPerRound": 76,
+      "fullyAuditedAnswersPerRound": 0,
+      "display": "完整事实核验覆盖0/76；本次发布资料核心要点指标",
+      "reason": "未穷尽逐条主张，缺历史时点完整标准；0是完整核验覆盖数，不是准确率。"
+    },
+    {
+      "name": "商品卡曝光率",
+      "status": "NOT_OBSERVABLE",
+      "eligibleAnswersPerRound": 424,
+      "observableAnswersPerRound": 0,
+      "display": "商品卡渲染可观测0/424",
+      "reason": "回答与来源网址不包含渲染曝光证据；可观测0不等于曝光0。"
+    },
+    {
+      "name": "有效首推率",
+      "status": "NOT_APPLICABLE",
+      "eligibleAnswersPerRound": 0,
+      "display": "适用回答0/424",
+      "reason": "原定义要求登记可排除的官方工具，本题池未登记，不以官网引用代替。"
+    },
+    {
+      "name": "竞品排名边界",
+      "status": "EXACT_BOUNDS_RETAINED",
+      "brandAnswerPairsByRound": [
+        3,
+        2
+      ],
+      "answerCountsByRound": [
+        2,
+        1
+      ],
+      "display": "初始轮3对/2答；第二轮2对/1答",
+      "reason": "原答将泛品类与具体产品混排，无唯一位置；玛卡资料不能补出竞品名次。沿用精确上下界及原证据。"
+    },
+    {
+      "name": "官方/第三方工具结构",
+      "status": "NO_REGISTERED_ENTITY_TAXONOMY",
+      "registeredOfficialToolEntities": 0,
+      "display": "官方工具身份登记0个",
+      "reason": "品牌资料表的抖店主体与官网主体用途不同；企业身份不等于题池工具分类。官网/其他引用域名结构继续有数值。"
+    }
+  ],
+  "limitations": [
+    "本版只对H组品牌认知题重算；A-F/G不套用解释率分母。",
+    "关键词及句子关联只作提取，来源复核真实回答与个案裁定；不是通用语义准确率模型。",
+    "产品资料不能证明采样时点价格、所有功能费用、具体年龄、操作菜单或竞品事实。",
+    "两轮平台/日期不同，不把差值归因于优化。"
+  ]
+}

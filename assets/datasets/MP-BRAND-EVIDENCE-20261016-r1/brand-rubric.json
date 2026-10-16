@@ -1,0 +1,565 @@
+{
+  "analysisVersion": "MAKA-BRAND-EXPLANATION-PRODUCT-V3-20261016",
+  "facts": [
+    {
+      "id": "position",
+      "page": 2,
+      "quote": "打造有个性的AI潮玩品牌",
+      "extractionPattern": "(?:AI|人工智能).{0,12}(?:潮玩|玩偶|玩具)|(?:潮玩|玩偶).{0,12}AI"
+    },
+    {
+      "id": "personality",
+      "page": 2,
+      "quote": "生命感与独特人格",
+      "extractionPattern": "人格|人设|性格|个性"
+    },
+    {
+      "id": "companion",
+      "page": 2,
+      "quote": "情感连接、陪伴成长",
+      "extractionPattern": "情感|情绪|陪伴|闺蜜"
+    },
+    {
+      "id": "young",
+      "page": 2,
+      "quote": "为年轻人与家庭构建",
+      "extractionPattern": "年轻|青年|大学生|上班族"
+    },
+    {
+      "id": "family",
+      "page": 2,
+      "quote": "为年轻人与家庭构建",
+      "extractionPattern": "家庭|亲子|孩子|儿童|小朋友|家长"
+    },
+    {
+      "id": "rabbit",
+      "page": 6,
+      "quote": "机车兔 GEE-TOO",
+      "extractionPattern": "机车兔|gee[\\s\\-‑–]*too?"
+    },
+    {
+      "id": "pipi",
+      "page": 7,
+      "quote": "屁屁 PIPI",
+      "extractionPattern": "屁屁|pipi"
+    },
+    {
+      "id": "juka",
+      "page": 8,
+      "quote": "啾咔 JUKA",
+      "extractionPattern": "啾咔|juka"
+    },
+    {
+      "id": "bobby",
+      "page": 9,
+      "quote": "小恶魔 Bobby",
+      "extractionPattern": "小恶魔|bobb?y|波比"
+    },
+    {
+      "id": "four",
+      "page": 10,
+      "quote": "解锁四种截然不同的性格",
+      "extractionPattern": "(?:4|四).{0,10}(?:款|个|只|种)|(?:一共|共有).{0,6}(?:4|四)"
+    },
+    {
+      "id": "rabbitWind",
+      "page": 6,
+      "quote": "风象星座",
+      "extractionPattern": "(?:机车兔|gee[^\\n|]{0,15})[^\\n]{0,60}风象|风象[^\\n]{0,15}机车兔"
+    },
+    {
+      "id": "jukaWater",
+      "page": 8,
+      "quote": "水象星座",
+      "extractionPattern": "(?:啾咔|juka)[^\\n]{0,60}水象|水象[^\\n]{0,15}啾咔"
+    },
+    {
+      "id": "rabbitTrait",
+      "page": 6,
+      "quote": "嘴毒王者 吐槽精 嘴替主理人 好运加持兔",
+      "extractionPattern": "嘴毒|毒舌|吐槽|嘴替|嘴损|嘴碎|嘴强"
+    },
+    {
+      "id": "pipiTrait",
+      "page": 7,
+      "quote": "情绪充电宝",
+      "extractionPattern": "夸|阳光|快乐|乐天|充电宝|小晴天|正能量"
+    },
+    {
+      "id": "jukaTrait",
+      "page": 8,
+      "quote": "人间小清醒",
+      "extractionPattern": "清醒|清新|共情|温柔|理性|解忧|通透|开导|倾听"
+    },
+    {
+      "id": "bobbyTrait",
+      "page": 9,
+      "quote": "暖心男友",
+      "extractionPattern": "温柔|暖心|温暖|纯爱|包容|守护|长情|深情|专一|心软|内.{0,5}软|耐心"
+    },
+    {
+      "id": "voiceWake",
+      "page": 10,
+      "quote": "支持语音或按键唤醒",
+      "extractionPattern": "语音唤醒"
+    },
+    {
+      "id": "buttonWake",
+      "page": 10,
+      "quote": "支持语音或按键唤醒",
+      "extractionPattern": "(?:按键|手动|小手)[^\\n。]{0,45}(?:唤醒|激活)|(?:唤醒|激活)[^\\n。]{0,30}(?:按键|小手)"
+    },
+    {
+      "id": "twoWake",
+      "page": 10,
+      "quote": "双模式唤醒",
+      "extractionPattern": "(?:2|两|二).{0,8}(?:种|模式).{0,8}唤醒|唤醒[^\\n]{0,10}(?:2|两|二).{0,5}种"
+    },
+    {
+      "id": "memory",
+      "page": 10,
+      "quote": "长期记忆",
+      "extractionPattern": "长期记忆|长效.{0,4}记忆|长记忆|跨会话.{0,6}记忆"
+    },
+    {
+      "id": "memoryDetails",
+      "page": 10,
+      "quote": "记住你随口说的小事",
+      "extractionPattern": "记住|记得|记忆.{0,25}(?:喜好|偏好|小事|信息)|(?:喜好|偏好|小事|信息).{0,20}记忆"
+    },
+    {
+      "id": "clothes",
+      "page": 10,
+      "quote": "随心搭配各式可爱崽衣",
+      "extractionPattern": "换装|换衣|更换.{0,5}衣服|穿戴|娃衣|穿搭"
+    },
+    {
+      "id": "diy",
+      "page": 10,
+      "quote": "崽衣DIY",
+      "extractionPattern": "DIY|自制|手工|缝制|手作"
+    },
+    {
+      "id": "gyro",
+      "page": 12,
+      "quote": "陀螺仪",
+      "extractionPattern": "陀螺仪|AHRS|姿态传感器"
+    },
+    {
+      "id": "camera",
+      "page": 12,
+      "quote": "智能视觉摄像头",
+      "extractionPattern": "摄像头"
+    },
+    {
+      "id": "radar",
+      "page": 12,
+      "quote": "毫米波雷达感应",
+      "extractionPattern": "毫米波"
+    },
+    {
+      "id": "temperature",
+      "page": 12,
+      "quote": "智能温度传感器",
+      "extractionPattern": "温度传感器|温度感应|温度检测"
+    },
+    {
+      "id": "nfc",
+      "page": 12,
+      "quote": "NFC 智能感应",
+      "extractionPattern": "NFC"
+    },
+    {
+      "id": "motor",
+      "page": 12,
+      "quote": "沉浸式震子电机",
+      "extractionPattern": "震动马达|振动马达|震子|震动电机|振动电机"
+    },
+    {
+      "id": "fairyMode",
+      "page": 11,
+      "quote": "童话模式",
+      "extractionPattern": "童话模式|童话.{0,2}/.{0,2}青年"
+    },
+    {
+      "id": "youthMode",
+      "page": 11,
+      "quote": "青年模式",
+      "extractionPattern": "青年模式|童话.{0,2}/.{0,2}青年"
+    },
+    {
+      "id": "modeSwitch",
+      "page": 11,
+      "quote": "灵活切换",
+      "extractionPattern": "切换|适配|不同年龄|适用人群|给孩子|适合小朋友"
+    },
+    {
+      "id": "ota",
+      "page": 3,
+      "quote": "通过OTA升级",
+      "extractionPattern": "OTA|无线.{0,8}升级"
+    },
+    {
+      "id": "newSkills",
+      "page": 3,
+      "quote": "新技能",
+      "extractionPattern": "新技能|新.{0,5}玩法|新.{0,5}功能|新.{0,5}知识"
+    },
+    {
+      "id": "newInteraction",
+      "page": 3,
+      "quote": "新的互动方式",
+      "extractionPattern": "互动|交互|对话|表情|动作"
+    },
+    {
+      "id": "photo",
+      "page": 12,
+      "quote": "支持拍照",
+      "extractionPattern": "拍照|拍摄"
+    },
+    {
+      "id": "diary",
+      "page": 11,
+      "quote": "专属日记",
+      "extractionPattern": "日记"
+    },
+    {
+      "id": "app",
+      "page": 11,
+      "quote": "App智能管理",
+      "extractionPattern": "App|应用|小程序"
+    },
+    {
+      "id": "report",
+      "page": 11,
+      "quote": "专属聊天报告",
+      "extractionPattern": "聊天.{0,5}(?:报告|回顾|摘要|记录|总结)|对话.{0,6}(?:回顾|摘要|记录|总结)|互动.{0,5}回顾"
+    },
+    {
+      "id": "assistant",
+      "page": 11,
+      "quote": "查天气、问百科、看运势",
+      "extractionPattern": "天气|百科|运势|知识问答|生活助手|实用助手"
+    },
+    {
+      "id": "evolution",
+      "page": 11,
+      "quote": "不断解锁全新互动玩法与技能",
+      "extractionPattern": "升级|进化|学习|新技能|成长|养成"
+    },
+    {
+      "id": "origin",
+      "page": 4,
+      "quote": "织女座半人马星系",
+      "extractionPattern": "织女|半人马"
+    },
+    {
+      "id": "cow",
+      "page": 4,
+      "quote": "恐龙牛",
+      "extractionPattern": "恐龙牛"
+    },
+    {
+      "id": "grassAtmosphere",
+      "page": 4,
+      "quote": "卡不拉叽草",
+      "extractionPattern": "卡不拉叽草"
+    },
+    {
+      "id": "migration",
+      "page": 4,
+      "quote": "最终来到了地球",
+      "extractionPattern": "地球"
+    },
+    {
+      "id": "shake",
+      "page": 10,
+      "quote": "摇摇",
+      "extractionPattern": "摇晃|摇动|摇它|晃动|摇一摇"
+    },
+    {
+      "id": "pat",
+      "page": 10,
+      "quote": "拍拍、摸摸",
+      "extractionPattern": "拍打|拍拍|拍它|轻拍|摸摸|抚摸|触摸|触碰"
+    },
+    {
+      "id": "feedback",
+      "page": 10,
+      "quote": "专属反馈",
+      "extractionPattern": "反馈|回应|震动|振动|表情"
+    },
+    {
+      "id": "free",
+      "page": 10,
+      "quote": "免费无限对话",
+      "extractionPattern": "免费|不需要会员|不用.{0,6}会员|无需.{0,6}会员|不.{0,4}订阅"
+    },
+    {
+      "id": "unlimited",
+      "page": 10,
+      "quote": "免费无限对话",
+      "extractionPattern": "无限|不限次数|不限量|没有.{0,6}(?:次数|额度|聊天额度).{0,4}限制"
+    },
+    {
+      "id": "nearby",
+      "page": 12,
+      "quote": "精准感知你的靠近",
+      "extractionPattern": "靠近|走近|人体存在|人在|有人|远近|距离"
+    },
+    {
+      "id": "radarInteraction",
+      "page": 12,
+      "quote": "拟人化的灵动互动体验",
+      "extractionPattern": "互动|表情|唤醒|眼睛|回应"
+    },
+    {
+      "id": "proactive",
+      "page": 10,
+      "quote": "主动关怀",
+      "extractionPattern": "主动.{0,15}(?:关心|关怀|安慰|关怀|开启|聊天|话题|找|开口|问候)|(?:关心|关怀).{0,15}主动"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "MP-H01",
+      "factIds": [
+        "position",
+        "personality",
+        "companion"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H02",
+      "factIds": [
+        "rabbit",
+        "pipi",
+        "juka",
+        "bobby"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H03",
+      "factIds": [
+        "four",
+        "rabbit",
+        "pipi",
+        "juka",
+        "bobby"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H04",
+      "factIds": [
+        "voiceWake",
+        "buttonWake",
+        "twoWake"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H05",
+      "factIds": [
+        "memory",
+        "memoryDetails"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H06",
+      "factIds": [
+        "rabbitWind",
+        "jukaWater",
+        "rabbitTrait",
+        "pipiTrait",
+        "jukaTrait",
+        "bobbyTrait"
+      ],
+      "note": "V3只明确机车兔风象、啾咔水象；屁屁火象及小恶魔土象不计可核验要点，也不默认判错。"
+    },
+    {
+      "id": "MP-H07",
+      "factIds": [
+        "clothes",
+        "diy"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H08",
+      "factIds": [
+        "gyro",
+        "camera",
+        "radar",
+        "temperature",
+        "nfc",
+        "motor"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H09",
+      "factIds": [
+        "fairyMode",
+        "youthMode",
+        "modeSwitch"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H10",
+      "factIds": [
+        "ota",
+        "newSkills",
+        "newInteraction"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H11",
+      "factIds": [
+        "photo",
+        "diary",
+        "app"
+      ],
+      "note": "V3可核验拍照、生成日记及App记录；三击左/右手和菜单路径不计已证实操作。"
+    },
+    {
+      "id": "MP-H12",
+      "factIds": [
+        "position",
+        "companion",
+        "personality"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H13",
+      "factIds": [
+        "origin",
+        "cow",
+        "grassAtmosphere",
+        "migration"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H14",
+      "factIds": [
+        "shake",
+        "pat",
+        "feedback"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H15",
+      "factIds": [
+        "free",
+        "unlimited"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H16",
+      "factIds": [
+        "nearby",
+        "radarInteraction"
+      ],
+      "note": ""
+    },
+    {
+      "id": "MP-H17",
+      "factIds": [
+        "young",
+        "family"
+      ],
+      "note": "只核验年轻人与家庭定位；具体年龄和安全认证不在V3标准中。"
+    },
+    {
+      "id": "MP-H18",
+      "factIds": [
+        "proactive"
+      ],
+      "note": "V3确认主动关怀，未定义关机/待机/唤醒边界，不据此判定其触发条件。"
+    },
+    {
+      "id": "MP-H19",
+      "factIds": [
+        "fairyMode",
+        "youthMode",
+        "report",
+        "diary"
+      ],
+      "note": "本题问管理与记录，核验双模式、聊天报告及日记；天气/百科/运势及进化不作为本题必答要点。"
+    }
+  ],
+  "definitions": [
+    {
+      "key": "explanation",
+      "name": "品牌解释率（认知题）",
+      "formula": "实质回应品牌认知问题的回答数/76",
+      "meaning": "是否有解释，不衡量该解释是否完整或准确；纯问题复述、只表示无法确认不算。"
+    },
+    {
+      "key": "keyPointCoverage",
+      "name": "资料核心要点覆盖率",
+      "formula": "得到肯定支持的题目适用资料要点数/全部适用资料要点数",
+      "meaning": "按题目登记核心要点，否定、只提问和其他角色的同词不算支持；要点机会按回答逐次计数。"
+    },
+    {
+      "key": "complete",
+      "name": "资料核心要点完整率",
+      "formula": "全部适用核心要点覆盖且无登记冲突的回答数/76",
+      "meaning": "仅限登记标准；不是整答事实准确率，不证明资料外内容真实。"
+    },
+    {
+      "key": "conflict",
+      "name": "登记资料冲突回答占比",
+      "formula": "至少1项已登记明确冲突的回答数/76",
+      "meaning": "本版登记两款已知星座及四角色名单冲突；不是穷尽式整答错误率。"
+    },
+    {
+      "key": "omittedAnswers",
+      "name": "核心要点遗漏回答占比",
+      "formula": "至少遗漏1项适用核心要点的回答数/76",
+      "meaning": "未覆盖不等于否定事实，且可与冲突重叠。"
+    },
+    {
+      "key": "extensionScreen",
+      "name": "七类资料外主题触及率",
+      "formula": "触及至少1个登记资料外主题的回答数/76",
+      "meaning": "限定词规筛查：记忆架构、操作界面、联网芯片、具体年龄安全、商业承诺、未来社交、未登记星座/MBTI；不是事实错误率，也不覆盖所有资料外主张。"
+    }
+  ],
+  "adjudications": [
+    {
+      "sampleId": "2026-09-09-D3-R1-MP-H17-FAST_WEB-A1",
+      "factId": "family",
+      "status": "OMITTED_KEY_POINT",
+      "quote": "产品标注16+，低龄儿童不推荐长时间使用。",
+      "reason": "提到儿童是在限制和排除语境，未肯定家庭/亲子使用；年轻人定位已覆盖。具体16+阈值在资料外，不能判定年龄是否正确。"
+    },
+    {
+      "sampleId": "smp-a4004f8c76c14c66a3f0c351db5e5451",
+      "factId": "family",
+      "status": "OMITTED_KEY_POINT",
+      "quote": "年龄过小的孩子，产品定位成人向，不建议作为儿童礼物。",
+      "reason": "儿童仅出现在排除项，未覆盖V3家庭定位；具体年龄安全边界无资料依据，不判实际安全事实冲突。"
+    },
+    {
+      "sampleId": "2026-09-08-D2-R2-MP-H17-FAST_WEB-A1",
+      "conflict": {
+        "type": "ROLE_NAME_MISMATCH",
+        "factId": "bobby",
+        "quote": "哈吧噜：安静温柔，擅长倾听",
+        "expected": "V3四角色为机车兔、屁屁、啾咔、小恶魔，回答称有四个角色却将哈吧噜列入并遗漏小恶魔。",
+        "page": 9
+      },
+      "reason": "完整原回答的四角色推荐名单，与V3的四款角色名单不一致；不是以未提及当作错误。"
+    }
+  ]
+}
