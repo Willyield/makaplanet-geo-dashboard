@@ -1,3 +1,5 @@
+import { enhanceNavigation } from './round3-20261030-r1.js';
+enhanceNavigation();
 const groupIds=['all',...'ABCDEFGH'];
 const selectedGroup=groupIds.includes(new URLSearchParams(location.search).get('group'))?new URLSearchParams(location.search).get('group'):'all';
 const group=selectedGroup;

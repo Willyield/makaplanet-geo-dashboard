@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>报告证据 · classification-rules-v2.json | 玛卡星球 GEO</title><link rel="icon" href="../../../../favicon.png"><link rel="stylesheet" href="../../../../assets/site.css"><link rel="stylesheet" href="../../../../assets/round3-20261030-r1.css"></head><body><header class="page-bar"><nav class="page-bar-inner"><a href="../../../../">玛卡星球 GEO</a><a href="../../../../round3/data/">第三轮数据</a><a href="../../../../compare/data/">三轮比较</a><a href="../../../../round3/report/">玛卡星球 GEO 三轮采样与引用分析报告</a></nav></header><main class="content document"><h1>报告证据 · classification-rules-v2.json</h1><p>此来源用于支持冻结报告中的口径或核验结论。原始内部工件不公开；可核查对应业务数据与来源指纹。</p><dl><dt>来源文件</dt><dd>classification-rules-v2.json</dd><dt>源文件 SHA-256</dt><dd class="hash">b4184b965e21dbdf0897c085fa4feaff6dd03ae698c51fb3213e4d9a14f99d93</dd><dt>公开方式</dt><dd>证据摘要与来源指纹，完整原件保留于来源；本页不包含原始导出包、脚本、登录信息或内部账本。</dd></dl><details><summary>查看公开业务摘录</summary><pre>{
+  &quot;version&quot;: &quot;MAKA-DOUYIN-CONTENT-TOPICS-V2-20261030&quot;,
+  &quot;changedFrom&quot;: &quot;MAKA-DOUYIN-PUBLIC-DESCRIPTION-TOPICS-V1-20261029&quot;,
+  &quot;changes&quot;: [
+    &quot;取消纯字数25字门槛；明确信息的短配文可以分类&quot;,
+    &quot;补充同义表达；无信息/仅标签不分类&quot;,
+    &quot;领域与主题独立标注；不凭格式、来源卡标题或作者昵称判主题&quot;,
+    &quot;保留同一三轮作品证据统一重分类，不覆盖旧版&quot;,
+    &quot;有媒体证据的个别人工裁定另列理由和媒体覆盖范围&quot;,
+    &quot;增加其他明确主题出口：版权/品牌声明不硬塞为情绪陪伴&quot;
+  ],
+  &quot;classificationOrder&quot;: [
+    &quot;同ID人工证据裁定优先&quot;,
+    &quot;明确行业指标优先：市场规模/行业毛利/赛道/概念股/创新企业TOP&quot;,
+    &quot;公开配文首句或Q1前标题&quot;,
+    &quot;首180字符&quot;,
+    &quot;首问700字符&quot;
+  ],
+  &quot;manualOnlyCategories&quot;: [
+    {
+      &quot;name&quot;: &quot;其他明确主题（现有六类以外）&quot;,
+      &quot;definition&quot;: &quot;有实际正文且主题清楚，但不属于六个AI玩具主主题；当前用于版权/品牌声明，不能替代待确认&quot;
+    }
+  ],
+  &quot;themes&quot;: [
+    {
+      &quot;name&quot;: &quot;价格、订阅、售后与隐私边界&quot;,
+      &quot;regex&quot;: &quot;价格|多少钱|预算|低价|收费|订阅|会员|退款|售后|退换|隐私|安全认证|合规|价格战|售价|隐形消费|几百上千|退货&quot;,
+      &quot;priority&quot;: 1
+    },
+    {
+      &quot;name&quot;: &quot;角色、IP、世界观与模式设定&quot;,
+      &quot;regex&quot;: &quot;星座|世界观|IP角色|角色.*叫|四[个款].*精灵|童话模式|青年模式|起源故事|前传|精灵.{0,12}飞船|角色设定|角色介绍|精灵档案|五行属性|风象|火象|土象|水象|(?:芙崽|精灵).{0,12}性格|金木水火土|性格.{0,10}(?:解析|区别|不同|测评)|性格类型&quot;,
+      &quot;priority&quot;: 2
+    },
+    {
+      &quot;name&quot;: &quot;选购、测评与品牌比较&quot;,
+      &quot;regex&quot;: &quot;测评|评测|对比|比较|怎么选|如何选|值得买|判断标准|选购|避坑|性价比|选哪个|(?:玩具|玩偶|产品|机器人|礼物)推荐|区别|榜单|盘点|排行榜|开箱|实测|拔草|种草|别乱买|不要再买|不如.{0,6}(?:玩具|AI)|值不值|值吗|智商税|鸡肋|VS|PK|拆解|拆机|别再乱买|避雷|选对|挑选|哪(?:一款|款|个品牌|家品牌)|pick|平替|真实感受|使用感受&quot;,
+      &quot;priority&quot;: 3
+    },
+    {
+      &quot;name&quot;: &quot;产品功能、操作与设备管理&quot;,
+      &quot;regex&quot;: &quot;功能|操作|教程|绑定|OTA|升级|(?&lt;![a-z])app(?![a-z])|拍照|日记|记忆|联[网接]|Wi.?Fi|机芯|陀螺|加速度|触摸|按键|音量|能讲故事|能哄睡|会互动|摇晃|拍打|支持.{0,10}(?:语音|对话)|能.{0,5}解答|能.{0,5}唱|会.{0,5}唱|会.{0,5}说|自己说话|对话|讲话|聊[天得]|视觉|识别|摄像|硬件|传感|算法|拆开|震动|表情|配网|唤醒|开发|编程|源代码|设计方案|硬核科普|晃会晕|像素萌照|撒娇卖萌讲故事|唠嗑|碎碎念|开口说话|NFC|小程序演示|AI出图|全息投影&quot;,
+      &quot;priority&quot;: 4
+    },
+    {
+      &quot;name&quot;: &quot;行业、技术与市场动态&quot;,
+      &quot;regex&quot;: &quot;融资|资本|产业|赛道|市场规模|供应链|订单|出货|展会|发布会|大模型|技术突破|行业|机器人大会|爆单|峰会|首发|新品发布|研发|人工智能时代|千亿|上市公司|展览|博览会|工厂|批发|代工|全新上线|全球首个|概念股|估值|卖出|全尺寸身体|概念部分梳理&quot;,
+      &quot;priority&quot;: 5
+    },
+    {
+      &quot;name&quot;: &quot;情绪陪伴、使用场景与体验&quot;,
+      &quot;regex&quot;: &quot;陪伴|情绪|睡前|睡眠|送礼|礼物|治愈|独居|解压|树洞|孤独|孤单|陪玩|早教|陪娃|带娃|育儿|陪聊|伙伴|玩伴|闺蜜|搭子|哄|懂[你我孩]|懂.{0,5}孩子|知心|灵魂|偏爱|忠诚|情感|感情|(?&lt;![a-z])emo(?![a-z])|loneliness|emotional\\s+companionship|孤单|内耗|心情|包挂|通勤|工位|穿搭|挂[在着].{0,5}包|成长路上|省妈|电子保姆|电子朋友|陪护|解放老母亲|遛娃|专属羁绊|陪.{0,4}成长|随身|在家|幸福|亲子&quot;,
+      &quot;priority&quot;: 6
+    }
+  ],
+  &quot;domains&quot;: [
+    {
+      &quot;name&quot;: &quot;AI陪伴玩具与机器人&quot;,
+      &quot;regex&quot;: &quot;(?:ai|智能).{0,12}(?:玩具|玩偶|宠物|萌宠|毛绒|陪伴|玩伴|搭子|闺蜜|潮玩|崽崽)|(?:玩具|玩偶|宠物|陪伴).{0,8}(?:ai|智能)|机器人|玛卡星球|玛卡精灵|芙崽|bubblepal|walulu|cocomate|萌uu|moxy|海信moii|雷鸟amby|可豆陪陪|悦朗森&quot;
+    },
+    {
+      &quot;name&quot;: &quot;人工智能与软件技术&quot;,
+      &quot;regex&quot;: &quot;大模型|人工智能|软件|智能体|ai技术|编程|源代码|算法&quot;
+    },
+    {
+      &quot;name&quot;: &quot;其他玩具与生活内容（未确认AI属性）&quot;,
+      &quot;regex&quot;: &quot;玩具|玩偶|毛绒|育儿|带娃|宝宝|亲子|旅游|旅行|日常生活&quot;
+    }
+  ],
+  &quot;limits&quot;: &quot;主题是公开内容主题标签，不是答案引用支撑或事实准确率。图片/视频未读部分按逐作品媒体覆盖账披露。&quot;
+}</pre></details><h2>业务证据入口</h2><ul><li><a href="../metrics.json">metrics</a></li><li><a href="../round3/data.json">round3/data</a></li><li><a href="../douyin-summary.json">douyin-summary</a></li><li><a href="../social.json">social</a></li><li><a href="../product-events.json">product-events</a></li><li><a href="../facts.json">facts</a></li><li><a href="../collection-checks.json">collection-checks</a></li></ul></main></body></html>

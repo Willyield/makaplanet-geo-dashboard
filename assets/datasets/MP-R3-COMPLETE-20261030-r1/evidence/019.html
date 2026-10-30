@@ -1,0 +1,1700 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>报告证据 · brand-metrics.json | 玛卡星球 GEO</title><link rel="icon" href="../../../../favicon.png"><link rel="stylesheet" href="../../../../assets/site.css"><link rel="stylesheet" href="../../../../assets/round3-20261030-r1.css"></head><body><header class="page-bar"><nav class="page-bar-inner"><a href="../../../../">玛卡星球 GEO</a><a href="../../../../round3/data/">第三轮数据</a><a href="../../../../compare/data/">三轮比较</a><a href="../../../../round3/report/">玛卡星球 GEO 三轮采样与引用分析报告</a></nav></header><main class="content document"><h1>报告证据 · brand-metrics.json</h1><p>此来源用于支持冻结报告中的口径或核验结论。原始内部工件不公开；可核查对应业务数据与来源指纹。</p><dl><dt>来源文件</dt><dd>brand-metrics.json</dd><dt>源文件 SHA-256</dt><dd class="hash">869c49e4c31872e973c2224e2aa46183798243a58df515d7aebab1fcd46eae87</dd><dt>公开方式</dt><dd>证据摘要与来源指纹，完整原件保留于来源；本页不包含原始导出包、脚本、登录信息或内部账本。</dd></dl><details><summary>查看公开业务摘录</summary><pre>{
+  &quot;schemaVersion&quot;: 1,
+  &quot;analysisVersion&quot;: &quot;MAKA-BRAND-EXPLANATION-PRODUCT-V3-20261016&quot;,
+  &quot;rawDatasetVersion&quot;: &quot;MP-R2-COMPLETE-20261015-r1&quot;,
+  &quot;referenceStandard&quot;: {
+    &quot;name&quot;: &quot;用户产品资料表及本地品牌介绍V3&quot;,
+    &quot;evaluatedAt&quot;: &quot;2026-10-16&quot;,
+    &quot;productWorkbookSha256&quot;: &quot;40554f44a49019f19bf06fe20948bffe51dd7a0f709c9f308afa1b03104dfa74&quot;,
+    &quot;brandPdfSha256&quot;: &quot;198db7d0157ad07bee68bbd77fddcc94cc1687c062967fd2d5e87887b5c0b315&quot;,
+    &quot;provenance&quot;: &quot;产品表登记V3名称；使用第一轮迁移包中同名、已登记指纹PDF。未访问云表链接，未声称远程字节已核对。作为事后统一评判参考，非采样日期完整事实快照。&quot;
+  },
+  &quot;definitions&quot;: [
+    {
+      &quot;key&quot;: &quot;explanation&quot;,
+      &quot;name&quot;: &quot;品牌解释率（认知题）&quot;,
+      &quot;formula&quot;: &quot;实质回应品牌认知问题的回答数/76&quot;,
+      &quot;meaning&quot;: &quot;是否有解释，不衡量该解释是否完整或准确；纯问题复述、只表示无法确认不算。&quot;
+    },
+    {
+      &quot;key&quot;: &quot;keyPointCoverage&quot;,
+      &quot;name&quot;: &quot;资料核心要点覆盖率&quot;,
+      &quot;formula&quot;: &quot;得到肯定支持的题目适用资料要点数/全部适用资料要点数&quot;,
+      &quot;meaning&quot;: &quot;按题目登记核心要点，否定、只提问和其他角色的同词不算支持；要点机会按回答逐次计数。&quot;
+    },
+    {
+      &quot;key&quot;: &quot;complete&quot;,
+      &quot;name&quot;: &quot;资料核心要点完整率&quot;,
+      &quot;formula&quot;: &quot;全部适用核心要点覆盖且无登记冲突的回答数/76&quot;,
+      &quot;meaning&quot;: &quot;仅限登记标准；不是整答事实准确率，不证明资料外内容真实。&quot;
+    },
+    {
+      &quot;key&quot;: &quot;conflict&quot;,
+      &quot;name&quot;: &quot;登记资料冲突回答占比&quot;,
+      &quot;formula&quot;: &quot;至少1项已登记明确冲突的回答数/76&quot;,
+      &quot;meaning&quot;: &quot;本版登记两款已知星座及四角色名单冲突；不是穷尽式整答错误率。&quot;
+    },
+    {
+      &quot;key&quot;: &quot;omittedAnswers&quot;,
+      &quot;name&quot;: &quot;核心要点遗漏回答占比&quot;,
+      &quot;formula&quot;: &quot;至少遗漏1项适用核心要点的回答数/76&quot;,
+      &quot;meaning&quot;: &quot;未覆盖不等于否定事实，且可与冲突重叠。&quot;
+    },
+    {
+      &quot;key&quot;: &quot;extensionScreen&quot;,
+      &quot;name&quot;: &quot;七类资料外主题触及率&quot;,
+      &quot;formula&quot;: &quot;触及至少1个登记资料外主题的回答数/76&quot;,
+      &quot;meaning&quot;: &quot;限定词规筛查：记忆架构、操作界面、联网芯片、具体年龄安全、商业承诺、未来社交、未登记星座/MBTI；不是事实错误率，也不覆盖所有资料外主张。&quot;
+    }
+  ],
+  &quot;sourceHashes&quot;: [
+    &quot;137de098e4d311f1259ef689e9f62211f70a4cf0e4f0381f60218c1db00ef0d4&quot;,
+    &quot;3031f6ff3b05fb6027bd5f9bf242b037ba7b128568dd517c9e5ea6d82ef81535&quot;
+  ],
+  &quot;rounds&quot;: [
+    {
+      &quot;round&quot;: 1,
+      &quot;totals&quot;: {
+        &quot;validAnswers&quot;: 76,
+        &quot;explanation&quot;: {
+          &quot;numerator&quot;: 76,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 100
+        },
+        &quot;keyPointCoverage&quot;: {
+          &quot;numerator&quot;: 241,
+          &quot;denominator&quot;: 244,
+          &quot;percentage&quot;: 98.77
+        },
+        &quot;complete&quot;: {
+          &quot;numerator&quot;: 70,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 92.11
+        },
+        &quot;conflict&quot;: {
+          &quot;numerator&quot;: 4,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 5.26
+        },
+        &quot;omittedAnswers&quot;: {
+          &quot;numerator&quot;: 2,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 2.63
+        },
+        &quot;omittedKeyPoints&quot;: 3,
+        &quot;conflictItems&quot;: 4,
+        &quot;extensionScreen&quot;: {
+          &quot;numerator&quot;: 57,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 75
+        }
+      },
+      &quot;questions&quot;: [
+        {
+          &quot;questionId&quot;: &quot;MP-H01&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球是什么品牌，它的产品定位是什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 2,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 50
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H02&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的 IP 角色叫什么名字？&quot;,
+          &quot;requiredKeyPoints&quot;: 4,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 16,
+            &quot;denominator&quot;: 16,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 3,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 75
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 1,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 25
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 1,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 2,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 50
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H03&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球一共有多少款玛卡精灵，分别叫什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 5,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 20,
+            &quot;denominator&quot;: 20,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H04&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球支持语音唤醒吗，有几种唤醒方式？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H05&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球真的拥有长期记忆功能吗，可以记住哪些内容？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H06&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的四个精灵分别是什么星座，各自性格特点是什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 6,
+          &quot;note&quot;: &quot;V3只明确机车兔风象、啾咔水象；屁屁火象及小恶魔土象不计可核验要点，也不默认判错。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 24,
+            &quot;denominator&quot;: 24,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H07&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球可以更换衣服吗，支持崽衣 DIY 吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H08&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球有哪些传感器，硬件都包含什么配置？&quot;,
+          &quot;requiredKeyPoints&quot;: 6,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 22,
+            &quot;denominator&quot;: 24,
+            &quot;percentage&quot;: 91.67
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 3,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 75
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 1,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 25
+          },
+          &quot;omittedKeyPoints&quot;: 2,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H09&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的童话模式和青年模式有什么区别？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H10&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的 AI 可以 OTA 升级吗，升级会带来哪些变化？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H11&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球可以拍照生成日记吗，这个功能怎么使用？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;V3可核验拍照、生成日记及App记录；三击左/右手和菜单路径不计已证实操作。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H12&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的 “电子闺蜜” 是什么意思？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H13&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的世界观背景故事是什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 4,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 16,
+            &quot;denominator&quot;: 16,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 2,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 50
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 2,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 50
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 2,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 2,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 50
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H14&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球摇晃、拍打玩偶会有互动反馈吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H15&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球对话需要会员订阅吗，对话是无限免费的吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H16&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的毫米波雷达传感器有什么作用？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 2,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 50
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H17&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球适合什么人群使用，适合送给什么人当礼物？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;只核验年轻人与家庭定位；具体年龄和安全认证不在V3标准中。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 7,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 87.5
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 2,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 50
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 1,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 25
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 1,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 25
+          },
+          &quot;omittedKeyPoints&quot;: 1,
+          &quot;conflictItems&quot;: 1,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H18&quot;,
+          &quot;questionText&quot;: &quot;玛卡精灵会主动发起关心和聊天吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 1,
+          &quot;note&quot;: &quot;V3确认主动关怀，未定义关机/待机/唤醒边界，不据此判定其触发条件。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 1,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 25
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H19&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球 App 都具备哪些管理与记录功能？&quot;,
+          &quot;requiredKeyPoints&quot;: 4,
+          &quot;note&quot;: &quot;本题问管理与记录，核验双模式、聊天报告及日记；天气/百科/运势及进化不作为本题必答要点。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 16,
+            &quot;denominator&quot;: 16,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        }
+      ]
+    },
+    {
+      &quot;round&quot;: 2,
+      &quot;totals&quot;: {
+        &quot;validAnswers&quot;: 76,
+        &quot;explanation&quot;: {
+          &quot;numerator&quot;: 76,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 100
+        },
+        &quot;keyPointCoverage&quot;: {
+          &quot;numerator&quot;: 243,
+          &quot;denominator&quot;: 244,
+          &quot;percentage&quot;: 99.59
+        },
+        &quot;complete&quot;: {
+          &quot;numerator&quot;: 75,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 98.68
+        },
+        &quot;conflict&quot;: {
+          &quot;numerator&quot;: 0,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 0
+        },
+        &quot;omittedAnswers&quot;: {
+          &quot;numerator&quot;: 1,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 1.32
+        },
+        &quot;omittedKeyPoints&quot;: 1,
+        &quot;conflictItems&quot;: 0,
+        &quot;extensionScreen&quot;: {
+          &quot;numerator&quot;: 55,
+          &quot;denominator&quot;: 76,
+          &quot;percentage&quot;: 72.37
+        }
+      },
+      &quot;questions&quot;: [
+        {
+          &quot;questionId&quot;: &quot;MP-H01&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球是什么品牌，它的产品定位是什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H02&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的 IP 角色叫什么名字？&quot;,
+          &quot;requiredKeyPoints&quot;: 4,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 16,
+            &quot;denominator&quot;: 16,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H03&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球一共有多少款玛卡精灵，分别叫什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 5,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 20,
+            &quot;denominator&quot;: 20,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H04&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球支持语音唤醒吗，有几种唤醒方式？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H05&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球真的拥有长期记忆功能吗，可以记住哪些内容？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H06&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的四个精灵分别是什么星座，各自性格特点是什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 6,
+          &quot;note&quot;: &quot;V3只明确机车兔风象、啾咔水象；屁屁火象及小恶魔土象不计可核验要点，也不默认判错。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 24,
+            &quot;denominator&quot;: 24,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H07&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球可以更换衣服吗，支持崽衣 DIY 吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H08&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球有哪些传感器，硬件都包含什么配置？&quot;,
+          &quot;requiredKeyPoints&quot;: 6,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 24,
+            &quot;denominator&quot;: 24,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H09&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的童话模式和青年模式有什么区别？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H10&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的 AI 可以 OTA 升级吗，升级会带来哪些变化？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H11&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球可以拍照生成日记吗，这个功能怎么使用？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;V3可核验拍照、生成日记及App记录；三击左/右手和菜单路径不计已证实操作。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H12&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的 “电子闺蜜” 是什么意思？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H13&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的世界观背景故事是什么？&quot;,
+          &quot;requiredKeyPoints&quot;: 4,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 16,
+            &quot;denominator&quot;: 16,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H14&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球摇晃、拍打玩偶会有互动反馈吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 3,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 12,
+            &quot;denominator&quot;: 12,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 3,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 75
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H15&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球对话需要会员订阅吗，对话是无限免费的吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H16&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球的毫米波雷达传感器有什么作用？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 8,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H17&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球适合什么人群使用，适合送给什么人当礼物？&quot;,
+          &quot;requiredKeyPoints&quot;: 2,
+          &quot;note&quot;: &quot;只核验年轻人与家庭定位；具体年龄和安全认证不在V3标准中。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 7,
+            &quot;denominator&quot;: 8,
+            &quot;percentage&quot;: 87.5
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 3,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 75
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 1,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 25
+          },
+          &quot;omittedKeyPoints&quot;: 1,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H18&quot;,
+          &quot;questionText&quot;: &quot;玛卡精灵会主动发起关心和聊天吗？&quot;,
+          &quot;requiredKeyPoints&quot;: 1,
+          &quot;note&quot;: &quot;V3确认主动关怀，未定义关机/待机/唤醒边界，不据此判定其触发条件。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          }
+        },
+        {
+          &quot;questionId&quot;: &quot;MP-H19&quot;,
+          &quot;questionText&quot;: &quot;玛卡星球 App 都具备哪些管理与记录功能？&quot;,
+          &quot;requiredKeyPoints&quot;: 4,
+          &quot;note&quot;: &quot;本题问管理与记录，核验双模式、聊天报告及日记；天气/百科/运势及进化不作为本题必答要点。&quot;,
+          &quot;validAnswers&quot;: 4,
+          &quot;explanation&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;keyPointCoverage&quot;: {
+            &quot;numerator&quot;: 16,
+            &quot;denominator&quot;: 16,
+            &quot;percentage&quot;: 100
+          },
+          &quot;complete&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          },
+          &quot;conflict&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedAnswers&quot;: {
+            &quot;numerator&quot;: 0,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 0
+          },
+          &quot;omittedKeyPoints&quot;: 0,
+          &quot;conflictItems&quot;: 0,
+          &quot;extensionScreen&quot;: {
+            &quot;numerator&quot;: 4,
+            &quot;denominator&quot;: 4,
+            &quot;percentage&quot;: 100
+          }
+        }
+      ]
+    }
+  ],
+  &quot;standardCoverage&quot;: {
+    &quot;questionsWithAtLeastOneCoreCriterion&quot;: {
+      &quot;numerator&quot;: 19,
+      &quot;denominator&quot;: 19,
+      &quot;percentage&quot;: 100
+    },
+    &quot;questionsWithExplicitUnresolvedSubquestions&quot;: {
+      &quot;numerator&quot;: 4,
+      &quot;denominator&quot;: 19,
+      &quot;percentage&quot;: 21.05
+    },
+    &quot;boundaries&quot;: [
+      {
+        &quot;questionId&quot;: &quot;MP-H06&quot;,
+        &quot;reason&quot;: &quot;仅明确机车兔风象与啾咔水象，另两款星座未定义。&quot;
+      },
+      {
+        &quot;questionId&quot;: &quot;MP-H11&quot;,
+        &quot;reason&quot;: &quot;支持拍照/日记/App，但未定义左右手和几击操作。&quot;
+      },
+      {
+        &quot;questionId&quot;: &quot;MP-H17&quot;,
+        &quot;reason&quot;: &quot;确认年轻人与家庭定位，未规定具体年龄和安全认证。&quot;
+      },
+      {
+        &quot;questionId&quot;: &quot;MP-H18&quot;,
+        &quot;reason&quot;: &quot;确认主动关怀，未规定待机/关机/唤醒触发条件。&quot;
+      }
+    ]
+  },
+  &quot;existingMetricDisposition&quot;: [
+    {
+      &quot;name&quot;: &quot;完整品牌事实准确率&quot;,
+      &quot;status&quot;: &quot;NOT_MEASURABLE_FROM_AVAILABLE_STANDARD&quot;,
+      &quot;eligibleAnswersPerRound&quot;: 76,
+      &quot;fullyAuditedAnswersPerRound&quot;: 0,
+      &quot;display&quot;: &quot;完整事实核验覆盖0/76；本次发布资料核心要点指标&quot;,
+      &quot;reason&quot;: &quot;未穷尽逐条主张，缺历史时点完整标准；0是完整核验覆盖数，不是准确率。&quot;
+    },
+    {
+      &quot;name&quot;: &quot;商品卡曝光率&quot;,
+      &quot;status&quot;: &quot;NOT_OBSERVABLE&quot;,
+      &quot;eligibleAnswersPerRound&quot;: 424,
+      &quot;observableAnswersPerRound&quot;: 0,
+      &quot;display&quot;: &quot;商品卡渲染可观测0/424&quot;,
+      &quot;reason&quot;: &quot;回答与来源网址不包含渲染曝光证据；可观测0不等于曝光0。&quot;
+    },
+    {
+      &quot;name&quot;: &quot;有效首推率&quot;,
+      &quot;status&quot;: &quot;NOT_APPLICABLE&quot;,
+      &quot;eligibleAnswersPerRound&quot;: 0,
+      &quot;display&quot;: &quot;适用回答0/424&quot;,
+      &quot;reason&quot;: &quot;原定义要求登记可排除的官方工具，本题池未登记，不以官网引用代替。&quot;
+    },
+    {
+      &quot;name&quot;: &quot;竞品排名边界&quot;,
+      &quot;status&quot;: &quot;EXACT_BOUNDS_RETAINED&quot;,
+      &quot;brandAnswerPairsByRound&quot;: [
+        3,
+        2
+      ],
+      &quot;answerCountsByRound&quot;: [
+        2,
+        1
+      ],
+      &quot;display&quot;: &quot;初始轮3对/2答；第二轮2对/1答&quot;,
+      &quot;reason&quot;: &quot;原答将泛品类与具体产品混排，无唯一位置；玛卡资料不能补出竞品名次。沿用精确上下界及原证据。&quot;
+    },
+    {
+      &quot;name&quot;: &quot;官方/第三方工具结构&quot;,
+      &quot;status&quot;: &quot;NO_REGISTERED_ENTITY_TAXONOMY&quot;,
+      &quot;registeredOfficialToolEntities&quot;: 0,
+      &quot;display&quot;: &quot;官方工具身份登记0个&quot;,
+      &quot;reason&quot;: &quot;品牌资料表的抖店主体与官网主体用途不同；企业身份不等于题池工具分类。官网/其他引用域名结构继续有数值。&quot;
+    }
+  ],
+  &quot;limitations&quot;: [
+    &quot;本版只对H组品牌认知题重算；A-F/G不套用解释率分母。&quot;,
+    &quot;关键词及句子关联只作提取，来源复核真实回答与个案裁定；不是通用语义准确率模型。&quot;,
+    &quot;产品资料不能证明采样时点价格、所有功能费用、具体年龄、操作菜单或竞品事实。&quot;,
+    &quot;两轮平台/日期不同，不把差值归因于优化。&quot;
+  ]
+}</pre></details><h2>业务证据入口</h2><ul><li><a href="../metrics.json">metrics</a></li><li><a href="../round3/data.json">round3/data</a></li><li><a href="../douyin-summary.json">douyin-summary</a></li><li><a href="../social.json">social</a></li><li><a href="../product-events.json">product-events</a></li><li><a href="../facts.json">facts</a></li><li><a href="../collection-checks.json">collection-checks</a></li></ul></main></body></html>
