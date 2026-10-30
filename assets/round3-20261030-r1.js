@@ -1,3 +1,4 @@
+import {readJson} from './data-loader-20261030-r1.js';
 const base=new URL('../',import.meta.url),dataset=new URL('assets/datasets/MP-R3-COMPLETE-20261030-r1/',base);
 const e=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const num=v=>v==null?'未知':Number(v).toLocaleString('zh-CN'),roundName=r=>['','第一轮','第二轮','第三轮'][r];
@@ -5,7 +6,7 @@ const formatLabel=v=>({note:'图文',unknown:'形式未知',video:'视频'}[v]||
 const url=(p,group)=>{const u=new URL(p,base);if(group&&group!=='all')u.searchParams.set('group',group);return u.href;};
 const safe=s=>{try{const u=new URL(s);return /^https?:$/.test(u.protocol)?u.href:null;}catch{return null;}};
 const link=(u,t)=>safe(u)?`<a href="${e(u)}" target="_blank" rel="noopener noreferrer">${e(t||u)}</a>`:'网址未提供';
-const cache=new Map();async function read(f){if(!cache.has(f)){const p=fetch(new URL(f,dataset)).then(async r=>{if(!r.ok)throw Error('数据未能读取');return r.json();}).catch(err=>{cache.delete(f);throw err;});cache.set(f,p);}return cache.get(f);}
+const read=f=>readJson(new URL(f,dataset));
 const $=id=>document.getElementById(id);
 const table=(heads,rows,cls='')=>`<div class="table-wrap ${cls}" tabindex="0" role="region" aria-label="${e(heads[0])}数据表"><table><thead><tr>${heads.map(h=>`<th scope="col">${e(h)}</th>`).join('')}</tr></thead><tbody>${rows.map((r,i)=>`<tr>${r.map((c,j)=>`<${j?'td':'th'}${j?'':' scope="row"'}>${c}</${j?'td':'th'}>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 const section=(id,title,body)=>`<section id="${id}"><h2>${e(title)}</h2>${body}</section>`;
@@ -23,7 +24,7 @@ export function enhanceNavigation(){
 enhanceNavigation();
 const view=document.body.dataset.r3View;
 const query=new URLSearchParams(location.search),group=[...'ABCDEFGH'].includes(query.get('group'))?query.get('group'):'all',r=Number(document.body.dataset.round||3),compare=view==='compare';
-function groupTabs(q){return `<nav class="r3-tabs" aria-label="总数据与分组">${['all',...'ABCDEFGH'].map(g=>`<a data-group="${g}" href="${url(location.pathname.replace(base.pathname,''),g)}"${g===group?' aria-current="page"':''}>${g==='all'?'总数据':g+'组'} · ${q.filter(x=>g==='all'||x.groupId===g).length}题</a>`).join('')}</nav>`;}
+function groupTabs(q){return `<nav class="r3-tabs" aria-label="总数据与分组">${['all',...'ABCDEFGH'].map(g=>`<a data-group="${g}" href="${url(location.pathname.replace(base.pathname,''),g)}"${g===group?' aria-current="page"':''}>${g==='all'?'总数据':g+'组'} · ${Array.isArray(q)?q.filter(x=>g==='all'||x.groupId===g).length:q[g]}题</a>`).join('')}</nav>`;}
 const metricsScope=(b,g)=>g==='all'?b.totals:b.groups[g];
 function summary(m,q){const totals=group==='all'?m.totals:m.groups[group],target=m.brands.find(b=>b.brand==='玛卡星球'),scoped=metricsScope(target,group);return `<dl class="r3-kpis"><div><dt>有效回答</dt><dd>${num(totals.validAnswers)} / ${num(q.length*4)}</dd><small>${q.length}道固定问题 · 每题4次</small></div><div><dt>玛卡星球品牌提及率</dt><dd>${(scoped.mention.numerator/scoped.mention.denominator*100).toFixed(2)}%</dd><small>${num(scoped.mention.numerator)} / ${num(scoped.mention.denominator)} · 正文字面提及</small></div><div><dt>回答内去重引用</dt><dd>${num(totals.citations.normalizedCitationCount)}</dd><small>原始带网址来源卡 ${num(totals.citations.rawCitationCount)} · 空卡 ${num(totals.citations.noUrlSourceCards)}</small></div></dl>`;}
 function brandTables(rounds){const current=rounds[r-1];return keys.map(([key,name])=>`<h3>${name}</h3>`+table(compare?['品牌','第一轮','第二轮','第三轮','第二→第三','第一→第三']:['品牌',roundName(r),'适用范围'],current.brands.map((b,i)=>{const all=rounds.map(x=>metricsScope(x.brands[i],group));return compare?[e(b.brand),...all.map(m=>metric(m,key)),metricDelta(all[1],all[2],key),metricDelta(all[0],all[2],key)]:[e(b.brand),metric(all[r-1],key),key==='afMention'||['first','top3','average'].includes(key)?'仅A–F；G/H不适用':'当前分类有效回答'];}),compare?'r3-compare':'')).join('');}
@@ -42,5 +43,42 @@ async function specialists(){const [d,s]=await Promise.all([read('douyin-summary
 }
 async function citationDetails(){const host=$('citation-list'),indices=await read('round3/index.json'),scoped=indices.samples.filter(s=>group==='all'||s.groupId===group);host.append(lazy('citation-all','展开第三轮全部具体引用网址与问题',async c=>{const ds=await Promise.all([...new Set(scoped.map(s=>s.groupId))].map(g=>read(`round3/answers/${g}.json`)));const rows=ds.flatMap(d=>d.samples.flatMap(s=>s.citations.map(a=>({...a,questionText:s.questionText,sampleId:s.sampleId,groupId:s.groupId}))));paged(c,{items:rows,heads:['来源标题','原始网址 / 空卡','命中问题','原回答'],searchFields:c=>[c.title,c.url,c.normalizedUrl,c.questionText].join(' '),filter:{values:['带网址','空来源卡'],test:(x,v)=>v==='带网址'?Boolean(x.url||x.normalizedUrl):!x.url&&!x.normalizedUrl},filterLabel:'来源卡状态',row:x=>[e(x.title||'未提供标题'),x.url||x.normalizedUrl?link(x.url||x.normalizedUrl,x.url||x.normalizedUrl):'空来源卡 · 渠道未知',e(x.questionText),`<a href="${url('round3/data/',group)}${group==='all'?'?':'&'}sample=${e(x.sampleId)}#answer-detail">查看完整原回答</a>`]});}));}
 async function home(){try{const q=(await read('questions.json')).questions;const main=document.querySelector('main');const nav=document.createElement('div');nav.innerHTML=groupTabs(q);main.querySelector('.round-grid').before(nav);const count=q.filter(x=>group==='all'||x.groupId===group).length;document.querySelectorAll('.round-card').forEach(c=>{c.querySelectorAll('dd')[0].textContent=num(count*4);c.querySelectorAll('dd')[1].textContent=num(count);for(const a of c.querySelectorAll('a'))if(group!=='all')a.href=url(new URL(a.href).pathname.replace(base.pathname,''),group);});document.querySelector('footer').textContent=`${group==='all'?'总数据':group+'组'} · 每轮${count*4}份有效回答 · 三轮${count*12}份 · ${count}题`;document.querySelector('.compare-entry p').textContent=`三轮各自独立分母 · ${count}题 · 同题描述性比较`;const p=document.createElement('p');p.className='scope-note';p.innerHTML=`<a href="${url('round3/report/')}">玛卡星球 GEO 三轮采样与引用分析报告</a> · 抖音V2、社媒42记录、商品详情链接、30项产品事实与剩余未知均已纳入。`;main.append(p);window.__MAKAPLANET_DASHBOARD_READY__=true;}catch{const p=document.createElement('p');p.role='alert';p.textContent='分组索引暂未能读取，请刷新。';document.querySelector('main').prepend(p);}}
-async function start(){if(!view)return;if(!['data','compare','citations'].includes(view))return;const main=$('r3-main');try{const [m,pool]=await Promise.all([read('metrics.json'),read('questions.json')]),q=pool.questions.filter(x=>group==='all'||x.groupId===group),rounds=m.rounds,current=rounds[r-1];$('metaLine').textContent=`${group==='all'?'总数据':group+'组'} · ${q.length}题 · 每轮${num(q.length*4)}份有效回答 · ${compare?'三轮完整数据':r===3?'2026-10-28 / 2026-10-29':r===2?'2026-10-14 / 2026-10-15':'2026-09-04 / 09-08 / 09-09'}`;main.innerHTML=groupTabs(pool.questions)+`<p class="r3-boundary">固定题池的跨日期描述性比较，不能直接归因GEO优化。列表位置不等于明确推荐；未知、不适用与已观察到零分别呈现。第三轮424份有效回答，426次尝试，2次成功替补与原失败独立保留。</p>`+summary(current,q)+(view!=='citations'?section('brand-metrics',compare?'九品牌六指标 · 三轮完整比较':'九品牌六指标',brandTables(rounds))+section('brand-facts','品牌认知核心要点',brandFacts(rounds)):'')+section('citation-summary','引用统计与口径边界',references(rounds))+(view==='citations'?section('citation-detail','具体引用源','<div id="citation-list"></div>'):'')+section('specialists','抖音、社媒、商品链接与产品事实','<div id="specialist-content"><p role="status">正在读取专项汇总…</p></div>')+section('answers','逐问题与完整原回答',`<div id="answer-list"><p role="status">正在读取回答索引…</p></div>`)+`<section id="answer-detail" class="r3-answer" tabindex="-1" hidden></section>`+section('downloads','数据、报告与证据下载',downloads());await answers(q);await specialists();if(view==='citations')await citationDetails();window.__MAKAPLANET_SCOPE__={group,questions:q.length,validAnswers:q.length*4,round:r};window.__MAKAPLANET_DASHBOARD_READY__=true;document.documentElement.dataset.ready='true';}catch(err){window.__MAKAPLANET_DASHBOARD_READY__=false;main.innerHTML='<div role="alert"><h2>数据暂时未能读取</h2><p>这不是零值；请重新读取冻结数据。</p><button type="button" class="r3-button" id="retry-data">重新读取数据</button></div>';$('retry-data').onclick=start;}}
+async function loadPart(id,label,load){
+ const target=$(id);if(!target||target.dataset.state==='loading')return;
+ target.dataset.state='loading';target.setAttribute('aria-busy','true');
+ target.innerHTML=`<p role="status">正在读取${e(label)}，单次最多20秒。</p>`;
+ const loading=target.firstElementChild;
+ try{await load();if(loading?.isConnected&&loading.getAttribute('role')==='status')loading.remove();target.dataset.state='ready';}
+ catch(error){target.dataset.state='error';target.innerHTML=`<div role="alert"><p>${e(label)}暂时未能读取。${e(error.name==='DataTimeoutError'?error.message:'可能是网络连接中断或文件暂不可用。')} 已显示的指标不受影响；缺失不代表零。</p><button type="button" class="r3-button">重新读取${e(label)}</button></div>`;target.querySelector('button').onclick=()=>loadPart(id,label,load);}
+ finally{target.setAttribute('aria-busy','false');}
+}
+let starting=false;
+async function start(){
+ if(!['data','compare','citations'].includes(view)||starting)return;
+ starting=true;const main=$('r3-main');main.setAttribute('aria-busy','true');
+ main.innerHTML='<p role="status">正在读取核心指标，单次最多20秒；上方同版概要与报告可直接查看。</p>';
+ try{
+  const m=await read('metrics.json'),rounds=m.rounds,current=rounds[r-1];
+  const counts=Object.fromEntries(['all',...'ABCDEFGH'].map(g=>[g,(g==='all'?current.totals:current.groups[g]).validAnswers/4]));
+  const count=counts[group];
+  $('metaLine').textContent=`${group==='all'?'总数据':group+'组'} · ${count}题 · 每轮${num(count*4)}份有效回答 · ${compare?'三轮完整数据':r===3?'2026-10-28 / 2026-10-29':r===2?'2026-10-14 / 2026-10-15':'2026-09-04 / 09-08 / 09-09'}`;
+  main.innerHTML=groupTabs(counts)+`<p class="r3-boundary">固定题池的跨日期描述性比较，不能直接归因GEO优化。列表位置不等于明确推荐；未知、不适用与已观察到零分别呈现。第三轮424份有效回答，426次尝试，2次成功替补与原失败独立保留。</p>`+summary(current,{length:count})+(view!=='citations'?section('brand-metrics',compare?'九品牌六指标 · 三轮完整比较':'九品牌六指标',brandTables(rounds))+section('brand-facts','品牌认知核心要点',brandFacts(rounds)):'')+section('citation-summary','引用统计与口径边界',references(rounds))+(view==='citations'?section('citation-detail','具体引用源','<div id="citation-list"></div>'):'')+section('specialists','抖音、社媒、商品链接与产品事实','<div id="specialist-content"></div>')+section('answers','逐问题与完整原回答','<div id="answer-list"></div>')+`<section id="answer-detail" class="r3-answer" tabindex="-1" hidden></section>`+section('downloads','数据、报告与证据下载',downloads());
+  window.__MAKAPLANET_SCOPE__={group,questions:count,validAnswers:count*4,round:r};
+  window.__MAKAPLANET_CORE_READY__=true;
+  if($('static-summary'))$('static-summary').hidden=true;
+  document.documentElement.dataset.coreReady='true';
+  main.setAttribute('aria-busy','false');
+  // Independent sections cannot discard successfully rendered core metrics.
+  const parts=[loadPart('answer-list','回答索引',()=>answers()),loadPart('specialist-content','专项汇总',specialists)];
+  if(view==='citations')parts.push(loadPart('citation-list','引用源索引',citationDetails));
+  await Promise.all(parts);
+  window.__MAKAPLANET_DASHBOARD_READY__=true;
+  document.documentElement.dataset.ready='true';
+ }catch(error){
+  window.__MAKAPLANET_DASHBOARD_READY__=false;
+  $('metaLine').textContent='交互数据暂不可用 · 同版静态概要、报告与数据下载仍可查看';
+  main.innerHTML=`<div class="r3-load-error" role="alert"><h2>核心指标暂时未能读取</h2><p>${e(error.name==='DataTimeoutError'?error.message:'可能是网络连接中断或文件暂不可用。')} 这不是零值。可以重新读取，或先查看上方同版概要与报告。</p><button type="button" class="r3-button" id="retry-data">重新读取数据</button></div>`;
+  $('retry-data').onclick=start;
+ }finally{starting=false;main.setAttribute('aria-busy','false');}
+}
 if(view)start();else if(document.body.classList.contains('home'))home();

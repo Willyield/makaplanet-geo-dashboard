@@ -1,4 +1,5 @@
 import { enhanceNavigation } from './round3-20261030-r1.js';
+import { readJson } from './data-loader-20261030-r1.js';
 enhanceNavigation();
 const groupIds=['all',...'ABCDEFGH'];
 const selectedGroup=groupIds.includes(new URLSearchParams(location.search).get('group'))?new URLSearchParams(location.search).get('group'):'all';
@@ -41,7 +42,7 @@ const round=Number(document.body.dataset.round||2),view=document.body.dataset.vi
 if(location.pathname.endsWith('/round2/d1/')&&new URLSearchParams(location.search).get('round')==='round1')location.replace(new URL('round1/data/'+location.search+location.hash,root));
 const safe=v=>{try{const u=new URL(v);return /^https?:$/.test(u.protocol)?u.href:null;}catch{return null;}};
 const cache=new Map();
-async function read(file){const url=new URL(file,dataset).href;if(!cache.has(url)){const response=await fetch(url);if(!response.ok)throw Error('数据读取失败');cache.set(url,await response.json());}return cache.get(url);}
+async function read(file){return readJson(new URL(file,dataset));}
 const add=(id,html)=>{if($(id))$(id).innerHTML=html;}, text=(id,value)=>{if($(id))$(id).textContent=value;};
 const row=values=>'<tr>'+values.map(v=>'<td>'+v+'</td>').join('')+'</tr>';
 const kpi=(name,value,detail)=>`<article class="kpi"><div class="kpi-label">${esc(name)}</div><strong class="kpi-value">${esc(value)}</strong><div class="kpi-meta">${esc(detail)}</div></article>`;
@@ -174,7 +175,7 @@ async function load(){
   if(!view){await homePage();return;}
   $('reader-error')?.remove();
   try{
-    const response=await fetch(new URL('assets/display-labels.json',root));if(!response.ok)throw Error('展示映射读取失败');labels=await response.json();
+    labels=await readJson(new URL('assets/display-labels.json',root));
     allQuestions=(await read('questions.json')).questions;questions=allQuestions.filter(q=>group==='all'||q.groupId===group);mountGroups(allQuestions);
     if(view.startsWith('compare')){const [a,b]=await Promise.all([read('round1/analysis.json').then(a=>scopedAnalysis(a,1)),read('round2/analysis.json').then(a=>scopedAnalysis(a,2))]);scopeHeader();view==='compare-data'?compareData(a,b):compareCitation(a,b);}
     else{[analysis,index]=await Promise.all([read(roundPath(round)+'analysis.json').then(a=>scopedAnalysis(a,round)),read(roundPath(round)+'evidence-index.json')]);if(group!=='all')index={...index,samples:index.samples.filter(s=>questions.some(q=>q.questionId===s.questionId))};if(analysis.semanticAnalysisReady!==false)throw Error('分析版本不匹配');scopeHeader();view==='data'?dataPage():citationPage();}
