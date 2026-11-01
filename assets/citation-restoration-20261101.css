@@ -1,0 +1,34 @@
+/* Same Maka round-two type, hierarchy, surfaces and table styles. */
+.citation-restored{--muted:#526173}
+.citation-restored .hero h1{margin-top:20px;text-wrap:balance}
+.citation-restored .status-inner{padding:12px 0}
+.citation-restored .status-band{padding:0 12px}
+.citation-restored .layout .report-section{margin-bottom:34px;padding-bottom:34px}
+.citation-restored #r3-main h2{font-size:30px;line-height:1.2;margin:0 0 20px}
+.citation-restored .side-nav a{border-left-width:1px}
+.citation-restored .r3-tabs{margin-top:0}
+.citation-restored .table-wrap{background:var(--paper);scrollbar-color:var(--line) var(--surface)}
+.citation-restored .table-wrap th{background:var(--surface-strong);font-size:13px}
+.citation-restored .table-wrap td{font-size:14px;min-width:90px}
+.citation-restored .table-wrap .source-label{min-width:240px;max-width:530px}
+.citation-restored .table-wrap .source-rank{min-width:64px}
+.citation-restored .numeric{font-variant-numeric:tabular-nums}
+.citation-restored .source-url{display:block;font-size:12px;font-weight:400;overflow-wrap:anywhere;color:var(--muted);margin-top:5px}
+.citation-restored .source-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+.citation-restored .source-controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin:18px 0}
+.citation-restored .source-controls label{display:grid;gap:6px;min-width:130px}
+.citation-restored .source-controls label:first-child{flex:1;min-width:220px}
+.citation-restored .source-controls input,.citation-restored .source-controls select{padding:9px 12px;min-height:44px;border:1px solid var(--line);background:white;color:var(--ink);width:100%}
+.citation-restored #source-count,.citation-restored #source-trace-count{color:var(--muted);font-variant-numeric:tabular-nums}
+.citation-restored #source-trace{margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
+.citation-restored #source-trace[hidden]{display:none}
+.citation-restored .source-trace-question{margin:20px 0 8px}
+.citation-restored .r3-answer li:target,.citation-restored .r3-answer li.card-target{background:var(--blue-soft);outline:2px solid var(--blue);padding:14px;scroll-margin-top:100px}
+.citation-restored .r3-button,.citation-restored .r3-pager button{border-radius:0;font-family:var(--sans);cursor:pointer}
+.citation-restored :focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.citation-restored .r3-kpis dd{font-size:32px}
+.citation-restored .r3-kpis{grid-template-columns:repeat(3,minmax(0,1fr))}
+.citation-restored .r3-boundary{background:var(--surface-strong);color:var(--ink);border:1px solid var(--line);padding:16px}
+.citation-restored .report-body{min-width:0}
+@media(max-width:980px){.citation-restored .side-nav a{border-left:0}.citation-restored .layout{gap:26px}}
+@media(max-width:640px){.citation-restored .source-controls label,.citation-restored .source-controls label:first-child{width:100%;min-width:0}.citation-restored .r3-kpis{grid-template-columns:1fr}.citation-restored #r3-main h2{font-size:26px}.citation-restored .r3-links{font-size:14px}.citation-restored .source-actions>*{width:100%}.citation-restored .table-wrap .source-label{min-width:190px}.citation-restored .r3-kpis dd{font-size:28px}}
